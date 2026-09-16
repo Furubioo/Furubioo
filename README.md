@@ -1,7 +1,7 @@
 <div align="center">
 
 <img
-src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:2c5364&height=210&section=header&text=Fl%C3%A1vio%20Daniel&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Computer%20Science%20%40%20UNICAP&descAlignY=58&descSize=17"
+src="https://capsule-render.vercel.app/api?type=waving&color=0:07131b,35:102a38,70:174b5d,100:25758a&height=230&section=header&text=Fl%C3%A1vio%20Daniel&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Ci%C3%AAncia%20da%20Computa%C3%A7%C3%A3o%20%40%20UNICAP&descAlignY=58&descSize=18"
 width="100%"
 alt="Flávio Daniel"
 />
@@ -9,17 +9,18 @@ alt="Flávio Daniel"
 <br>
 
 <img
-src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=17&duration=3200&pause=1200&color=5EC8FF&center=true&vCenter=true&width=720&lines=Software+%C2%B7+Systems+%C2%B7+Algorithms;Java+%C2%B7+C+%C2%B7+Python+%C2%B7+JavaScript;Backend+%C2%B7+Full-stack+%C2%B7+Computer+Science"
-alt="Linha animada"
+src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2800&pause=1100&color=62D9FF&center=true&vCenter=true&width=800&lines=Dados+%E2%80%A2+Desenvolvimento+de+Software+%E2%80%A2+Back-end;Estudante+de+Ci%C3%AAncia+da+Computa%C3%A7%C3%A3o;Transformando+fundamentos+em+projetos"
+alt="Interesses de Flávio Daniel"
 />
 
-<br>
+<br><br>
 
-<a href="https://github.com/Furubioo/Sistema-de-Cinema-JAVA-">
-  <img
-    src="https://img.shields.io/badge/Lumi%C3%A8re%20Cinema-Furubioo%2FSistema--de--Cinema--JAVA---161b22?style=flat-square&logo=github&logoColor=white"
-    alt="Lumière Cinema"
-  />
+<a href="https://www.linkedin.com/in/flavio-danielvma/">
+  <img src="https://img.shields.io/badge/LinkedIn-0B66C3?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+&nbsp;
+<a href="mailto:flaviodanielvma@gmail.com">
+  <img src="https://img.shields.io/badge/E--mail-1C1C1C?style=flat-square&logo=gmail&logoColor=white" alt="E-mail"/>
 </a>
 
 </div>
@@ -28,72 +29,182 @@ alt="Linha animada"
 
 <div align="center">
 
-> **Construindo software enquanto aprofundo os fundamentos por trás dele.**
+### `data`   `software`   `backend`
 
 </div>
 
+<br>
+
+<table align="center">
+<tr>
+<td align="center" width="33%">
+
+### ◈
+
+**Dados**
+
+Estatística
+Probabilidade
+Banco de Dados
+Métodos Numéricos
+
+</td>
+
+<td align="center" width="33%">
+
+### ◇
+
+**Desenvolvimento**
+
+Programação
+Engenharia de Software
+Estruturas de Dados
+Orientação a Objetos
+
+</td>
+
+<td align="center" width="33%">
+
+### ◆
+
+**Back-end**
+
+Java
+Arquitetura
+APIs
+Sistemas
+
+</td>
+</tr>
+</table>
+
 ---
 
-## `01` · Sobre
+<h2 align="center">01 · sobre</h2>
+
+<div align="center">
+
+> **Não estou apenas aprendendo ferramentas. Estou construindo fundamentos.**
+
+</div>
 
 Sou estudante do **4º período de Ciência da Computação na UNICAP**, com formação técnica anterior em **Redes de Computadores**.
 
-Minha trajetória passou por Sistemas de Informação antes da migração para Ciência da Computação, buscando uma base mais profunda em computação e desenvolvimento de software.
+Minha trajetória passou por Sistemas de Informação antes da migração para Ciência da Computação, buscando uma formação mais sólida nos fundamentos da computação.
 
-Atualmente, meus principais interesses estão entre **backend, aplicações full-stack, estruturas de dados, algoritmos, sistemas e infraestrutura**.
-
-```yaml
-profile:
-  degree: "Ciência da Computação"
-  university: "UNICAP"
-  background: "Redes de Computadores"
-
-interests:
-  - Backend
-  - Full-stack
-  - Estruturas de Dados
-  - Algoritmos
-  - Sistemas
-  - Infraestrutura
-```
+Hoje, meus principais interesses estão concentrados em **dados, desenvolvimento de software e back-end**, enquanto avanço por disciplinas que conectam programação, estruturas de dados, estatística, banco de dados, engenharia de software e sistemas.
 
 ---
 
-## `02` · Stack
-
-Minha stack é construída principalmente em torno de linguagens e tecnologias que aparecem nos projetos e atividades acadêmicas do meu percurso.
+<h2 align="center">02 · trajetória acadêmica</h2>
 
 <div align="center">
 
-### Languages
+```text
+1º período ─── Fundamentos
+       │
+       ├── Programação em Python
+       ├── Hardware
+       ├── Lógica matemática
+       └── Introdução à Ciência da Computação
 
-<img src="https://skillicons.dev/icons?i=java,c,py,js,html,css&perline=6" alt="Java, C, Python, JavaScript, HTML e CSS"/>
+2º período ─── Programação & Sistemas
+       │
+       ├── Programação estruturada em C
+       ├── Álgebra Linear
+       ├── Engenharia de Software
+       └── Sistemas Digitais
 
-### Development
+3º período ─── Construção
+       │
+       ├── Compiladores
+       ├── Estruturas de Dados
+       ├── Infraestrutura de Software
+       ├── Métodos Numéricos
+       └── POO em Java
 
-<img src="https://skillicons.dev/icons?i=spring,react,vite,git,github&perline=5" alt="Spring Boot, React, Vite, Git e GitHub"/>
+4º período ─── Atual
+       │
+       ├── Análise e Projeto de Software
+       ├── Árvores e Ordenação
+       ├── Estatística e Probabilidade
+       ├── Projeto de Banco de Dados
+       └── Robótica Inclusiva
+```
 
 </div>
 
-<p align="center">
-  <sub>
-    Além da stack principal, projetos acadêmicos também envolvem conceitos de
-    <b>POO</b>, <b>estruturas de dados</b>, <b>concorrência</b>,
-    <b>compiladores</b> e <b>computação científica</b>.
-  </sub>
-</p>
+Essa trajetória é particularmente importante para entender meu momento atual: **dados, desenvolvimento e back-end não surgem isoladamente**, mas como continuação natural dos fundamentos que venho estudando.
 
 ---
 
-## `03` · Projeto principal
+<h2 align="center">03 · ferramentas</h2>
 
 <div align="center">
 
-# 🎬 Lumière Cinema
+<img src="https://skillicons.dev/icons?i=git,github&perline=2" alt="Git e GitHub"/>
 
-**Sistema de cinema desenvolvido em etapas, acompanhando a evolução dos fundamentos de programação até uma aplicação web full-stack.**
+<br><br>
+
+<sub>
+Ferramentas de versionamento e colaboração utilizadas no desenvolvimento dos projetos.
+</sub>
+
+</div>
 
 <br>
+
+<div align="center">
+
+<table>
+<tr>
+<td align="center" width="33%">
+
+**Linguagens estudadas**
+
+`Python`
+`C`
+`Java`
+
+</td>
+
+<td align="center" width="33%">
+
+**Fundamentos**
+
+`POO`
+`Estruturas de Dados`
+`Algoritmos`
+
+</td>
+
+<td align="center" width="33%">
+
+**Áreas de interesse**
+
+`Dados`
+`Software`
+`Back-end`
+
+</td>
+</tr>
+</table>
+
+</div>
+
+---
+
+<h2 align="center">04 · projeto em destaque</h2>
+
+<div align="center">
+
+<img
+src="https://capsule-render.vercel.app/api?type=rect&color=07131b&height=90&section=header&text=LUMI%C3%88RE%20CINEMA&fontSize=30&fontColor=62D9FF&animation=fadeIn"
+width="75%"
+alt="Lumière Cinema"
+/>
+
+<br><br>
 
 <a href="https://github.com/Furubioo/Sistema-de-Cinema-JAVA-">
   <img
@@ -104,61 +215,81 @@ Minha stack é construída principalmente em torno de linguagens e tecnologias q
 
 </div>
 
-### A evolução
+### Uma evolução em camadas
 
-| Etapa                 | Tecnologia   | Conceitos                                                   |
-| :-------------------- | :----------- | :---------------------------------------------------------- |
-| **01 · Console**      | Java         | POO, herança, interfaces, exceções, sobrescrita, sobrecarga |
-| **02 · Arquitetura**  | Java         | MVC, Strategy e organização da lógica da aplicação          |
-| **03 · Web**          | React + Vite | Interface e fluxo da aplicação                              |
-| **04 · Backend**      | Spring Boot  | API, regras de negócio e integração                         |
-| **05 · Persistência** | H2           | Armazenamento de dados                                      |
-| **06 · Integrações**  | TMDB         | Carregamento de informações e pôsteres de filmes            |
+O **Lumière Cinema** foi desenvolvido em etapas, acompanhando a evolução dos conceitos estudados ao longo da graduação.
 
-### O que trabalhei no projeto
+```text
+JAVA / CONSOLE
+      │
+      ▼
+Programação Orientada a Objetos
+      │
+      ├── Herança
+      ├── Interfaces
+      ├── Exceções
+      ├── Sobrescrita
+      └── Sobrecarga
+      │
+      ▼
+PADRÕES DE PROJETO
+      │
+      ├── MVC
+      └── Strategy
+      │
+      ▼
+APLICAÇÃO WEB
+      │
+      ├── React + Vite
+      ├── Spring Boot
+      ├── H2
+      └── integração com TMDB
+```
 
-A versão web foi desenvolvida com apoio de ferramentas de IA na geração de parte do código. Meu trabalho esteve principalmente na **configuração do ambiente, integração entre front-end e back-end e resolução de problemas encontrados durante a implementação**.
+Na etapa web, parte do código foi produzida com auxílio de ferramentas de IA. Minha atuação esteve principalmente na **configuração do ambiente, integração entre front-end e back-end e resolução de problemas de implementação**, incluindo lógica de sugestão de assentos, filtros de cupons e carregamento de pôsteres via TMDB.
 
-Entre os problemas tratados estão:
+<table align="center">
+<tr>
+<td align="center"><b>Console</b><br/>Java · POO</td>
+<td align="center">→</td>
+<td align="center"><b>Arquitetura</b><br/>MVC · Strategy</td>
+<td align="center">→</td>
+<td align="center"><b>Web</b><br/>React · Spring Boot · H2</td>
+</tr>
+</table>
 
-* lógica de sugestão de assentos;
-* filtros de cupons;
-* carregamento de pôsteres via TMDB;
-* integração entre as diferentes camadas da aplicação.
+<div align="center">
 
 <a href="https://github.com/Furubioo/Sistema-de-Cinema-JAVA-">
-  <img src="https://img.shields.io/badge/Explorar%20projeto-2c5364?style=flat-square&logo=github&logoColor=white" alt="Explorar Lumière Cinema"/>
+  <img src="https://img.shields.io/badge/Explorar%20Lumi%C3%A8re-102a38?style=for-the-badge&logo=github&logoColor=white" alt="Explorar Lumière"/>
 </a>
 
+</div>
+
 ---
 
-## `04` · Outros projetos
+<h2 align="center">05 · outros projetos</h2>
 
 <table>
 <tr>
 
 <td width="50%" valign="top">
 
-### 🌐 Site ONG Partilhar
+### `01` · Estruturas de Dados
 
-Site desenvolvido com **HTML, CSS e JavaScript**, com deploy público.
+Implementações acadêmicas em **C**, explorando estruturas lineares e dinâmicas.
 
-<br>
-
-<a href="https://github.com/Furubioo/SiteOngPartilhar">repositório</a>
- ·  <a href="https://side-da-ong-partilhar.vercel.app">demo</a>
+`listas` `filas` `pilhas` `deques` `hash`
 
 </td>
 
 <td width="50%" valign="top">
 
-### ⚙️ Compilador em C
+### `02` · Compiladores
 
-Projeto acadêmico voltado para fundamentos de compiladores, trabalhando etapas de **análise léxica e sintática**.
+Projeto acadêmico voltado à construção de um compilador, conectando programação e fundamentos de linguagens.
 
-<br>
-
-`C` · `Compiler Design`
+`C` `lexer` `parser`
 
 </td>
 
@@ -168,25 +299,21 @@ Projeto acadêmico voltado para fundamentos de compiladores, trabalhando etapas 
 
 <td width="50%" valign="top">
 
-### 🧵 Concorrência
+### `03` · Concorrência
 
-Implementações em C explorando **threads, exclusão mútua e sincronização**, incluindo o algoritmo de Peterson.
+Estudos práticos envolvendo threads, sincronização e exclusão mútua em C.
 
-<br>
-
-`C` · `pthreads` · `Concorrência`
+`C` `pthread` `Peterson`
 
 </td>
 
 <td width="50%" valign="top">
 
-### 📚 Estruturas de Dados
+### `04` · Site ONG Partilhar
 
-Implementações e exercícios envolvendo **listas, filas, pilhas, deques e tabelas hash**.
+Projeto web desenvolvido com HTML, CSS e JavaScript, com publicação online.
 
-<br>
-
-`C` · `Ponteiros` · `TADs`
+<a href="https://side-da-ong-partilhar.vercel.app">ver projeto</a>
 
 </td>
 
@@ -195,76 +322,47 @@ Implementações e exercícios envolvendo **listas, filas, pilhas, deques e tabe
 
 ---
 
-## `05` · O que estou estudando
+<h2 align="center">06 · onde minha formação está me levando</h2>
 
 <div align="center">
 
-<table>
-<tr>
-
-<td align="center" width="33%">
-
-### Backend
-
-Java
-Spring Boot
-APIs
-
-</td>
-
-<td align="center" width="33%">
-
-### Fundamentos
-
-Estruturas de Dados
-Algoritmos
-POO
-
-</td>
-
-<td align="center" width="33%">
-
-### Sistemas
-
-C
-Concorrência
-Infraestrutura
-
-</td>
-
-</tr>
-</table>
+```text
+                 ┌───────────────────┐
+                 │    COMPUTAÇÃO     │
+                 └─────────┬─────────┘
+                           │
+            ┌──────────────┼──────────────┐
+            ▼              ▼              ▼
+        ┌───────┐      ┌─────────┐    ┌─────────┐
+        │ DADOS │      │ SOFTWARE│    │ BACK-END│
+        └───┬───┘      └────┬────┘    └────┬────┘
+            │               │              │
+            ▼               ▼              ▼
+      Estatística       Engenharia      Sistemas
+      Probabilidade     de Software     Arquitetura
+      Banco de Dados    Algoritmos      APIs
+      Métodos Numéricos Estruturas      Persistência
+```
 
 </div>
 
----
-
-## `06` · Formação
-
-<div align="center">
-
-| Formação                                 | Instituição               |
-| :--------------------------------------- | :------------------------ |
-| **Ciência da Computação** · em andamento | UNICAP                    |
-| **Técnico em Redes de Computadores**     | Formação técnica anterior |
-
-</div>
+As disciplinas futuras reforçam exatamente essas áreas, com **Análise de Algoritmos, Inteligência Artificial, Programação Web e Mobile, Testes e Qualidade, Ciência dos Dados, Arquitetura de Sistemas e Programação Paralela e Distribuída**.
 
 ---
 
-## `07` · GitHub
+<h2 align="center">07 · GitHub</h2>
 
 <div align="center">
 
 <picture>
   <source
     media="(prefers-color-scheme: dark)"
-    srcset="https://github-readme-stats.vercel.app/api?username=Furubioo&show_icons=true&hide_border=true&theme=tokyonight"
+    srcset="https://github-readme-stats.vercel.app/api?username=Furubioo&show_icons=true&hide_border=true&theme=tokyonight&hide_title=true"
   />
   <img
-    src="https://github-readme-stats.vercel.app/api?username=Furubioo&show_icons=true&hide_border=true&theme=default"
-    height="165"
-    alt="GitHub Stats"
+    src="https://github-readme-stats.vercel.app/api?username=Furubioo&show_icons=true&hide_border=true&theme=default&hide_title=true"
+    height="170"
+    alt="Estatísticas do GitHub"
   />
 </picture>
 
@@ -274,43 +372,41 @@ Infraestrutura
 
 <div align="center">
 
-<img
-src="https://raw.githubusercontent.com/Furubioo/Furubioo/output/github-snake.svg"
-width="100%"
-alt="Contribuições no GitHub"
-/>
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/Furubioo/Furubioo/output/github-snake-dark.svg"
+  />
+  <img
+    src="https://raw.githubusercontent.com/Furubioo/Furubioo/output/github-snake.svg"
+    width="92%"
+    alt="Gráfico animado de contribuições"
+  />
+</picture>
 
 </div>
 
 ---
 
-## `08` · Contato
+<h2 align="center">08 · contato</h2>
 
 <div align="center">
 
-<a href="LINKEDIN_AQUI">
-  <img
-    src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white"
-    alt="LinkedIn"
-  />
+<a href="https://www.linkedin.com/in/flavio-danielvma/">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
 
- 
+  
 
-<a href="mailto:EMAIL_AQUI">
-  <img
-    src="https://img.shields.io/badge/E--mail-161b22?style=flat-square&logo=gmail&logoColor=white"
-    alt="E-mail"
-  />
+<a href="mailto:flaviodanielvma@gmail.com">
+  <img src="https://img.shields.io/badge/E--mail-161B22?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail"/>
 </a>
 
-</div>
+<br><br>
 
-<br>
-
-<div align="center">
-
-<sub>Ciência da Computação · UNICAP · Brasil</sub>
+<sub>
+Construindo fundamentos. Desenvolvendo projetos. Explorando possibilidades.
+</sub>
 
 </div>
 
@@ -319,7 +415,7 @@ alt="Contribuições no GitHub"
 <div align="center">
 
 <img
-src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,100:0f2027&height=100&section=footer"
+src="https://capsule-render.vercel.app/api?type=waving&color=0:25758a,50:174b5d,100:07131b&height=120&section=footer"
 width="100%"
 alt="Rodapé"
 />
