@@ -52,15 +52,10 @@
       stroke-dasharray: 5 9;
       stroke-linecap: round;
       stroke-width: 2;
-      animation: dash 18s linear infinite;
-    }
-
-    @keyframes dash {
-      to { stroke-dashoffset: -140; }
     }
 
     @media (prefers-reduced-motion: reduce) {
-      .flow-dash { animation: none; }
+      .motion { display: none; }
     }
   </style>
 
@@ -71,7 +66,9 @@
   <text x="500" y="104" text-anchor="middle" font-size="14" class="muted">Duas implementações independentes do mesmo domínio</text>
 
   <path class="connector" d="M500 119v22M255 141h490M255 141v22M745 141v22"/>
-  <path class="flow-dash" d="M500 119v22M255 141h490M255 141v22M745 141v22"/>
+  <path class="flow-dash" d="M500 119v22M255 141h490M255 141v22M745 141v22">
+    <animate class="motion" attributeName="stroke-dashoffset" values="0;-112" dur="8s" repeatCount="indefinite"/>
+  </path>
 
   <rect x="42" y="163" width="444" height="294" rx="18" fill="var(--surface)" stroke="var(--border)"/>
   <rect x="514" y="163" width="444" height="294" rx="18" fill="var(--surface)" stroke="var(--border)"/>

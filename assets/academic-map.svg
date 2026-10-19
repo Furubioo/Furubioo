@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 320" role="img" aria-labelledby="title description">
+  <title id="title">Mapa de estudos do repositório acadêmico</title>
+  <desc id="description">Um mapa animado com seis áreas de estudo ligadas ao repositório: fundamentos de programação, estruturas de dados, orientação a objetos, compiladores, matemática computacional, e sistemas e hardware.</desc>
+  <defs>
+    <linearGradient id="map-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10232c"/>
+      <stop offset="1" stop-color="#1b3b47"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8fd3ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#8fd3ff" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#7ee8c1" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: "Segoe UI", Arial, sans-serif; }
+    .link { fill: none; stroke: #477381; stroke-width: 1.5; }
+    .moving-link {
+      fill: none;
+      stroke: url(#beam);
+      stroke-width: 2.5;
+      stroke-dasharray: 8 12;
+    }
+    .node { fill: #142d38; stroke: #426b7a; stroke-width: 1.2; }
+    .title { fill: #eaf4f7; font-size: 15px; font-weight: 700; }
+    .detail { fill: #a8c1cb; font-size: 11px; }
+    @media (prefers-reduced-motion: reduce) {
+      .motion { display: none; }
+    }
+  </style>
+
+  <rect width="1000" height="320" rx="22" fill="url(#map-bg)"/>
+
+  <g class="link">
+    <path d="M500 160L181 79M500 160L500 65M500 160L819 79M500 160L181 241M500 160L500 255M500 160L819 241"/>
+  </g>
+  <g class="moving-link">
+    <path d="M500 160L181 79M500 160L500 65M500 160L819 79M500 160L181 241M500 160L500 255M500 160L819 241">
+      <animate class="motion" attributeName="stroke-dashoffset" values="0;-80" dur="7s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g>
+    <rect class="node" x="55" y="42" width="252" height="72" rx="14"/>
+    <text class="title" x="76" y="72">C · Python</text>
+    <text class="detail" x="76" y="94">Lógica, fundamentos e exercícios</text>
+
+    <rect class="node" x="374" y="28" width="252" height="72" rx="14"/>
+    <text class="title" x="395" y="58">Estruturas de dados</text>
+    <text class="detail" x="395" y="80">Listas, filas, pilhas e hash</text>
+
+    <rect class="node" x="693" y="42" width="252" height="72" rx="14"/>
+    <text class="title" x="714" y="72">Java · POO</text>
+    <text class="detail" x="714" y="94">Classes e sistemas didáticos</text>
+
+    <rect class="node" x="55" y="206" width="252" height="72" rx="14"/>
+    <text class="title" x="76" y="236">Compiladores</text>
+    <text class="detail" x="76" y="258">Lexer, parser e testes em C</text>
+
+    <rect class="node" x="374" y="220" width="252" height="72" rx="14"/>
+    <text class="title" x="395" y="250">Matemática computacional</text>
+    <text class="detail" x="395" y="272">Álgebra, cálculo e métodos numéricos</text>
+
+    <rect class="node" x="693" y="206" width="252" height="72" rx="14"/>
+    <text class="title" x="714" y="236">Sistemas · hardware</text>
+    <text class="detail" x="714" y="258">Concorrência, Raspberry Pi e GPIO</text>
+  </g>
+
+  <circle cx="500" cy="160" r="45" fill="#183d48" stroke="#7ee8c1" stroke-width="1.5"/>
+  <circle cx="500" cy="160" r="50" fill="none" stroke="#7ee8c1" stroke-opacity="0.4" stroke-width="1">
+    <animate class="motion" attributeName="r" values="50;60;50" dur="4s" repeatCount="indefinite"/>
+    <animate class="motion" attributeName="stroke-opacity" values="0.5;0.05;0.5" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="500" y="156" text-anchor="middle" fill="#7ee8c1" font-size="11" font-weight="700">ACERVO</text>
+  <text x="500" y="174" text-anchor="middle" fill="#eaf4f7" font-size="13" font-weight="700">acadêmico</text>
+</svg>
