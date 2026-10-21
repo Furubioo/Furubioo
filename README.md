@@ -15,13 +15,14 @@ Aqui reúno projetos acadêmicos, exercícios e experimentos — cada um no seu
 contexto de aprendizado.
 
 <p align="center">
-  <a href="#projetos">Projetos</a> ·
+  <a href="#projetos-em-destaque">Projetos em destaque</a> ·
   <a href="#estudos-em-código">Estudos em código</a> ·
   <a href="#tecnologias">Tecnologias</a> ·
+  <a href="#atividade-no-github">Atividade no GitHub</a> ·
   <a href="#formação">Formação</a>
 </p>
 
-## Projetos
+## Projetos em destaque
 
 ### Sistema de Cinema
 
@@ -94,13 +95,14 @@ para navegar por todas as disciplinas e orientações de execução.
 
 ## Tecnologias
 
-<p align="center"><sub><b>LINGUAGENS</b></sub></p>
+<p align="center"><sub><b>LINGUAGENS E MARCAÇÃO</b></sub></p>
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=c,py,java,js,html,css&theme=dark">
     <img src="https://skillicons.dev/icons?i=c,py,java,js,html,css&theme=light" alt="C, Python, Java, JavaScript, HTML e CSS">
   </picture>
 </p>
+<p align="center">C · Java · Python · JavaScript · HTML · CSS</p>
 
 <p align="center"><sub><b>FRAMEWORKS E FERRAMENTAS</b></sub></p>
 <p align="center">
@@ -120,6 +122,19 @@ para navegar por todas as disciplinas e orientações de execução.
 
 <p align="center"><sub>Também aparecem nos projetos: H2 (banco de dados), notebooks Jupyter e GPIO.</sub></p>
 
+## Atividade no GitHub
+
+<p align="center">
+  <a href="https://github.com/Furubioo">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Furubioo&theme=github_dark">
+      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Furubioo&theme=github" alt="Resumo gráfico das contribuições públicas de Furubioo ao longo do ano." width="100%">
+    </picture>
+  </a>
+</p>
+
+<p align="center">O <a href="https://github.com/Furubioo">perfil no GitHub</a> continua sendo a referência para o gráfico oficial de contribuições.</p>
+
 ## Formação
 
 - Ciência da Computação — 4º período, UNICAP
@@ -128,4 +143,3 @@ para navegar por todas as disciplinas e orientações de execução.
 <p align="center">
   <i>Aprender, testar, depurar e entender o que acontece por dentro.</i>
 </p>
-
