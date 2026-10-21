@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <p align="center">
   <picture>
     <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Furubioo/Furubioo/main/assets/hero-mobile-static.svg">
