@@ -1,71 +1,76 @@
-<h1 align="center">Flávio Daniel</h1>
-
 <p align="center">
-  Estudante de Ciência da Computação na UNICAP · Técnico em Redes de Computadores
-</p>
-
-<p align="center">
-  <img src="assets/typing-lines.svg" alt="Animação alternando entre redes, sistemas, hardware e linguagens de programação">
-</p>
-
-<p align="center">
-  <img src="assets/profile-hero.svg" alt="Ilustração animada de um terminal conectado a circuitos, redes, hardware e código" width="100%">
+  <picture>
+    <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Furubioo/Furubioo/main/assets/hero-mobile-static.svg">
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Furubioo/Furubioo/main/assets/hero-mobile.svg">
+    <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Furubioo/Furubioo/main/assets/hero-static.svg">
+    <img src="assets/hero.svg" alt="Flávio Daniel — Ciência da Computação na UNICAP e técnico em Redes de Computadores. Focos de estudo: redes, sistemas e infraestrutura, hardware, estruturas de dados, depuração de baixo nível e bancos de dados." width="100%">
+  </picture>
 </p>
 
 > Gosto de investigar o que acontece por baixo da interface: como os sistemas
 > se organizam, como os dados percorrem uma rede e como código e hardware se
 > encontram.
 
-Meu foco de estudo passa por sistemas e infraestrutura, redes, hardware,
-depuração de baixo nível, estruturas de dados e bancos de dados. Aqui reúno
-projetos acadêmicos, exercícios e experimentos — cada um no seu contexto de
-aprendizado.
+Aqui reúno projetos acadêmicos, exercícios e experimentos — cada um no seu
+contexto de aprendizado.
 
 <p align="center">
   <a href="#projetos">Projetos</a> ·
-  <a href="#minha-trilha-acadêmica-em-código">Estudos em código</a> ·
-  <a href="#tecnologias-que-aparecem-nos-projetos">Tecnologias</a> ·
+  <a href="#estudos-em-código">Estudos em código</a> ·
+  <a href="#tecnologias">Tecnologias</a> ·
   <a href="#formação">Formação</a>
 </p>
 
 ## Projetos
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🎬 Sistema de Cinema</h3>
-      <p>Um projeto acadêmico de POO, desenvolvido em equipe de três pessoas em duas implementações independentes.</p>
-      <ul>
-        <li><b>Terminal:</b> Java, MVC, Strategy para preços e persistência em arquivo.</li>
-        <li><b>Web:</b> React + Vite, Spring Boot e H2.</li>
-      </ul>
-      <p>A versão web teve assistência de IA em parte do código.</p>
-      <p><a href="https://github.com/Furubioo/Sistema-de-Cinema-JAVA-">Repositório</a> · <a href="https://github.com/Furubioo/Sistema-de-Cinema-JAVA-/tree/main/cinema-console">Terminal</a> · <a href="https://github.com/Furubioo/Sistema-de-Cinema-JAVA-/tree/main/cinema-system">Web</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🤝 Site ONG Partilhar</h3>
-      <p>Site institucional para uma ONG, com conteúdo sobre acolhimento e bem-estar, serviços, galeria, depoimentos, voluntariado e doações.</p>
-      <p>Construído com HTML, CSS e JavaScript. O repositório contém a interface e seus recursos visuais; o projeto está publicado na Vercel.</p>
-      <p><a href="https://github.com/Furubioo/SiteOngPartilhar">Ver código-fonte</a></p>
-    </td>
-  </tr>
-</table>
+### Sistema de Cinema
 
-### Por dentro do projeto de cinema
+Projeto acadêmico de POO, desenvolvido em equipe de três pessoas, em duas implementações independentes.
+
+- **Terminal:** Java, MVC, Strategy para preços e persistência em arquivo.
+- **Web:** React + Vite, Spring Boot e H2.
+
+A versão web teve assistência de IA em parte do código.
+
+[Repositório](https://github.com/Furubioo/Sistema-de-Cinema-JAVA-) ·
+[Terminal](https://github.com/Furubioo/Sistema-de-Cinema-JAVA-/tree/main/cinema-console) ·
+[Web](https://github.com/Furubioo/Sistema-de-Cinema-JAVA-/tree/main/cinema-system)
 
 <p align="center">
-  <img src="assets/cinema-implementations.svg" alt="Duas implementações paralelas do Sistema de Cinema: versão Java no terminal e versão web com React, Vite, Spring Boot e H2" width="100%">
+  <picture>
+    <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Furubioo/Furubioo/main/assets/cinema-flow-mobile-static.svg">
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Furubioo/Furubioo/main/assets/cinema-flow-mobile.svg">
+    <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Furubioo/Furubioo/main/assets/cinema-flow-static.svg">
+    <img src="assets/cinema-flow.svg" alt="Duas implementações do Sistema de Cinema. Terminal em Java: View, Controller e Model, com Strategy escolhendo entre PrecoComum, PrecoCritico e PrecoEstudante, e persistência em arquivo. Web: Navegador, React com Vite, Spring Boot e banco H2." width="100%">
+  </picture>
 </p>
 
-## Minha trilha acadêmica em código
+### Site ONG Partilhar
+
+Site institucional para uma ONG, com conteúdo sobre acolhimento e bem-estar, serviços, galeria, depoimentos, voluntariado e doações. Construído com HTML, CSS e JavaScript e publicado na Vercel.
+
+[Código-fonte](https://github.com/Furubioo/SiteOngPartilhar) ·
+[Site publicado](https://side-da-ong-partilhar.vercel.app)
+
+## Estudos em código
 
 O [repositório acadêmico](https://github.com/Furubioo/registro-academico-ciencia-da-computacao)
-organiza estudos por disciplina e tema. São exercícios, revisões, notebooks e
+organiza estudos por disciplina e tema: exercícios, revisões, notebooks e
 projetos didáticos — não uma lista de tecnologias que afirmo dominar.
 
 <p align="center">
-  <img src="assets/academic-map.svg" alt="Mapa animado das áreas do repositório acadêmico: programação em C e Python, estruturas de dados, Java, compiladores, matemática computacional, concorrência e hardware" width="100%">
+  <picture>
+    <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Furubioo/Furubioo/main/assets/lab-mobile-static.svg">
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Furubioo/Furubioo/main/assets/lab-mobile.svg">
+    <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Furubioo/Furubioo/main/assets/lab-static.svg">
+    <img src="assets/lab.svg" alt="Três estudos do repositório acadêmico: um compilador transformando a linha total = a + 2; em tokens e árvore sintática; um jogo de memória com LEDs e botões em GPIO; e o algoritmo de Peterson garantindo uma thread por vez na seção crítica." width="100%">
+  </picture>
 </p>
+
+<details>
+<summary><b>Ver as 11 áreas do acervo</b></summary>
+
+<br>
 
 | Área | O que você encontra |
 | --- | --- |
@@ -81,19 +86,39 @@ projetos didáticos — não uma lista de tecnologias que afirmo dominar.
 | [Métodos numéricos](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/metodos-numericos) | Modelagem e aproximação com notebooks sobre profundidade de tanque e densidade da água |
 | [Projetos exploratórios](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/projetos-exploratorios) | Notebook de pré-processamento de dados categóricos para estudo de score de crédito |
 
-O acervo está dividido em 11 áreas e também preserva projetos independentes
-de Java e C. Consulte o
+O acervo também preserva projetos independentes de Java e C. Consulte o
 [README acadêmico](https://github.com/Furubioo/registro-academico-ciencia-da-computacao#readme)
 para navegar por todas as disciplinas e orientações de execução.
 
-## Tecnologias que aparecem nos projetos
+</details>
 
-<p>
-  <kbd>C</kbd> <kbd>Python</kbd> <kbd>Java</kbd> <kbd>JavaScript</kbd>
-  <kbd>HTML</kbd> <kbd>CSS</kbd> <kbd>React</kbd> <kbd>Vite</kbd>
-  <kbd>Spring Boot</kbd> <kbd>H2</kbd> <kbd>Jupyter</kbd>
-  <kbd>GitHub Actions</kbd> <kbd>Raspberry Pi / GPIO</kbd>
+## Tecnologias
+
+<p align="center"><sub><b>LINGUAGENS</b></sub></p>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=c,py,java,js,html,css&theme=dark">
+    <img src="https://skillicons.dev/icons?i=c,py,java,js,html,css&theme=light" alt="C, Python, Java, JavaScript, HTML e CSS">
+  </picture>
 </p>
+
+<p align="center"><sub><b>FRAMEWORKS E FERRAMENTAS</b></sub></p>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react,vite,spring,maven&theme=dark">
+    <img src="https://skillicons.dev/icons?i=react,vite,spring,maven&theme=light" alt="React, Vite, Spring Boot e Maven">
+  </picture>
+</p>
+
+<p align="center"><sub><b>PLATAFORMAS E HARDWARE</b></sub></p>
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=git,github,vercel,raspberrypi&theme=dark">
+    <img src="https://skillicons.dev/icons?i=git,github,vercel,raspberrypi&theme=light" alt="Git, GitHub, Vercel e Raspberry Pi">
+  </picture>
+</p>
+
+<p align="center"><sub>Também aparecem nos projetos: H2 (banco de dados), notebooks Jupyter e GPIO.</sub></p>
 
 ## Formação
 
