@@ -1,100 +1,71 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 392" role="img" aria-labelledby="t d"><title id="t">Três estudos do repositório acadêmico: compilador, hardware e concorrência</title><desc id="d">Três cenas. Compilador: a linha total = a + 2; dividida em tokens e organizada em árvore sintática. Hardware: jogo de memória em GPIO, com LEDs numerados pela ordem da sequência e botões. Concorrência: algoritmo de Peterson, com a thread T0 na seção crítica e a T1 esperando; turn = 0.</desc><defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07131a"/><stop offset="1" stop-color="#102f3c"/></linearGradient>
-<radialGradient id="auA" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#2fb6c9" stop-opacity="0.30"/><stop offset="0.55" stop-color="#2fb6c9" stop-opacity="0.08"/><stop offset="1" stop-color="#2fb6c9" stop-opacity="0"/></radialGradient>
-<radialGradient id="auB" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#7ee8c1" stop-opacity="0.16"/><stop offset="0.6" stop-color="#7ee8c1" stop-opacity="0.04"/><stop offset="1" stop-color="#7ee8c1" stop-opacity="0"/></radialGradient>
-<pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" fill="none" stroke="#b5e4f3" stroke-opacity="0.055"/></pattern>
-<clipPath id="card"><rect width="1000" height="392" rx="24"/></clipPath>
-<linearGradient id="rim" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.28"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
-<radialGradient id="halo" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#8fd3ff" stop-opacity="0.55"/><stop offset="1" stop-color="#8fd3ff" stop-opacity="0"/></radialGradient>
-<radialGradient id="haloG" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#7ee8c1" stop-opacity="0.55"/><stop offset="1" stop-color="#7ee8c1" stop-opacity="0"/></radialGradient>
-<radialGradient id="h0" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#8fd3ff" stop-opacity="0.75"/><stop offset="1" stop-color="#8fd3ff" stop-opacity="0"/></radialGradient><radialGradient id="h1" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#7ee8c1" stop-opacity="0.75"/><stop offset="1" stop-color="#7ee8c1" stop-opacity="0"/></radialGradient><radialGradient id="h2" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#f0c674" stop-opacity="0.75"/><stop offset="1" stop-color="#f0c674" stop-opacity="0"/></radialGradient><radialGradient id="h3" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#ff8f8f" stop-opacity="0.75"/><stop offset="1" stop-color="#ff8f8f" stop-opacity="0"/></radialGradient></defs>
-<rect width="1000" height="392" rx="24" fill="url(#bg)"/>
-<g clip-path="url(#card)">
-<g><ellipse cx="500" cy="39.2" rx="550" ry="385" fill="url(#auA)"/></g>
-<g><ellipse cx="950" cy="352.8" rx="420" ry="294" fill="url(#auB)"/></g>
-<g><rect x="-26" y="0" width="1052" height="392" fill="url(#grid)"/></g>
-</g>
-<path d="M330 30V338M620 30V338" stroke="#29434d" stroke-width="1"/>
-<g transform="translate(0 0)"><g><text x="28" y="44" text-anchor="start" fill="#7d9ba7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">construcao-compiladores/</text><text x="28" y="70" text-anchor="start" fill="#f4f9fb" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="17" font-weight="700">Do código à árvore</text>
-<text x="28" y="110" text-anchor="start" fill="#d7e7ec" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="17" font-weight="400">total = a + 2;</text>
-<g opacity="1"><rect x="28" y="126" width="67" height="26" rx="7" fill="#123241" stroke="#8fd3ff" stroke-opacity="0.85"/><text x="61.5" y="143.5" text-anchor="middle" fill="#8fd3ff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="700">total</text></g>
-<g opacity="1"><rect x="101" y="126" width="28" height="26" rx="7" fill="#12342f" stroke="#7ee8c1" stroke-opacity="0.85"/><text x="115" y="143.5" text-anchor="middle" fill="#7ee8c1" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="700">=</text></g>
-<g opacity="1"><rect x="135" y="126" width="28" height="26" rx="7" fill="#123241" stroke="#8fd3ff" stroke-opacity="0.85"/><text x="149" y="143.5" text-anchor="middle" fill="#8fd3ff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="700">a</text></g>
-<g opacity="1"><rect x="169" y="126" width="28" height="26" rx="7" fill="#12342f" stroke="#7ee8c1" stroke-opacity="0.85"/><text x="183" y="143.5" text-anchor="middle" fill="#7ee8c1" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="700">+</text></g>
-<g opacity="1"><rect x="203" y="126" width="28" height="26" rx="7" fill="#3a3014" stroke="#f0c674" stroke-opacity="0.85"/><text x="217" y="143.5" text-anchor="middle" fill="#f0c674" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="700">2</text></g>
-<g opacity="1"><rect x="237" y="126" width="28" height="26" rx="7" fill="#16262e" stroke="#7d9ba7" stroke-opacity="0.85"/><text x="251" y="143.5" text-anchor="middle" fill="#7d9ba7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="700">;</text></g>
-<g opacity="1"><text x="28" y="174" text-anchor="start" fill="#7d9ba7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400" letter-spacing="1">↳ ANÁLISE LÉXICA · TOKENS</text></g>
-<line x1="165" y1="226" x2="92" y2="276" stroke="#45869b" stroke-width="1.9"/>
-<line x1="165" y1="226" x2="242" y2="276" stroke="#45869b" stroke-width="1.9"/>
-<line x1="242" y1="276" x2="196" y2="326" stroke="#45869b" stroke-width="1.9"/>
-<line x1="242" y1="276" x2="288" y2="326" stroke="#45869b" stroke-width="1.9"/>
-<g opacity="1"><circle cx="165" cy="226" r="15" fill="#12342f" stroke="#7ee8c1"/><text x="165" y="230.6" text-anchor="middle" fill="#7ee8c1" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="700">=</text></g>
-<g opacity="1"><rect x="66" y="262" width="52" height="28" rx="9" fill="#123241" stroke="#8fd3ff"/><text x="92" y="280.6" text-anchor="middle" fill="#8fd3ff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="700">total</text></g>
-<g opacity="1"><circle cx="242" cy="276" r="15" fill="#12342f" stroke="#7ee8c1"/><text x="242" y="280.6" text-anchor="middle" fill="#7ee8c1" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="700">+</text></g>
-<g opacity="1"><circle cx="196" cy="326" r="15" fill="#123241" stroke="#8fd3ff"/><text x="196" y="330.6" text-anchor="middle" fill="#8fd3ff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="700">a</text></g>
-<g opacity="1"><circle cx="288" cy="326" r="15" fill="#3a3014" stroke="#f0c674"/><text x="288" y="330.6" text-anchor="middle" fill="#f0c674" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="13" font-weight="700">2</text></g>
-<g opacity="1"><text x="28" y="200" text-anchor="start" fill="#7d9ba7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400" letter-spacing="1">↳ ANÁLISE SINTÁTICA · ÁRVORE</text></g></g></g>
-<g transform="translate(330 0)"><g><text x="28" y="44" text-anchor="start" fill="#7d9ba7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">fundamentos-hardware/</text><text x="28" y="70" text-anchor="start" fill="#f4f9fb" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="17" font-weight="700">GPIO · jogo de memória</text>
-<rect x="28" y="92" width="234" height="206" rx="12" fill="#0d241f" stroke="#2f6b5a" stroke-width="1.4"/>
-<circle cx="44" cy="106" r="2.1" fill="#9db8b0" opacity="0.55"/>
-<circle cx="60" cy="106" r="2.1" fill="#9db8b0" opacity="0.55"/>
-<circle cx="76" cy="106" r="2.1" fill="#9db8b0" opacity="0.55"/>
-<circle cx="92" cy="106" r="2.1" fill="#9db8b0" opacity="0.55"/>
-<circle cx="108" cy="106" r="2.1" fill="#9db8b0" opacity="0.55"/>
-<circle cx="124" cy="106" r="2.1" fill="#9db8b0" opacity="0.55"/>
-<circle cx="140" cy="106" r="2.1" fill="#9db8b0" opacity="0.55"/>
-<circle cx="156" cy="106" r="2.1" fill="#9db8b0" opacity="0.55"/>
-<circle cx="172" cy="106" r="2.1" fill="#9db8b0" opacity="0.55"/>
-<circle cx="188" cy="106" r="2.1" fill="#9db8b0" opacity="0.55"/>
-<circle cx="204" cy="106" r="2.1" fill="#9db8b0" opacity="0.55"/>
-<circle cx="220" cy="106" r="2.1" fill="#9db8b0" opacity="0.55"/>
-<circle cx="44" cy="117" r="2.1" fill="#9db8b0" opacity="0.55"/>
-<circle cx="60" cy="117" r="2.1" fill="#9db8b0" opacity="0.55"/>
-<circle cx="76" cy="117" r="2.1" fill="#9db8b0" opacity="0.55"/>
-<circle cx="92" cy="117" r="2.1" fill="#9db8b0" opacity="0.55"/>
-<circle cx="108" cy="117" r="2.1" fill="#9db8b0" opacity="0.55"/>
-<circle cx="124" cy="117" r="2.1" fill="#9db8b0" opacity="0.55"/>
-<circle cx="140" cy="117" r="2.1" fill="#9db8b0" opacity="0.55"/>
-<circle cx="156" cy="117" r="2.1" fill="#9db8b0" opacity="0.55"/>
-<circle cx="172" cy="117" r="2.1" fill="#9db8b0" opacity="0.55"/>
-<circle cx="188" cy="117" r="2.1" fill="#9db8b0" opacity="0.55"/>
-<circle cx="204" cy="117" r="2.1" fill="#9db8b0" opacity="0.55"/>
-<circle cx="220" cy="117" r="2.1" fill="#9db8b0" opacity="0.55"/>
-<text x="254" y="142" text-anchor="end" fill="#7d9ba7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400" letter-spacing="1.5">GPIO</text>
-<path d="M68 124V176M68 208V240" stroke="#2f6b5a" stroke-width="1.5"/>
-<path d="M118 124V176M118 208V240" stroke="#2f6b5a" stroke-width="1.5"/>
-<path d="M168 124V176M168 208V240" stroke="#2f6b5a" stroke-width="1.5"/>
-<path d="M218 124V176M218 208V240" stroke="#2f6b5a" stroke-width="1.5"/>
-<circle cx="68" cy="192" r="13" fill="#8fd3ff" fill-opacity="0.10" stroke="#8fd3ff" stroke-opacity="0.6" stroke-width="1.6"/>
-<circle cx="68" cy="256" r="12" fill="#0a1b17" stroke="#6f8f9c" stroke-width="1.5"/>
-<circle cx="118" cy="192" r="13" fill="#7ee8c1" fill-opacity="0.10" stroke="#7ee8c1" stroke-opacity="0.6" stroke-width="1.6"/>
-<circle cx="118" cy="256" r="12" fill="#0a1b17" stroke="#6f8f9c" stroke-width="1.5"/>
-<circle cx="168" cy="192" r="13" fill="#f0c674" fill-opacity="0.10" stroke="#f0c674" stroke-opacity="0.6" stroke-width="1.6"/>
-<circle cx="168" cy="256" r="12" fill="#0a1b17" stroke="#6f8f9c" stroke-width="1.5"/>
-<circle cx="218" cy="192" r="13" fill="#ff8f8f" fill-opacity="0.10" stroke="#ff8f8f" stroke-opacity="0.6" stroke-width="1.6"/>
-<circle cx="218" cy="256" r="12" fill="#0a1b17" stroke="#6f8f9c" stroke-width="1.5"/>
-<text x="68" y="168" text-anchor="middle" fill="#f4f9fb" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="700">1</text>
-<text x="168" y="168" text-anchor="middle" fill="#f4f9fb" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="700">2</text>
-<text x="118" y="168" text-anchor="middle" fill="#f4f9fb" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="700">3</text>
-<text x="218" y="168" text-anchor="middle" fill="#f4f9fb" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="700">4</text>
-<circle cx="118" cy="192" r="34" fill="url(#h1)"/><circle cx="118" cy="192" r="13" fill="#7ee8c1"/>
-<g><text x="145" y="288" text-anchor="middle" fill="#a8c1cb" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">1 · o jogo mostra a sequência</text></g>
-</g></g>
-<g transform="translate(620 0)"><g><text x="28" y="44" text-anchor="start" fill="#7d9ba7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">infraestrutura-software/</text><text x="28" y="70" text-anchor="start" fill="#f4f9fb" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="17" font-weight="700">Algoritmo de Peterson</text>
-<rect x="22" y="92" width="96" height="28" rx="8" fill="#0c1f29" stroke="#2f5060"/><text x="34" y="110.5" text-anchor="start" fill="#a8c1cb" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" font-weight="400">flag[0]</text>
-<rect x="126" y="92" width="96" height="28" rx="8" fill="#0c1f29" stroke="#2f5060"/><text x="138" y="110.5" text-anchor="start" fill="#a8c1cb" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" font-weight="400">flag[1]</text>
-<rect x="230" y="92" width="118" height="28" rx="8" fill="#0c1f29" stroke="#2f5060"/><text x="242" y="110.5" text-anchor="start" fill="#a8c1cb" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" font-weight="400"></text>
-<circle cx="100" cy="106" r="4.5" fill="#3a5461"/><circle cx="100" cy="106" r="4.5" fill="#7ee8c1"/>
-<circle cx="204" cy="106" r="4.5" fill="#3a5461"/><circle cx="204" cy="106" r="4.5" fill="#7ee8c1"/>
-<text x="244" y="110.5" text-anchor="start" fill="#f0c674" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" font-weight="700">turn = 0</text>
-<path d="M64 196H256" stroke="#29434d" stroke-width="1.5" stroke-dasharray="3 6"/>
-<path d="M64 268H256" stroke="#29434d" stroke-width="1.5" stroke-dasharray="3 6"/>
-<rect x="262" y="160" width="98" height="144" rx="12" fill="#0c1f29" stroke="#335767" stroke-width="1.4"/>
-<text x="311" y="228" text-anchor="middle" fill="#a8c1cb" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700">seção</text><text x="311" y="244" text-anchor="middle" fill="#a8c1cb" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12.5" font-weight="700">crítica</text>
-<rect x="262" y="160" width="98" height="144" rx="12" fill="#7ee8c1" fill-opacity="0.13" stroke="#7ee8c1" stroke-width="1.8"/>
-<g transform="translate(268 0)"><circle cx="44" cy="196" r="16" fill="#123241" stroke="#7ee8c1" stroke-width="1.8"/><text x="44" y="200.5" text-anchor="middle" fill="#7ee8c1" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" font-weight="700">T0</text></g>
-<g transform="translate(0 0)"><circle cx="44" cy="268" r="16" fill="#123241" stroke="#8fd3ff" stroke-width="1.8"/><text x="44" y="272.5" text-anchor="middle" fill="#8fd3ff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" font-weight="700">T1</text></g>
-<circle cx="44" cy="268" r="23" fill="none" stroke="#f0c674" stroke-width="1.6" stroke-dasharray="4 5"></circle><text x="44" y="306" text-anchor="middle" fill="#f0c674" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">espera</text>
-<text x="190" y="336" text-anchor="middle" fill="#a8c1cb" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">T0 entra · T1 espera</text></g></g>
-<text x="500" y="380" text-anchor="middle" fill="#7d9ba7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">ilustrações simplificadas, inspiradas nos estudos do repositório acadêmico</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 460" role="img" aria-labelledby="title desc">
+  <title id="title">Três estudos do acervo acadêmico</title>
+  <desc id="desc">Diagrama esquemático: etapas de lexer e parser em um compilador C simplificado; três LEDs, três botões e dois LEDs de feedback do jogo Raspberry Pi; e um estado possível do algoritmo de Peterson em que T0 está na seção crítica e T1 aguarda com sched_yield.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07131a"/><stop offset="1" stop-color="#102f3c"/></linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#b5e4f3" stroke-opacity=".045"/></pattern>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#8fd3ff" stop-opacity="0"/><stop offset=".5" stop-color="#8fd3ff" stop-opacity=".35"/><stop offset="1" stop-color="#8fd3ff" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="1120" height="460" rx="24" fill="url(#bg)"/>
+  <rect width="1120" height="460" rx="24" fill="url(#grid)"/>
+  <text x="32" y="36" fill="#7ee8c1" font-family="ui-monospace,monospace" font-size="10" font-weight="700" letter-spacing="1.8">ACERVO ACADÊMICO · ESTUDOS EM CÓDIGO</text>
+  <text x="32" y="65" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="22" font-weight="700">Do código ao hardware e à concorrência</text>
+  <path d="M373 90V416M746 90V416" stroke="#29434d"/>
+
+  <text x="30" y="105" fill="#7d9ba7" font-family="ui-monospace,monospace" font-size="9">construcao-compiladores/</text>
+  <text x="30" y="130" fill="#eef6f9" font-family="Arial,sans-serif" font-size="16" font-weight="700">Lexer → parser → AST</text>
+  <text x="30" y="160" fill="#d7e7ec" font-family="ui-monospace,monospace" font-size="13">total = a + 2;</text>
+  <g font-family="ui-monospace,monospace" font-size="10" font-weight="700">
+    <rect x="30" y="173" width="58" height="24" rx="6" fill="#123241" stroke="#8fd3ff"/><text x="59" y="189" text-anchor="middle" fill="#8fd3ff">IDENT</text>
+    <rect x="94" y="173" width="35" height="24" rx="6" fill="#12342f" stroke="#7ee8c1"/><text x="111.5" y="189" text-anchor="middle" fill="#7ee8c1">=</text>
+    <rect x="135" y="173" width="45" height="24" rx="6" fill="#123241" stroke="#8fd3ff"/><text x="157.5" y="189" text-anchor="middle" fill="#8fd3ff">IDENT</text>
+    <rect x="186" y="173" width="35" height="24" rx="6" fill="#12342f" stroke="#7ee8c1"/><text x="203.5" y="189" text-anchor="middle" fill="#7ee8c1">+</text>
+    <rect x="227" y="173" width="54" height="24" rx="6" fill="#3a3014" stroke="#f0c674"/><text x="254" y="189" text-anchor="middle" fill="#f0c674">INTEGER</text>
+    <rect x="287" y="173" width="35" height="24" rx="6" fill="#16262e" stroke="#7d9ba7"/><text x="304.5" y="189" text-anchor="middle" fill="#a8c1cb">;</text>
+  </g>
+  <text x="30" y="220" fill="#7d9ba7" font-family="ui-monospace,monospace" font-size="9" letter-spacing="1">ÁRVORE SINTÁTICA · ESQUEMA</text>
+  <path d="M184 256L93 300M184 256L274 300M274 321L234 358M274 321L312 358" fill="none" stroke="#45869b" stroke-width="1.6"/>
+  <circle cx="184" cy="256" r="15" fill="#12342f" stroke="#7ee8c1"/><text x="184" y="260" text-anchor="middle" fill="#7ee8c1" font-family="ui-monospace,monospace" font-size="12" font-weight="700">=</text>
+  <rect x="67" y="288" width="52" height="26" rx="7" fill="#123241" stroke="#8fd3ff"/><text x="93" y="305" text-anchor="middle" fill="#8fd3ff" font-family="ui-monospace,monospace" font-size="11">total</text>
+  <circle cx="274" cy="300" r="15" fill="#12342f" stroke="#7ee8c1"/><text x="274" y="304" text-anchor="middle" fill="#7ee8c1" font-family="ui-monospace,monospace" font-size="12" font-weight="700">+</text>
+  <circle cx="234" cy="358" r="14" fill="#123241" stroke="#8fd3ff"/><text x="234" y="362" text-anchor="middle" fill="#8fd3ff" font-family="ui-monospace,monospace" font-size="11">a</text>
+  <circle cx="312" cy="358" r="14" fill="#3a3014" stroke="#f0c674"/><text x="312" y="362" text-anchor="middle" fill="#f0c674" font-family="ui-monospace,monospace" font-size="11">2</text>
+  <text x="30" y="403" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="9">tokens → análise sintática</text>
+
+  <text x="395" y="105" fill="#7d9ba7" font-family="ui-monospace,monospace" font-size="9">fundamentos-hardware/</text>
+  <text x="395" y="130" fill="#eef6f9" font-family="Arial,sans-serif" font-size="16" font-weight="700">Jogo de memória · Raspberry Pi</text>
+  <text x="395" y="156" fill="#8aa8b4" font-family="ui-monospace,monospace" font-size="9">sequência de 3 cores → leitura de 3 botões</text>
+  <rect x="395" y="171" width="330" height="182" rx="13" fill="#0d241f" stroke="#2f6b5a"/>
+  <text x="411" y="192" fill="#7ee8c1" font-family="ui-monospace,monospace" font-size="9" font-weight="700">SAÍDAS · LED</text>
+  <text x="548" y="192" fill="#8fd3ff" font-family="ui-monospace,monospace" font-size="9" font-weight="700">ENTRADAS · BOTÃO</text>
+  <path d="M453 228H598M453 263H598M453 298H598" stroke="#3b7568" stroke-width="1.5"/>
+  <circle cx="433" cy="228" r="10" fill="#ff8f8f"/><text x="453" y="232" fill="#eaf4f7" font-family="ui-monospace,monospace" font-size="9">vermelho · GPIO 18</text>
+  <circle cx="433" cy="263" r="10" fill="#f0c674"/><text x="453" y="267" fill="#eaf4f7" font-family="ui-monospace,monospace" font-size="9">amarelo · GPIO 23</text>
+  <circle cx="433" cy="298" r="10" fill="#8fd3ff"/><text x="453" y="302" fill="#eaf4f7" font-family="ui-monospace,monospace" font-size="9">azul · GPIO 24</text>
+  <circle cx="614" cy="228" r="8" fill="#0a1b17" stroke="#ff8f8f" stroke-width="2"/><text x="630" y="232" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="9">27</text>
+  <circle cx="614" cy="263" r="8" fill="#0a1b17" stroke="#f0c674" stroke-width="2"/><text x="630" y="267" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="9">17</text>
+  <circle cx="614" cy="298" r="8" fill="#0a1b17" stroke="#8fd3ff" stroke-width="2"/><text x="630" y="302" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="9">22</text>
+  <text x="411" y="330" fill="#8aa8b4" font-family="ui-monospace,monospace" font-size="8">feedback: certo (GPIO 15) · errado (GPIO 14)</text>
+  <text x="395" y="380" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="9">Mostra cada LED por vez e verifica a resposta.</text>
+  <text x="395" y="398" fill="#7d9ba7" font-family="ui-monospace,monospace" font-size="8">pinos conforme jogo-memoria-rpi.py</text>
+
+  <text x="770" y="105" fill="#7d9ba7" font-family="ui-monospace,monospace" font-size="9">infraestrutura-software/</text>
+  <text x="770" y="130" fill="#eef6f9" font-family="Arial,sans-serif" font-size="16" font-weight="700">Peterson · exclusão mútua</text>
+  <text x="770" y="158" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="10">estado possível · wants[0] = wants[1] = true</text>
+  <rect x="770" y="181" width="330" height="34" rx="8" fill="#0c1f29" stroke="#335767"/>
+  <text x="786" y="203" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="10">turn = 0</text>
+  <path d="M799 261H1033M799 331H1033" stroke="#29434d" stroke-width="1.5" stroke-dasharray="4 5"/>
+  <rect x="1011" y="231" width="82" height="128" rx="12" fill="#0c1f29" stroke="#7ee8c1" stroke-width="1.5"/>
+  <text x="1052" y="286" text-anchor="middle" fill="#7ee8c1" font-family="Arial,sans-serif" font-size="11" font-weight="700">seção</text>
+  <text x="1052" y="302" text-anchor="middle" fill="#7ee8c1" font-family="Arial,sans-serif" font-size="11" font-weight="700">crítica</text>
+  <circle cx="819" cy="261" r="15" fill="#12342f" stroke="#7ee8c1" stroke-width="2"/>
+  <text x="819" y="265" text-anchor="middle" fill="#7ee8c1" font-family="ui-monospace,monospace" font-size="10" font-weight="700">T0</text>
+  <text x="844" y="265" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="9">dentro</text>
+  <circle cx="819" cy="331" r="15" fill="#123241" stroke="#8fd3ff" stroke-width="2"/>
+  <text x="819" y="335" text-anchor="middle" fill="#8fd3ff" font-family="ui-monospace,monospace" font-size="10" font-weight="700">T1</text>
+  <text x="844" y="327" fill="#f0c674" font-family="ui-monospace,monospace" font-size="9">aguarda</text>
+  <text x="844" y="341" fill="#8aa8b4" font-family="ui-monospace,monospace" font-size="8">sched_yield()</text>
+  <text x="770" y="385" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="9">T1 espera enquanto a vez é de T0.</text>
+  <text x="770" y="403" fill="#7d9ba7" font-family="ui-monospace,monospace" font-size="8">enter() / leave() · atomics sequencialmente consistentes</text>
+  <rect x="1" y="1" width="1118" height="458" rx="23" fill="none" stroke="url(#line)"/>
 </svg>
