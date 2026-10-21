@@ -1,8 +1,8 @@
 <p align="center">
   <picture>
-    <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Furubioo/Furubioo/main/assets/hero-mobile-static.svg">
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Furubioo/Furubioo/main/assets/hero-mobile.svg">
-    <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Furubioo/Furubioo/main/assets/hero-static.svg">
+    <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="assets/hero-mobile-static.svg">
+    <source media="(max-width: 600px)" srcset="assets/hero-mobile.svg">
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero-static.svg">
     <img src="assets/hero.svg" alt="Flávio Daniel — Ciência da Computação na UNICAP e técnico em Redes de Computadores. Focos de estudo: redes, sistemas e infraestrutura, hardware, estruturas de dados, depuração de baixo nível e bancos de dados." width="100%">
   </picture>
 </p>
@@ -39,9 +39,9 @@ A versão web teve assistência de IA em parte do código.
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Furubioo/Furubioo/main/assets/cinema-flow-mobile-static.svg">
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Furubioo/Furubioo/main/assets/cinema-flow-mobile.svg">
-    <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Furubioo/Furubioo/main/assets/cinema-flow-static.svg">
+    <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="assets/cinema-flow-mobile-static.svg">
+    <source media="(max-width: 600px)" srcset="assets/cinema-flow-mobile.svg">
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/cinema-flow-static.svg">
     <img src="assets/cinema-flow.svg" alt="Diagrama esquemático do Sistema de Cinema, não uma captura de tela. Terminal Java: CinemaView, CinemaController, Usuario com PrecoComum (preço-base), PrecoCritico (gratuito) e PrecoEstudante (metade), Sessao/Sala/Bilhete e PersistenciaArquivo em filmes.txt e usuarios.txt. Web: páginas React, Axios, SessaoController, SessaoRepository e H2." width="100%">
   </picture>
 </p>
@@ -55,7 +55,7 @@ Site institucional para uma ONG, com conteúdo sobre acolhimento e bem-estar, qu
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Furubioo/Furubioo/main/assets/partilhar-overview-mobile.svg">
+    <source media="(max-width: 600px)" srcset="assets/partilhar-overview-mobile.svg">
     <img src="assets/partilhar-overview.svg" alt="Mapa esquemático do conteúdo do Site ONG Partilhar, não uma captura de tela: apresentação da missão, seções Quem somos/O que fazemos/Por que fazemos, quatro categorias de serviços, galeria, depoimentos, cadastro de voluntariado e doações." width="100%">
   </picture>
 </p>
@@ -70,9 +70,9 @@ projetos didáticos — não uma lista de tecnologias que afirmo dominar.
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Furubioo/Furubioo/main/assets/lab-mobile-static.svg">
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Furubioo/Furubioo/main/assets/lab-mobile.svg">
-    <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Furubioo/Furubioo/main/assets/lab-static.svg">
+    <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="assets/lab-mobile-static.svg">
+    <source media="(max-width: 600px)" srcset="assets/lab-mobile.svg">
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/lab-static.svg">
     <img src="assets/lab.svg" alt="Diagrama esquemático de três estudos. Compilador C simplificado: código-fonte, tokens e árvore sintática. Raspberry Pi: três LEDs ligados a três botões e dois LEDs de feedback do jogo de memória. Peterson: estado possível com T0 na seção crítica e T1 aguardando via sched_yield." width="100%">
   </picture>
 </p>
@@ -108,7 +108,7 @@ Ferramentas presentes nos projetos e estudos — a lista descreve o contexto do 
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Furubioo/Furubioo/main/assets/github-activity-dark.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="assets/github-activity-dark.svg">
     <img src="assets/github-activity.svg" alt="Calendário anual das contribuições públicas de Furubioo no GitHub. Cada célula representa um dia e a intensidade da cor indica o nível de atividade exibido pelo GitHub." width="100%">
   </picture>
 </p>
