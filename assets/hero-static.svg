@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" role="img" aria-labelledby="t d"><title id="t">Flávio Daniel — Ciência da Computação na UNICAP e técnico em Redes de Computadores</title><desc id="d">Banner com o nome, a formação e seis focos de estudo: redes, sistemas e infraestrutura, hardware, estruturas de dados, depuração de baixo nível e bancos de dados. À direita, ilustração conceitual de uma rede com dois hosts, switch, roteador e dois servidores, com pacotes em trânsito.</desc><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07131a"/><stop offset="1" stop-color="#102f3c"/></linearGradient>
+<radialGradient id="auA" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#2fb6c9" stop-opacity="0.30"/><stop offset="0.55" stop-color="#2fb6c9" stop-opacity="0.08"/><stop offset="1" stop-color="#2fb6c9" stop-opacity="0"/></radialGradient>
+<radialGradient id="auB" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#7ee8c1" stop-opacity="0.16"/><stop offset="0.6" stop-color="#7ee8c1" stop-opacity="0.04"/><stop offset="1" stop-color="#7ee8c1" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" fill="none" stroke="#b5e4f3" stroke-opacity="0.055"/></pattern>
+<clipPath id="card"><rect width="1200" height="420" rx="26"/></clipPath>
+<linearGradient id="rim" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.28"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+<radialGradient id="halo" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#8fd3ff" stop-opacity="0.55"/><stop offset="1" stop-color="#8fd3ff" stop-opacity="0"/></radialGradient>
+<radialGradient id="haloG" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#7ee8c1" stop-opacity="0.55"/><stop offset="1" stop-color="#7ee8c1" stop-opacity="0"/></radialGradient>
+<linearGradient id="fadeL" x1="560" y1="0" x2="660" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#000"/><stop offset="1" stop-color="#fff"/></linearGradient><mask id="mR"><rect x="0" y="0" width="1200" height="420" fill="url(#fadeL)"/></mask><linearGradient id="hair" x1="64" y1="0" x2="560" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#8fd3ff" stop-opacity="0.55"/><stop offset="1" stop-color="#8fd3ff" stop-opacity="0"/></linearGradient></defs>
+<rect width="1200" height="420" rx="26" fill="url(#bg)"/>
+<g clip-path="url(#card)">
+<g><ellipse cx="864" cy="126" rx="660" ry="462" fill="url(#auA)"/></g>
+<g><ellipse cx="180" cy="399" rx="504" ry="352.8" fill="url(#auB)"/></g>
+<g><rect x="-26" y="0" width="1252" height="420" fill="url(#grid)"/></g>
+</g>
+<rect x="1" y="1" width="1198" height="418" rx="25" fill="none" stroke="url(#rim)" stroke-opacity="0.6"/>
+<text x="64" y="82" text-anchor="start" fill="#7ee8c1" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="3">CIÊNCIA DA COMPUTAÇÃO · UNICAP</text>
+<text x="62" y="158" text-anchor="start" fill="#f4f9fb" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="64" font-weight="700" letter-spacing="-1">Flávio Daniel</text>
+<text x="64" y="200" text-anchor="start" fill="#a8c1cb" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="21" font-weight="400">Técnico em Redes de Computadores</text>
+<path d="M64 228H560" stroke="url(#hair)" stroke-width="1.4"/>
+<text x="64" y="258" text-anchor="start" fill="#7d9ba7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400" letter-spacing="2.4">FOCO DE ESTUDO</text>
+<rect x="64" y="274" width="65" height="28" rx="14" fill="#0f2530" stroke="#335767"/>
+<text x="78" y="292.3" text-anchor="start" fill="#a8c1cb" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" font-weight="400">redes</text>
+<rect x="64" y="274" width="65" height="28" rx="14" fill="#7ee8c1" fill-opacity="0.14" stroke="#7ee8c1" stroke-width="1.6"/><circle cx="73" cy="288.0" r="2.6" fill="#7ee8c1"/>
+<rect x="137.0" y="274" width="213" height="28" rx="14" fill="#0f2530" stroke="#335767"/>
+<text x="151" y="292.3" text-anchor="start" fill="#a8c1cb" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" font-weight="400">sistemas e infraestrutura</text>
+<rect x="64" y="310" width="87.2" height="28" rx="14" fill="#0f2530" stroke="#335767"/>
+<text x="78" y="328.3" text-anchor="start" fill="#a8c1cb" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" font-weight="400">hardware</text>
+<rect x="159.2" y="310" width="168.6" height="28" rx="14" fill="#0f2530" stroke="#335767"/>
+<text x="173.2" y="328.3" text-anchor="start" fill="#a8c1cb" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" font-weight="400">estruturas de dados</text>
+<rect x="64" y="346" width="205.6" height="28" rx="14" fill="#0f2530" stroke="#335767"/>
+<text x="78" y="364.3" text-anchor="start" fill="#a8c1cb" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" font-weight="400">depuração de baixo nível</text>
+<rect x="277.6" y="346" width="139" height="28" rx="14" fill="#0f2530" stroke="#335767"/>
+<text x="291.6" y="364.3" text-anchor="start" fill="#a8c1cb" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12.5" font-weight="400">bancos de dados</text>
+<g mask="url(#mR)"><g><circle cx="640" cy="90" r="26" fill="none" stroke="#b5e4f3" stroke-opacity="0.10"/><circle cx="760" cy="372" r="20" fill="none" stroke="#b5e4f3" stroke-opacity="0.10"/><circle cx="1000" cy="60" r="18" fill="none" stroke="#b5e4f3" stroke-opacity="0.10"/><circle cx="1130" cy="230" r="30" fill="none" stroke="#b5e4f3" stroke-opacity="0.10"/><circle cx="880" cy="392" r="14" fill="none" stroke="#b5e4f3" stroke-opacity="0.10"/><path d="M640 90L760 372M760 372L1130 230M1000 60L1130 230M1000 60L640 90" stroke="#b5e4f3" stroke-opacity="0.07" fill="none"/></g><path d="M700,150 L738,150 L738,225 L764,225 L828,225 L886,225 L950,225 L990,225 L990,150 L1024,150" fill="none" stroke="#3f7f95" stroke-width="1.7" stroke-linejoin="round" stroke-opacity="0.9"/>
+<path d="M700,300 L738,300 L738,225 L764,225 L828,225 L886,225 L950,225 L990,225 L990,300 L1024,300" fill="none" stroke="#3f7f95" stroke-width="1.7" stroke-linejoin="round" stroke-opacity="0.9"/>
+
+
+
+
+<rect x="639.0" y="133.0" width="64" height="44" rx="10" fill="#050d12" opacity="0.55"/>
+<rect x="636.0" y="128.0" width="64" height="44" rx="10" fill="#0f2530" stroke="#4b8398" stroke-width="1.4"/>
+<rect x="653" y="138" width="30" height="19" rx="3" fill="none" stroke="#8fd3ff" stroke-width="1.5"/><path d="M660 163H676" stroke="#8fd3ff" stroke-width="1.5" stroke-linecap="round"/>
+<text x="668" y="188" text-anchor="middle" fill="#8aa8b4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">host</text>
+<rect x="639.0" y="283.0" width="64" height="44" rx="10" fill="#050d12" opacity="0.55"/>
+<rect x="636.0" y="278.0" width="64" height="44" rx="10" fill="#0f2530" stroke="#4b8398" stroke-width="1.4"/>
+<rect x="653" y="288" width="30" height="19" rx="3" fill="none" stroke="#8fd3ff" stroke-width="1.5"/><path d="M660 313H676" stroke="#8fd3ff" stroke-width="1.5" stroke-linecap="round"/>
+<text x="668" y="338" text-anchor="middle" fill="#8aa8b4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">host</text>
+<rect x="767.0" y="208.0" width="64" height="44" rx="10" fill="#050d12" opacity="0.55"/>
+<rect x="764.0" y="203.0" width="64" height="44" rx="10" fill="#0f2530" stroke="#4b8398" stroke-width="1.4"/>
+<rect x="778" y="217" width="36" height="16" rx="3" fill="none" stroke="#8fd3ff" stroke-width="1.5"/><circle cx="785" cy="225" r="1.9" fill="#7ee8c1"/><circle cx="792.3" cy="225" r="1.9" fill="#7ee8c1"/><circle cx="799.6" cy="225" r="1.9" fill="#7ee8c1"/><circle cx="806.9" cy="225" r="1.9" fill="#7ee8c1"/>
+<text x="796" y="263" text-anchor="middle" fill="#8aa8b4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">switch</text>
+<rect x="889.0" y="208.0" width="64" height="44" rx="10" fill="#050d12" opacity="0.55"/>
+<rect x="886.0" y="203.0" width="64" height="44" rx="10" fill="#0f2530" stroke="#4b8398" stroke-width="1.4"/>
+<rect x="901" y="223" width="34" height="13" rx="3" fill="none" stroke="#8fd3ff" stroke-width="1.5"/><path d="M909 223L906 212M927 223L930 212" stroke="#8fd3ff" stroke-width="1.5" stroke-linecap="round"/><circle cx="910" cy="229.5" r="1.6" fill="#7ee8c1"/><circle cx="918" cy="229.5" r="1.6" fill="#7ee8c1"/>
+<text x="918" y="263" text-anchor="middle" fill="#8aa8b4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">roteador</text>
+<rect x="1027.0" y="133.0" width="64" height="44" rx="10" fill="#050d12" opacity="0.55"/>
+<rect x="1024.0" y="128.0" width="64" height="44" rx="10" fill="#0f2530" stroke="#4b8398" stroke-width="1.4"/>
+<rect x="1039" y="136" width="34" height="8" rx="2" fill="none" stroke="#8fd3ff" stroke-width="1.4"/><circle cx="1067" cy="140" r="1.5" fill="#7ee8c1"/><rect x="1039" y="146" width="34" height="8" rx="2" fill="none" stroke="#8fd3ff" stroke-width="1.4"/><circle cx="1067" cy="150" r="1.5" fill="#7ee8c1"/><rect x="1039" y="156" width="34" height="8" rx="2" fill="none" stroke="#8fd3ff" stroke-width="1.4"/><circle cx="1067" cy="160" r="1.5" fill="#7ee8c1"/>
+<text x="1056" y="188" text-anchor="middle" fill="#8aa8b4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">servidor</text>
+<rect x="1027.0" y="283.0" width="64" height="44" rx="10" fill="#050d12" opacity="0.55"/>
+<rect x="1024.0" y="278.0" width="64" height="44" rx="10" fill="#0f2530" stroke="#4b8398" stroke-width="1.4"/>
+<rect x="1039" y="286" width="34" height="8" rx="2" fill="none" stroke="#8fd3ff" stroke-width="1.4"/><circle cx="1067" cy="290" r="1.5" fill="#7ee8c1"/><rect x="1039" y="296" width="34" height="8" rx="2" fill="none" stroke="#8fd3ff" stroke-width="1.4"/><circle cx="1067" cy="300" r="1.5" fill="#7ee8c1"/><rect x="1039" y="306" width="34" height="8" rx="2" fill="none" stroke="#8fd3ff" stroke-width="1.4"/><circle cx="1067" cy="310" r="1.5" fill="#7ee8c1"/>
+<text x="1056" y="338" text-anchor="middle" fill="#8aa8b4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">servidor</text>
+<g transform="translate(767.2 225)"><rect x="-10" y="-6" width="20" height="12" rx="3.5" fill="#8fd3ff"/><rect x="-10" y="-6" width="7" height="12" rx="3.5" fill="#4aa9d6"/></g>
+<g transform="translate(918.88 225)"><rect x="-10" y="-6" width="20" height="12" rx="3.5" fill="#8fd3ff"/><rect x="-10" y="-6" width="7" height="12" rx="3.5" fill="#4aa9d6"/></g>
+<g transform="translate(838.3 225)"><rect x="-10" y="-6" width="20" height="12" rx="3.5" fill="#8fd3ff"/><rect x="-10" y="-6" width="7" height="12" rx="3.5" fill="#4aa9d6"/></g>
+<g transform="translate(990 277.12)"><rect x="-10" y="-6" width="20" height="12" rx="3.5" fill="#7ee8c1"/><rect x="-10" y="-6" width="7" height="12" rx="3.5" fill="#4aa9d6"/></g>
+<text x="640" y="360" text-anchor="start" fill="#7d9ba7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400" letter-spacing="2">ENCAPSULAMENTO</text>
+<rect x="640" y="372" width="80.3" height="22" rx="6" fill="#0c1f29" stroke="#2f5060"/>
+<text x="680.15" y="387" text-anchor="middle" fill="#a8c1cb" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">aplicação</text>
+<rect x="726.3" y="372" width="87" height="22" rx="6" fill="#0c1f29" stroke="#2f5060"/>
+<text x="769.8" y="387" text-anchor="middle" fill="#a8c1cb" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">transporte</text>
+<rect x="819.3" y="372" width="46.8" height="22" rx="6" fill="#0c1f29" stroke="#2f5060"/>
+<text x="842.7" y="387" text-anchor="middle" fill="#a8c1cb" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">rede</text>
+<rect x="872.1" y="372" width="60.2" height="22" rx="6" fill="#0c1f29" stroke="#2f5060"/>
+<text x="902.2" y="387" text-anchor="middle" fill="#a8c1cb" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">enlace</text>
+<text x="1096.4" y="56" text-anchor="start" fill="#7d9ba7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">resposta</text><path d="M1080.4 47L1086.4 52L1080.4 57L1074.4 52Z" fill="#7ee8c1"/><text x="987.4" y="56" text-anchor="start" fill="#7d9ba7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">requisição</text><rect x="963.4" y="46" width="13" height="8" rx="2.5" fill="#8fd3ff"/>
+</g>
+<path d="M470,204 H566 C598,204 604,150 636,150" fill="none" stroke="#8fd3ff" stroke-opacity="0.35" stroke-width="1.4" stroke-dasharray="3 5"/>
+</svg>
