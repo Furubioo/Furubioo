@@ -1,8 +1,8 @@
 <p align="center">
   <picture>
-    <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Furubioo/Furubioo/main/assets/hero-mobile-static.svg">
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Furubioo/Furubioo/main/assets/hero-mobile.svg">
-    <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Furubioo/Furubioo/main/assets/hero-static.svg">
+    <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="assets/hero-mobile-static.svg">
+    <source media="(max-width: 600px)" srcset="assets/hero-mobile.svg">
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero-static.svg">
     <img src="assets/hero.svg" alt="Flávio Daniel — Ciência da Computação na UNICAP e técnico em Redes de Computadores. Focos de estudo: redes, sistemas e infraestrutura, hardware, estruturas de dados, depuração de baixo nível e bancos de dados." width="100%">
   </picture>
 </p>
@@ -28,8 +28,8 @@ contexto de aprendizado.
 
 Projeto acadêmico de POO, desenvolvido em equipe de três pessoas, em duas implementações independentes.
 
-- **Terminal:** Java, MVC, Strategy para preços e persistência em arquivo.
-- **Web:** React + Vite, Spring Boot e H2.
+- **Terminal:** Java com `CinemaView`, controllers e modelos; `Usuario` delega o cálculo do ingresso a estratégias de preço e os dados são persistidos em arquivos.
+- **Web:** páginas React + Vite comunicam via Axios com controllers Spring Boot, repositórios JPA e banco H2.
 
 A versão web teve assistência de IA em parte do código.
 
@@ -39,19 +39,28 @@ A versão web teve assistência de IA em parte do código.
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Furubioo/Furubioo/main/assets/cinema-flow-mobile-static.svg">
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Furubioo/Furubioo/main/assets/cinema-flow-mobile.svg">
-    <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Furubioo/Furubioo/main/assets/cinema-flow-static.svg">
-    <img src="assets/cinema-flow.svg" alt="Duas implementações do Sistema de Cinema. Terminal em Java: View, Controller e Model, com Strategy escolhendo entre PrecoComum, PrecoCritico e PrecoEstudante, e persistência em arquivo. Web: Navegador, React com Vite, Spring Boot e banco H2." width="100%">
+    <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="assets/cinema-flow-mobile-static.svg">
+    <source media="(max-width: 600px)" srcset="assets/cinema-flow-mobile.svg">
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/cinema-flow-static.svg">
+    <img src="assets/cinema-flow.svg" alt="Diagrama esquemático do Sistema de Cinema, não uma captura de tela. Terminal Java: CinemaView, CinemaController, Usuario com PrecoComum (preço-base), PrecoCritico (gratuito) e PrecoEstudante (metade), Sessao/Sala/Bilhete e PersistenciaArquivo em filmes.txt e usuarios.txt. Web: páginas React, Axios, SessaoController, SessaoRepository e H2." width="100%">
   </picture>
 </p>
 
 ### Site ONG Partilhar
 
-Site institucional para uma ONG, com conteúdo sobre acolhimento e bem-estar, serviços, galeria, depoimentos, voluntariado e doações. Construído com HTML, CSS e JavaScript e publicado na Vercel.
+Site institucional para uma ONG, com conteúdo sobre acolhimento e bem-estar, quatro categorias de serviços, galeria, depoimentos, voluntariado e doações. Construído com HTML, CSS e JavaScript e publicado na Vercel.
 
 [Código-fonte](https://github.com/Furubioo/SiteOngPartilhar) ·
 [Site publicado](https://side-da-ong-partilhar.vercel.app)
+
+<p align="center">
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/partilhar-overview-mobile.svg">
+    <img src="assets/partilhar-overview.svg" alt="Mapa esquemático do conteúdo do Site ONG Partilhar, não uma captura de tela: apresentação da missão, seções Quem somos/O que fazemos/Por que fazemos, quatro categorias de serviços, galeria, depoimentos, cadastro de voluntariado e doações." width="100%">
+  </picture>
+</p>
+
+<p align="center"><sub>O mapa representa as seções encontradas no código; não é uma captura da interface publicada.</sub></p>
 
 ## Estudos em código
 
@@ -61,10 +70,10 @@ projetos didáticos — não uma lista de tecnologias que afirmo dominar.
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Furubioo/Furubioo/main/assets/lab-mobile-static.svg">
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Furubioo/Furubioo/main/assets/lab-mobile.svg">
-    <source media="(prefers-reduced-motion: reduce)" srcset="https://raw.githubusercontent.com/Furubioo/Furubioo/main/assets/lab-static.svg">
-    <img src="assets/lab.svg" alt="Três estudos do repositório acadêmico: um compilador transformando a linha total = a + 2; em tokens e árvore sintática; um jogo de memória com LEDs e botões em GPIO; e o algoritmo de Peterson garantindo uma thread por vez na seção crítica." width="100%">
+    <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="assets/lab-mobile-static.svg">
+    <source media="(max-width: 600px)" srcset="assets/lab-mobile.svg">
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/lab-static.svg">
+    <img src="assets/lab.svg" alt="Diagrama esquemático de três estudos. Compilador C simplificado: código-fonte, tokens e árvore sintática. Raspberry Pi: três LEDs ligados a três botões e dois LEDs de feedback do jogo de memória. Peterson: estado possível com T0 na seção crítica e T1 aguardando via sched_yield." width="100%">
   </picture>
 </p>
 
@@ -73,19 +82,13 @@ projetos didáticos — não uma lista de tecnologias que afirmo dominar.
 
 <br>
 
-| Área | O que você encontra |
+| Trilha de estudo | Áreas e exemplos |
 | --- | --- |
-| [Python](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/fundamentos-python) | 61 exercícios de lógica, condicionais, laços, strings, funções e recursão |
-| [Programação em C](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/programacao-estruturada-c) | 124 exercícios de fundamentos, vetores, matrizes, strings, ponteiros, structs e arquivos |
-| [Estruturas de dados em C](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/estruturas-dados-c) | Listas, filas, pilhas, deques, tabela hash e aplicações como cadastros |
-| [POO em Java](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/poo-java) | Projetos independentes de orientação a objetos |
-| [Compiladores](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/construcao-compiladores) | Compilador de uma versão simplificada de C, com análise léxica, parser e testes |
-| [Infraestrutura e concorrência](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/infraestrutura-software) | Algoritmo de Peterson, exclusão mútua e sincronização com threads |
-| [Hardware](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/fundamentos-hardware) | Jogo de memória com botões, LEDs e GPIO em Raspberry Pi |
-| [Álgebra linear computacional](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/algebra-linear-computacional) | Operações matriciais, sistemas lineares, cifra de Hill e transformações geométricas 2D/3D |
-| [Cálculo computacional](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/calculo-computacional) | Notebooks de limites, derivadas, integrais, curvas, volumes e integrais duplas |
-| [Métodos numéricos](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/metodos-numericos) | Modelagem e aproximação com notebooks sobre profundidade de tanque e densidade da água |
-| [Projetos exploratórios](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/projetos-exploratorios) | Notebook de pré-processamento de dados categóricos para estudo de score de crédito |
+| **Lógica e fundamentos** | [Python](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/fundamentos-python): 61 exercícios independentes; [C estruturado](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/programacao-estruturada-c): 124 exercícios independentes de fundamentos, vetores, matrizes, strings, ponteiros, structs e arquivos |
+| **Estruturas de dados e orientação a objetos** | [Estruturas de dados em C](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/estruturas-dados-c): listas, filas, pilhas, deques e tabela hash; [POO em Java](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/poo-java): projetos didáticos independentes |
+| **Compiladores, infraestrutura e hardware** | [Compiladores](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/construcao-compiladores): tokens, lexer, parser e testes; [Concorrência](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/infraestrutura-software): algoritmo de Peterson e threads; [Hardware](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/fundamentos-hardware): jogo de memória com LEDs, botões e GPIO em Raspberry Pi |
+| **Matemática computacional** | [Álgebra linear](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/algebra-linear-computacional): matrizes, sistemas lineares, cifra de Hill e transformações 2D/3D; [Cálculo](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/calculo-computacional): limites, derivadas, integrais, curvas e volumes; [Métodos numéricos](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/metodos-numericos): notebooks de modelagem e aproximação |
+| **Exploração e análise de dados** | [Projetos exploratórios](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/projetos-exploratorios): notebook de pré-processamento de dados categóricos para estudo de score de crédito |
 
 O acervo também preserva projetos independentes de Java e C. Consulte o
 [README acadêmico](https://github.com/Furubioo/registro-academico-ciencia-da-computacao#readme)
@@ -95,45 +98,22 @@ para navegar por todas as disciplinas e orientações de execução.
 
 ## Tecnologias
 
-<p align="center"><sub><b>LINGUAGENS E MARCAÇÃO</b></sub></p>
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=c,py,java,js,html,css&theme=dark">
-    <img src="https://skillicons.dev/icons?i=c,py,java,js,html,css&theme=light" alt="C, Python, Java, JavaScript, HTML e CSS">
-  </picture>
-</p>
-<p align="center">C · Java · Python · JavaScript · HTML · CSS</p>
+Ferramentas presentes nos projetos e estudos — a lista descreve o contexto do código, não um nível uniforme de domínio:
 
-<p align="center"><sub><b>FRAMEWORKS E FERRAMENTAS</b></sub></p>
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=react,vite,spring,maven&theme=dark">
-    <img src="https://skillicons.dev/icons?i=react,vite,spring,maven&theme=light" alt="React, Vite, Spring Boot e Maven">
-  </picture>
-</p>
-
-<p align="center"><sub><b>PLATAFORMAS E HARDWARE</b></sub></p>
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=git,github,vercel,raspberrypi&theme=dark">
-    <img src="https://skillicons.dev/icons?i=git,github,vercel,raspberrypi&theme=light" alt="Git, GitHub, Vercel e Raspberry Pi">
-  </picture>
-</p>
-
-<p align="center"><sub>Também aparecem nos projetos: H2 (banco de dados), notebooks Jupyter e GPIO.</sub></p>
+- **Projetos:** Java, React, Vite, Spring Boot, Maven, H2, HTML, CSS e JavaScript.
+- **Estudos:** C, Python, Java e notebooks Jupyter.
+- **Ambiente e hardware:** Git, GitHub, Vercel, Raspberry Pi e GPIO.
 
 ## Atividade no GitHub
 
 <p align="center">
-  <a href="https://github.com/Furubioo">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Furubioo&theme=github_dark">
-      <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Furubioo&theme=github" alt="Resumo gráfico das contribuições públicas de Furubioo ao longo do ano." width="100%">
-    </picture>
-  </a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/github-activity-dark.svg">
+    <img src="assets/github-activity.svg" alt="Calendário anual das contribuições públicas de Furubioo no GitHub. Cada célula representa um dia e a intensidade da cor indica o nível de atividade exibido pelo GitHub." width="100%">
+  </picture>
 </p>
 
-<p align="center">O <a href="https://github.com/Furubioo">perfil no GitHub</a> continua sendo a referência para o gráfico oficial de contribuições.</p>
+<p align="center">Calendário original armazenado no repositório e atualizado diariamente por workflow; usa somente a página pública de contribuições, sem token pessoal. Se uma atualização falhar, a última imagem válida permanece versionada. O <a href="https://github.com/Furubioo">perfil no GitHub</a> continua sendo a fonte oficial.</p>
 
 ## Formação
 
