@@ -7,54 +7,60 @@
   </defs>
   <rect width="400" height="1160" rx="20" fill="url(#bg)"/>
   <rect width="400" height="1160" rx="20" fill="url(#grid)"/>
-  <text x="22" y="36" fill="#7ee8c1" font-family="ui-monospace,monospace" font-size="9" font-weight="700" letter-spacing="1.4">PROJETO ACADÊMICO · POO</text>
-  <text x="22" y="69" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="27" font-weight="700">Sistema de Cinema</text>
-  <text x="22" y="91" fill="#a8c1cb" font-family="Arial,sans-serif" font-size="12">Duas implementações independentes · esquema</text>
+  <text x="22" y="36" fill="#7ee8c1" font-family="ui-monospace,monospace" font-size="10" font-weight="700" letter-spacing="1.4">PROJETO ACADÊMICO · POO</text>
+  <text x="22" y="69" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="29" font-weight="700">Sistema de Cinema</text>
+  <text x="22" y="91" fill="#a8c1cb" font-family="Arial,sans-serif" font-size="13">Duas implementações independentes · esquema</text>
 
   <rect x="16" y="112" width="368" height="460" rx="16" fill="#081920" stroke="#365867"/>
-  <text x="34" y="142" fill="#8fd3ff" font-family="ui-monospace,monospace" font-size="9" font-weight="700" letter-spacing="1.2">01 · CINEMA-CONSOLE</text>
-  <text x="34" y="168" fill="#eef6f9" font-family="Arial,sans-serif" font-size="18" font-weight="700">Terminal · Java</text>
+  <text x="34" y="142" fill="#8fd3ff" font-family="ui-monospace,monospace" font-size="10" font-weight="700" letter-spacing="1.2">01 · CINEMA-CONSOLE</text>
+  <text x="34" y="168" fill="#eef6f9" font-family="Arial,sans-serif" font-size="20" font-weight="700">Terminal · Java</text>
   <path d="M200 224V242M200 288V306M200 408V426M200 472V490" stroke="#3f7f95" stroke-width="2"/>
   <path d="M196 238l4 5 4-5M196 302l4 5 4-5M196 422l4 5 4-5M196 486l4 5 4-5" fill="#8fd3ff"/>
   <rect x="34" y="184" width="332" height="40" rx="9" fill="#112733" stroke="#335767"/>
-  <text x="48" y="209" fill="#eef6f9" font-family="Arial,sans-serif" font-size="13" font-weight="700">CinemaView · Terminal</text>
+  <text x="48" y="209" fill="#eef6f9" font-family="Arial,sans-serif" font-size="14" font-weight="700">CinemaView · Terminal</text>
   <rect x="34" y="245" width="332" height="43" rx="9" fill="#112733" stroke="#335767"/>
-  <text x="48" y="272" fill="#eef6f9" font-family="Arial,sans-serif" font-size="13" font-weight="700">CinemaController</text>
+  <text x="48" y="272" fill="#eef6f9" font-family="Arial,sans-serif" font-size="14" font-weight="700">CinemaController</text>
   <rect x="34" y="309" width="332" height="99" rx="9" fill="#112733" stroke="#335767"/>
-  <text x="48" y="331" fill="#eef6f9" font-family="Arial,sans-serif" font-size="13" font-weight="700">Usuario → EstrategiaPreco</text>
-  <text x="48" y="349" fill="#8aa8b4" font-family="ui-monospace,monospace" font-size="9">calcularPrecoFinal(precoBase)</text>
-  <text x="48" y="372" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="9">Comum · base</text>
-  <text x="160" y="372" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="9">Crítico · R$ 0</text>
-  <text x="48" y="392" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="9">Estudante · metade do preço-base</text>
+  <text x="48" y="331" fill="#eef6f9" font-family="Arial,sans-serif" font-size="14" font-weight="700">Usuario → EstrategiaPreco</text>
+  <text x="48" y="349" fill="#8aa8b4" font-family="ui-monospace,monospace" font-size="10">calcularPrecoFinal(precoBase)</text>
+  <text x="48" y="372" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="10">Comum · base</text>
+  <text x="160" y="372" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="10">Crítico · R$ 0</text>
+  <text x="48" y="392" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="10">Estudante · metade do preço-base</text>
   <rect x="34" y="429" width="332" height="43" rx="9" fill="#112733" stroke="#335767"/>
-  <text x="48" y="456" fill="#eef6f9" font-family="Arial,sans-serif" font-size="13" font-weight="700">Sessao · Sala · Bilhete</text>
+  <text x="48" y="456" fill="#eef6f9" font-family="Arial,sans-serif" font-size="14" font-weight="700">Sessao · Sala · Bilhete</text>
   <rect x="34" y="493" width="332" height="55" rx="9" fill="#102a2b" stroke="#3b7568"/>
-  <text x="48" y="518" fill="#7ee8c1" font-family="Arial,sans-serif" font-size="13" font-weight="700">PersistenciaArquivo</text>
-  <text x="48" y="536" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="9">filmes.txt · usuarios.txt</text>
+  <text x="48" y="518" fill="#7ee8c1" font-family="Arial,sans-serif" font-size="14" font-weight="700">PersistenciaArquivo</text>
+  <text x="48" y="536" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="10">filmes.txt · usuarios.txt</text>
 
   <rect x="16" y="594" width="368" height="542" rx="16" fill="#081920" stroke="#365867"/>
-  <text x="34" y="624" fill="#7ee8c1" font-family="ui-monospace,monospace" font-size="9" font-weight="700" letter-spacing="1.2">02 · CINEMA-SYSTEM</text>
-  <text x="34" y="650" fill="#eef6f9" font-family="Arial,sans-serif" font-size="18" font-weight="700">Web · React + Vite</text>
+  <text x="34" y="624" fill="#7ee8c1" font-family="ui-monospace,monospace" font-size="10" font-weight="700" letter-spacing="1.2">02 · CINEMA-SYSTEM</text>
+  <text x="34" y="650" fill="#eef6f9" font-family="Arial,sans-serif" font-size="20" font-weight="700">Web · React + Vite</text>
   <path d="M200 708V726M200 772V790M200 836V854M200 900V918" stroke="#3f7f95" stroke-width="2"/>
   <path d="M196 722l4 5 4-5M196 786l4 5 4-5M196 850l4 5 4-5M196 914l4 5 4-5" fill="#8fd3ff"/>
   <rect x="34" y="668" width="332" height="40" rx="9" fill="#112733" stroke="#335767"/>
-  <text x="48" y="693" fill="#eef6f9" font-family="Arial,sans-serif" font-size="12" font-weight="700">ProgramacaoPage → CompraPage</text>
+  <text x="48" y="693" fill="#eef6f9" font-family="Arial,sans-serif" font-size="13" font-weight="700">ProgramacaoPage → CompraPage</text>
   <rect x="34" y="729" width="332" height="43" rx="9" fill="#112733" stroke="#335767"/>
-  <text x="48" y="756" fill="#eef6f9" font-family="Arial,sans-serif" font-size="12" font-weight="700">Axios · src/api/api.js</text>
+  <text x="48" y="756" fill="#eef6f9" font-family="Arial,sans-serif" font-size="13" font-weight="700">Axios · src/api/api.js</text>
   <rect x="34" y="793" width="332" height="43" rx="9" fill="#112733" stroke="#335767"/>
-  <text x="48" y="811" fill="#eef6f9" font-family="Arial,sans-serif" font-size="12" font-weight="700">SessaoController</text>
-  <text x="48" y="827" fill="#8aa8b4" font-family="ui-monospace,monospace" font-size="9">POST /sessoes/{id}/comprar</text>
+  <text x="48" y="811" fill="#eef6f9" font-family="Arial,sans-serif" font-size="13" font-weight="700">SessaoController</text>
+  <text x="48" y="827" fill="#8aa8b4" font-family="ui-monospace,monospace" font-size="10">POST /sessoes/{id}/comprar</text>
   <rect x="34" y="857" width="332" height="43" rx="9" fill="#112733" stroke="#335767"/>
-  <text x="48" y="884" fill="#eef6f9" font-family="Arial,sans-serif" font-size="12" font-weight="700">SessaoRepository · Spring Data JPA</text>
+  <text x="48" y="884" fill="#eef6f9" font-family="Arial,sans-serif" font-size="13" font-weight="700">SessaoRepository · Spring Data JPA</text>
   <rect x="34" y="921" width="332" height="55" rx="9" fill="#102a2b" stroke="#3b7568"/>
-  <text x="48" y="946" fill="#7ee8c1" font-family="Arial,sans-serif" font-size="13" font-weight="700">Banco H2</text>
-  <text x="48" y="964" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="9">persistência local · cinema.backend</text>
-  <text x="200" y="1006" text-anchor="middle" fill="#8aa8b4" font-family="ui-monospace,monospace" font-size="9">o controlador valida a cadeira, salva a sessão</text>
-  <text x="200" y="1021" text-anchor="middle" fill="#8aa8b4" font-family="ui-monospace,monospace" font-size="9">e monta o bilhete</text>
-  <text x="200" y="1107" text-anchor="middle" fill="#7d9ba7" font-family="ui-monospace,monospace" font-size="9">terminal acima · web abaixo</text>
+  <text x="48" y="946" fill="#7ee8c1" font-family="Arial,sans-serif" font-size="14" font-weight="700">Banco H2</text>
+  <text x="48" y="964" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="10">persistência local · cinema.backend</text>
+  <text x="200" y="1006" text-anchor="middle" fill="#8aa8b4" font-family="ui-monospace,monospace" font-size="10">o controlador valida a cadeira, salva a sessão</text>
+  <text x="200" y="1021" text-anchor="middle" fill="#8aa8b4" font-family="ui-monospace,monospace" font-size="10">e monta o bilhete</text>
+  <text x="200" y="1107" text-anchor="middle" fill="#7d9ba7" font-family="ui-monospace,monospace" font-size="10">terminal acima · web abaixo</text>
 <g aria-hidden="true">
-  <circle cx="200" cy="708" r="3.5" fill="#8fd3ff">
-    <animateMotion dur="9s" repeatCount="indefinite" path="M0 0 V268"/>
+  <circle cx="200" cy="708" r="12" fill="#8fd3ff" opacity="0">
+    <animate attributeName="opacity" values="0;.4;.4;0" keyTimes="0;.08;.92;1" dur="5.5s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="6;12;12;6" keyTimes="0;.08;.92;1" dur="5.5s" repeatCount="indefinite"/>
+    <animateMotion dur="5.5s" repeatCount="indefinite" path="M0 0 V268"/>
+  </circle>
+  <circle cx="200" cy="708" r="6" fill="#c5ebff" opacity="0">
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.92;1" dur="5.5s" repeatCount="indefinite"/>
+    <animateMotion dur="5.5s" repeatCount="indefinite" path="M0 0 V268"/>
   </circle>
 </g>
 </svg>
