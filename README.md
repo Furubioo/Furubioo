@@ -3,13 +3,12 @@
     <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="assets/hero-mobile-static.svg">
     <source media="(max-width: 600px)" srcset="assets/hero-mobile.svg">
     <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero-static.svg">
-    <img src="assets/hero.svg" alt="Flávio Daniel — Ciência da Computação na UNICAP e técnico em Redes de Computadores. Focos de estudo: redes, sistemas e infraestrutura, hardware, estruturas de dados, depuração de baixo nível e bancos de dados." width="100%">
+    <img src="assets/hero.svg" alt="Flávio Daniel, estudante de Ciência da Computação na UNICAP e técnico em Redes de Computadores. Em destaque, seus estudos em desenvolvimento de software e dados, com exemplos do Sistema de Cinema e do pré-processamento de dados categóricos em um estudo de score de crédito." width="100%">
   </picture>
 </p>
 
-> Gosto de investigar o que acontece por baixo da interface: como os sistemas
-> se organizam, como os dados percorrem uma rede e como código e hardware se
-> encontram.
+> Meu interesse está no desenvolvimento de software e em dados: construir
+> aplicações e explorar como preparar e organizar informações.
 
 Aqui reúno projetos acadêmicos, exercícios e experimentos — cada um no seu
 contexto de aprendizado.

@@ -34,16 +34,16 @@ ANIMATIONS = {
     "hero-static.svg": (
         "hero.svg",
         """<g aria-hidden="true">
-  <circle cx="700" cy="150" r="3.5" fill="#8fd3ff">
-    <animateMotion dur="8s" repeatCount="indefinite" path="M0 0 H38 V75 H290 V0 H324"/>
+  <circle cx="998" cy="235" r="3.1" fill="#7ee8c1">
+    <animateMotion dur="5s" repeatCount="indefinite" path="M0 0 H27"/>
   </circle>
 </g>""",
     ),
     "hero-mobile-static.svg": (
         "hero-mobile.svg",
         """<g aria-hidden="true">
-  <circle cx="84" cy="336" r="3.5" fill="#8fd3ff">
-    <animateMotion dur="8s" repeatCount="indefinite" path="M0 0 H22 V72 H190 V-72 H20"/>
+  <circle cx="141" cy="621" r="2.8" fill="#7ee8c1">
+    <animateMotion dur="5s" repeatCount="indefinite" path="M0 0 H26"/>
   </circle>
 </g>""",
     ),

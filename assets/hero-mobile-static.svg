@@ -1,80 +1,98 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 640" role="img" aria-labelledby="t d"><title id="t">Flávio Daniel — Ciência da Computação na UNICAP e técnico em Redes de Computadores</title><desc id="d">Versão para telas estreitas. Nome, formação e seis focos de estudo. Abaixo, ilustração conceitual de uma rede com dois hosts, switch, roteador e dois servidores, com pacotes em trânsito.</desc><defs>
-<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07131a"/><stop offset="1" stop-color="#102f3c"/></linearGradient>
-<radialGradient id="auA" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#2fb6c9" stop-opacity="0.30"/><stop offset="0.55" stop-color="#2fb6c9" stop-opacity="0.08"/><stop offset="1" stop-color="#2fb6c9" stop-opacity="0"/></radialGradient>
-<radialGradient id="auB" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#7ee8c1" stop-opacity="0.16"/><stop offset="0.6" stop-color="#7ee8c1" stop-opacity="0.04"/><stop offset="1" stop-color="#7ee8c1" stop-opacity="0"/></radialGradient>
-<pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#b5e4f3" stroke-opacity="0.055"/></pattern>
-<clipPath id="card"><rect width="400" height="640" rx="20"/></clipPath>
-<linearGradient id="rim" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.28"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
-<radialGradient id="halo" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#8fd3ff" stop-opacity="0.55"/><stop offset="1" stop-color="#8fd3ff" stop-opacity="0"/></radialGradient>
-<radialGradient id="haloG" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#7ee8c1" stop-opacity="0.55"/><stop offset="1" stop-color="#7ee8c1" stop-opacity="0"/></radialGradient>
-<linearGradient id="hair" x1="24" y1="0" x2="376" y2="0" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#8fd3ff" stop-opacity="0.55"/><stop offset="1" stop-color="#8fd3ff" stop-opacity="0"/></linearGradient></defs>
-<rect width="400" height="640" rx="20" fill="url(#bg)"/>
-<g clip-path="url(#card)">
-<g><ellipse cx="320" cy="352" rx="352" ry="246.4" fill="url(#auA)"/></g>
-<g><ellipse cx="40" cy="608" rx="268.8" ry="188.16" fill="url(#auB)"/></g>
-<g><rect x="-22" y="0" width="444" height="640" fill="url(#grid)"/></g>
-</g>
-<rect x="1" y="1" width="398" height="638" rx="19" fill="none" stroke="url(#rim)" stroke-opacity="0.6"/>
-<text x="24" y="46" text-anchor="start" fill="#7ee8c1" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="11" font-weight="700" letter-spacing="2">CIÊNCIA DA COMPUTAÇÃO · UNICAP</text>
-<text x="23" y="100" text-anchor="start" fill="#f4f9fb" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="46" font-weight="700" letter-spacing="-0.8">Flávio Daniel</text>
-<text x="24" y="132" text-anchor="start" fill="#a8c1cb" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="16" font-weight="400">Técnico em Redes de Computadores</text>
-<path d="M24 154H376" stroke="url(#hair)" stroke-width="1.2"/>
-<text x="24" y="180" text-anchor="start" fill="#7d9ba7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400" letter-spacing="2.2">FOCO DE ESTUDO</text>
-<rect x="24" y="192" width="64.5" height="28" rx="14" fill="#0f2530" stroke="#335767"/>
-<text x="38" y="210.3" text-anchor="start" fill="#a8c1cb" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400">redes</text>
-<rect x="24" y="192" width="64.5" height="28" rx="14" fill="#7ee8c1" fill-opacity="0.14" stroke="#7ee8c1" stroke-width="1.6"/><circle cx="33" cy="206.0" r="2.6" fill="#7ee8c1"/>
-<rect x="96.5" y="192" width="210.5" height="28" rx="14" fill="#0f2530" stroke="#335767"/>
-<text x="110.5" y="210.3" text-anchor="start" fill="#a8c1cb" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400">sistemas e infraestrutura</text>
-<rect x="24" y="228" width="86.4" height="28" rx="14" fill="#0f2530" stroke="#335767"/>
-<text x="38" y="246.3" text-anchor="start" fill="#a8c1cb" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400">hardware</text>
-<rect x="118.4" y="228" width="166.7" height="28" rx="14" fill="#0f2530" stroke="#335767"/>
-<text x="132.4" y="246.3" text-anchor="start" fill="#a8c1cb" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400">estruturas de dados</text>
-<rect x="24" y="264" width="203.2" height="28" rx="14" fill="#0f2530" stroke="#335767"/>
-<text x="38" y="282.3" text-anchor="start" fill="#a8c1cb" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400">depuração de baixo nível</text>
-<rect x="235.2" y="264" width="137.5" height="28" rx="14" fill="#0f2530" stroke="#335767"/>
-<text x="249.2" y="282.3" text-anchor="start" fill="#a8c1cb" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="12" font-weight="400">bancos de dados</text>
-<path d="M84,336 L106,336 L106,408 L108,408 L172,408 L200,408 L264,408 L296,408 L296,336 L316,336" fill="none" stroke="#3f7f95" stroke-width="1.7" stroke-linejoin="round" stroke-opacity="0.9"/>
-<path d="M84,480 L106,480 L106,408 L108,408 L172,408 L200,408 L264,408 L296,408 L296,480 L316,480" fill="none" stroke="#3f7f95" stroke-width="1.7" stroke-linejoin="round" stroke-opacity="0.9"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 740" role="img" aria-labelledby="title desc">
+  <title id="title">Flávio Daniel — desenvolvimento e dados</title>
+  <desc id="desc">Versão compacta para telas estreitas. Estudante de Ciência da Computação na UNICAP e técnico em Redes de Computadores. Em destaque, desenvolvimento de software no Sistema de Cinema e pré-processamento de dados categóricos em um estudo acadêmico de score de crédito.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07131a"/>
+      <stop offset="1" stop-color="#102f3c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".75" cy=".2" r=".9">
+      <stop offset="0" stop-color="#2fb6c9" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#2fb6c9" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
+      <path d="M22 0H0V22" fill="none" stroke="#b5e4f3" stroke-opacity=".045"/>
+    </pattern>
+  </defs>
+  <rect width="400" height="740" rx="22" fill="url(#background)"/>
+  <rect width="400" height="740" rx="22" fill="url(#glow)"/>
+  <rect width="400" height="740" rx="22" fill="url(#grid)"/>
+  <rect x="1" y="1" width="398" height="738" rx="21" fill="none" stroke="#547987" stroke-opacity=".45"/>
 
+  <text x="24" y="42" fill="#7ee8c1" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" font-weight="700" letter-spacing="1.7">CIÊNCIA DA COMPUTAÇÃO · UNICAP</text>
+  <text x="22" y="91" fill="#f4f9fb" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="42" font-weight="700" letter-spacing="-1">Flávio Daniel</text>
+  <text x="24" y="122" fill="#a8c1cb" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15">Técnico em Redes de Computadores</text>
+  <path d="M24 145H376" stroke="#416a78" stroke-opacity=".65"/>
+  <path d="M24 145H215" stroke="#7ee8c1" stroke-width="1.5"/>
+  <text x="24" y="173" fill="#8aa8b4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" font-weight="700" letter-spacing="2">ESTUDOS EM FOCO</text>
 
+  <rect x="24" y="187" width="205" height="38" rx="11" fill="#12332f" stroke="#4ba891"/>
+  <circle cx="41" cy="206" r="4" fill="#7ee8c1"/>
+  <text x="55" y="211" fill="#d9fff2" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="14" font-weight="700">Desenvolvimento</text>
+  <rect x="238" y="187" width="112" height="38" rx="11" fill="#102c3a" stroke="#3e8eaa"/>
+  <circle cx="255" cy="206" r="4" fill="#8fd3ff"/>
+  <text x="269" y="211" fill="#e1f5ff" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="14" font-weight="700">Dados</text>
+  <path d="M24 248H35" stroke="#7ee8c1" stroke-width="2" stroke-linecap="round"/>
+  <text x="44" y="252" fill="#a8c1cb" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12">Base técnica em redes de computadores</text>
 
+  <rect x="16" y="275" width="368" height="194" rx="15" fill="#091a22" stroke="#31515e"/>
+  <path d="M32 276H368" stroke="#8fd3ff" stroke-opacity=".65"/>
+  <text x="34" y="302" fill="#8fd3ff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" font-weight="700" letter-spacing="1.1">01 / DESENVOLVIMENTO</text>
+  <text x="34" y="328" fill="#eef6f9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="17" font-weight="700">Sistema de Cinema</text>
+  <text x="34" y="347" fill="#8aa8b4" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="11">Aplicação Web · projeto acadêmico</text>
 
-<rect x="23.0" y="319.0" width="64" height="44" rx="10" fill="#050d12" opacity="0.55"/>
-<rect x="20.0" y="314.0" width="64" height="44" rx="10" fill="#0f2530" stroke="#4b8398" stroke-width="1.4"/>
-<rect x="37" y="324" width="30" height="19" rx="3" fill="none" stroke="#8fd3ff" stroke-width="1.5"/><path d="M44 349H60" stroke="#8fd3ff" stroke-width="1.5" stroke-linecap="round"/>
-<text x="52" y="374" text-anchor="middle" fill="#8aa8b4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">host</text>
-<rect x="23.0" y="463.0" width="64" height="44" rx="10" fill="#050d12" opacity="0.55"/>
-<rect x="20.0" y="458.0" width="64" height="44" rx="10" fill="#0f2530" stroke="#4b8398" stroke-width="1.4"/>
-<rect x="37" y="468" width="30" height="19" rx="3" fill="none" stroke="#8fd3ff" stroke-width="1.5"/><path d="M44 493H60" stroke="#8fd3ff" stroke-width="1.5" stroke-linecap="round"/>
-<text x="52" y="518" text-anchor="middle" fill="#8aa8b4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">host</text>
-<rect x="111.0" y="391.0" width="64" height="44" rx="10" fill="#050d12" opacity="0.55"/>
-<rect x="108.0" y="386.0" width="64" height="44" rx="10" fill="#0f2530" stroke="#4b8398" stroke-width="1.4"/>
-<rect x="122" y="400" width="36" height="16" rx="3" fill="none" stroke="#8fd3ff" stroke-width="1.5"/><circle cx="129" cy="408" r="1.9" fill="#7ee8c1"/><circle cx="136.3" cy="408" r="1.9" fill="#7ee8c1"/><circle cx="143.6" cy="408" r="1.9" fill="#7ee8c1"/><circle cx="150.9" cy="408" r="1.9" fill="#7ee8c1"/>
-<text x="140" y="446" text-anchor="middle" fill="#8aa8b4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">switch</text>
-<rect x="203.0" y="391.0" width="64" height="44" rx="10" fill="#050d12" opacity="0.55"/>
-<rect x="200.0" y="386.0" width="64" height="44" rx="10" fill="#0f2530" stroke="#4b8398" stroke-width="1.4"/>
-<rect x="215" y="406" width="34" height="13" rx="3" fill="none" stroke="#8fd3ff" stroke-width="1.5"/><path d="M223 406L220 395M241 406L244 395" stroke="#8fd3ff" stroke-width="1.5" stroke-linecap="round"/><circle cx="224" cy="412.5" r="1.6" fill="#7ee8c1"/><circle cx="232" cy="412.5" r="1.6" fill="#7ee8c1"/>
-<text x="232" y="446" text-anchor="middle" fill="#8aa8b4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">roteador</text>
-<rect x="319.0" y="319.0" width="64" height="44" rx="10" fill="#050d12" opacity="0.55"/>
-<rect x="316.0" y="314.0" width="64" height="44" rx="10" fill="#0f2530" stroke="#4b8398" stroke-width="1.4"/>
-<rect x="331" y="322" width="34" height="8" rx="2" fill="none" stroke="#8fd3ff" stroke-width="1.4"/><circle cx="359" cy="326" r="1.5" fill="#7ee8c1"/><rect x="331" y="332" width="34" height="8" rx="2" fill="none" stroke="#8fd3ff" stroke-width="1.4"/><circle cx="359" cy="336" r="1.5" fill="#7ee8c1"/><rect x="331" y="342" width="34" height="8" rx="2" fill="none" stroke="#8fd3ff" stroke-width="1.4"/><circle cx="359" cy="346" r="1.5" fill="#7ee8c1"/>
-<text x="348" y="374" text-anchor="middle" fill="#8aa8b4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">servidor</text>
-<rect x="319.0" y="463.0" width="64" height="44" rx="10" fill="#050d12" opacity="0.55"/>
-<rect x="316.0" y="458.0" width="64" height="44" rx="10" fill="#0f2530" stroke="#4b8398" stroke-width="1.4"/>
-<rect x="331" y="466" width="34" height="8" rx="2" fill="none" stroke="#8fd3ff" stroke-width="1.4"/><circle cx="359" cy="470" r="1.5" fill="#7ee8c1"/><rect x="331" y="476" width="34" height="8" rx="2" fill="none" stroke="#8fd3ff" stroke-width="1.4"/><circle cx="359" cy="480" r="1.5" fill="#7ee8c1"/><rect x="331" y="486" width="34" height="8" rx="2" fill="none" stroke="#8fd3ff" stroke-width="1.4"/><circle cx="359" cy="490" r="1.5" fill="#7ee8c1"/>
-<text x="348" y="518" text-anchor="middle" fill="#8aa8b4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">servidor</text>
-<g transform="translate(124.8 408)"><rect x="-10" y="-6" width="20" height="12" rx="3.5" fill="#8fd3ff"/><rect x="-10" y="-6" width="7" height="12" rx="3.5" fill="#4aa9d6"/></g>
-<g transform="translate(245.12 408)"><rect x="-10" y="-6" width="20" height="12" rx="3.5" fill="#8fd3ff"/><rect x="-10" y="-6" width="7" height="12" rx="3.5" fill="#4aa9d6"/></g>
-<g transform="translate(181.2 408)"><rect x="-10" y="-6" width="20" height="12" rx="3.5" fill="#8fd3ff"/><rect x="-10" y="-6" width="7" height="12" rx="3.5" fill="#4aa9d6"/></g>
-<g transform="translate(296 454.88)"><rect x="-10" y="-6" width="20" height="12" rx="3.5" fill="#7ee8c1"/><rect x="-10" y="-6" width="7" height="12" rx="3.5" fill="#4aa9d6"/></g>
-<text x="24" y="554" text-anchor="start" fill="#7d9ba7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400" letter-spacing="2">ENCAPSULAMENTO</text>
-<rect x="24" y="566" width="80.3" height="22" rx="6" fill="#0c1f29" stroke="#2f5060"/>
-<text x="64.15" y="581" text-anchor="middle" fill="#a8c1cb" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">aplicação</text>
-<rect x="110.3" y="566" width="87" height="22" rx="6" fill="#0c1f29" stroke="#2f5060"/>
-<text x="153.8" y="581" text-anchor="middle" fill="#a8c1cb" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">transporte</text>
-<rect x="203.3" y="566" width="46.8" height="22" rx="6" fill="#0c1f29" stroke="#2f5060"/>
-<text x="226.7" y="581" text-anchor="middle" fill="#a8c1cb" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">rede</text>
-<rect x="256.1" y="566" width="60.2" height="22" rx="6" fill="#0c1f29" stroke="#2f5060"/>
-<text x="286.2" y="581" text-anchor="middle" fill="#a8c1cb" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">enlace</text>
-<text x="322.4" y="622" text-anchor="start" fill="#7d9ba7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">resposta</text><path d="M306.4 613L312.4 618L306.4 623L300.4 618Z" fill="#7ee8c1"/><text x="213.4" y="622" text-anchor="start" fill="#7d9ba7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">requisição</text><rect x="189.4" y="612" width="13" height="8" rx="2.5" fill="#8fd3ff"/>
+  <path d="M85 394H315" stroke="#3c7589" stroke-width="1.4"/>
+  <path d="M94 390L99 394L94 398M163 390L168 394L163 398M232 390L237 394L232 398M301 390L306 394L301 398" fill="none" stroke="#7ee8c1" stroke-width="1.1"/>
+  <g text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace">
+    <rect x="35" y="362" width="55" height="31" rx="8" fill="#102a36" stroke="#416a78"/>
+    <text x="62.5" y="382" fill="#e8f4f8" font-size="10" font-weight="700">UI</text>
+    <text x="62.5" y="412" fill="#8aa8b4" font-size="8">React</text>
+    <rect x="104" y="362" width="55" height="31" rx="8" fill="#102a36" stroke="#416a78"/>
+    <text x="131.5" y="382" fill="#e8f4f8" font-size="10" font-weight="700">HTTP</text>
+    <text x="131.5" y="412" fill="#8aa8b4" font-size="8">Axios</text>
+    <rect x="173" y="362" width="55" height="31" rx="8" fill="#102a36" stroke="#416a78"/>
+    <text x="200.5" y="382" fill="#e8f4f8" font-size="10" font-weight="700">API</text>
+    <text x="200.5" y="412" fill="#8aa8b4" font-size="8">Spring</text>
+    <rect x="242" y="362" width="55" height="31" rx="8" fill="#102a36" stroke="#416a78"/>
+    <text x="269.5" y="382" fill="#e8f4f8" font-size="10" font-weight="700">JPA</text>
+    <text x="269.5" y="412" fill="#8aa8b4" font-size="8">Repo</text>
+    <rect x="311" y="362" width="55" height="31" rx="8" fill="#10302f" stroke="#3b8b76"/>
+    <text x="338.5" y="382" fill="#d9fff2" font-size="10" font-weight="700">H2</text>
+    <text x="338.5" y="412" fill="#8dd5c0" font-size="8">dados</text>
+  </g>
+  <text x="34" y="445" fill="#a8c1cb" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="10">React + Vite · Axios · Spring Boot · H2</text>
+
+  <rect x="16" y="485" width="368" height="235" rx="15" fill="#091a22" stroke="#31515e"/>
+  <path d="M32 486H368" stroke="#7ee8c1" stroke-opacity=".7"/>
+  <text x="34" y="512" fill="#7ee8c1" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" font-weight="700" letter-spacing="1.1">02 / DADOS</text>
+  <text x="34" y="538" fill="#eef6f9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="16" font-weight="700">Score de crédito</text>
+  <text x="34" y="558" fill="#8aa8b4" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="11">Estudo acadêmico · dados categóricos</text>
+
+  <text x="43" y="584" fill="#7d9ba7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8" font-weight="700" letter-spacing=".6">DADOS</text>
+  <rect x="34" y="590" width="100" height="62" rx="8" fill="#0e222b" stroke="#31515e"/>
+  <path d="M34 609H134M34 630H134M67 590V652M100 590V652" stroke="#31515e" stroke-width="1"/>
+  <rect x="38" y="594" width="25" height="11" rx="2" fill="#1b5960"/>
+  <rect x="71" y="594" width="25" height="11" rx="2" fill="#1b5960"/>
+  <rect x="104" y="594" width="26" height="11" rx="2" fill="#1b5960"/>
+  <rect x="38" y="613" width="25" height="13" rx="2" fill="#183640"/>
+  <rect x="71" y="613" width="25" height="13" rx="2" fill="#20515b"/>
+  <rect x="104" y="613" width="26" height="13" rx="2" fill="#183640"/>
+  <rect x="38" y="634" width="25" height="13" rx="2" fill="#20515b"/>
+  <rect x="71" y="634" width="25" height="13" rx="2" fill="#183640"/>
+  <rect x="104" y="634" width="26" height="13" rx="2" fill="#20515b"/>
+  <path d="M140 621H167M160 615L167 621L160 627" fill="none" stroke="#7ee8c1" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="176" y="590" width="190" height="62" rx="8" fill="#0e222b" stroke="#31515e"/>
+  <rect x="176" y="590" width="190" height="17" rx="8" fill="#142e38"/>
+  <path d="M176 600V607H366V600" fill="#142e38"/>
+  <circle cx="188" cy="598.5" r="2" fill="#f0c674"/>
+  <circle cx="196" cy="598.5" r="2" fill="#7ee8c1"/>
+  <text x="206" y="602" fill="#8aa8b4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="7">notebook</text>
+  <text x="188" y="624" fill="#8fd3ff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8">01</text>
+  <path d="M204 621H351M188 638H198M204 638H270M279 638H340" stroke="#47798a" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M204 621H253M204 638H237M279 638H313" stroke="#7ee8c1" stroke-opacity=".8" stroke-width="1.8" stroke-linecap="round"/>
+  <text x="84" y="670" text-anchor="middle" fill="#8aa8b4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8">variáveis categóricas</text>
+  <text x="271" y="670" text-anchor="middle" fill="#8aa8b4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8">pré-processamento</text>
+  <rect x="34" y="685" width="332" height="21" rx="7" fill="#102a2b" stroke="#2d6559"/>
+  <circle cx="46" cy="695.5" r="2.5" fill="#7ee8c1"/>
+  <text x="56" y="699" fill="#bbdfd4" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="9">Acervo acadêmico · exploração de dados</text>
 </svg>
