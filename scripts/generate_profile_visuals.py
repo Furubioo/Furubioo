@@ -34,50 +34,74 @@ ANIMATIONS = {
     "hero-static.svg": (
         "hero.svg",
         """<g aria-hidden="true">
-  <circle cx="998" cy="235" r="3.1" fill="#7ee8c1">
-    <animateMotion dur="5s" repeatCount="indefinite" path="M0 0 H27"/>
+  <circle cx="998" cy="235" r="10" fill="#7ee8c1" opacity="0">
+    <animate attributeName="opacity" values="0;.34;.34;0" keyTimes="0;.08;.92;1" dur="3.6s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="6;10;10;6" keyTimes="0;.08;.92;1" dur="3.6s" repeatCount="indefinite"/>
+    <animateMotion dur="3.6s" repeatCount="indefinite" path="M0 0 H27"/>
+  </circle>
+  <circle cx="998" cy="235" r="5.5" fill="#b8ffeb" opacity="0">
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.92;1" dur="3.6s" repeatCount="indefinite"/>
+    <animateMotion dur="3.6s" repeatCount="indefinite" path="M0 0 H27"/>
   </circle>
 </g>""",
     ),
     "hero-mobile-static.svg": (
         "hero-mobile.svg",
         """<g aria-hidden="true">
-  <circle cx="141" cy="621" r="2.8" fill="#7ee8c1">
-    <animateMotion dur="5s" repeatCount="indefinite" path="M0 0 H26"/>
+  <circle cx="141" cy="621" r="9" fill="#7ee8c1" opacity="0">
+    <animate attributeName="opacity" values="0;.34;.34;0" keyTimes="0;.08;.92;1" dur="3.6s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="5;9;9;5" keyTimes="0;.08;.92;1" dur="3.6s" repeatCount="indefinite"/>
+    <animateMotion dur="3.6s" repeatCount="indefinite" path="M0 0 H26"/>
+  </circle>
+  <circle cx="141" cy="621" r="5" fill="#b8ffeb" opacity="0">
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.92;1" dur="3.6s" repeatCount="indefinite"/>
+    <animateMotion dur="3.6s" repeatCount="indefinite" path="M0 0 H26"/>
   </circle>
 </g>""",
     ),
     "cinema-flow-static.svg": (
         "cinema-flow.svg",
         """<g aria-hidden="true">
-  <circle cx="832" cy="272" r="3.5" fill="#8fd3ff">
-    <animateMotion dur="9s" repeatCount="indefinite" path="M0 0 V288"/>
+  <circle cx="832" cy="272" r="14" fill="#8fd3ff" opacity="0">
+    <animate attributeName="opacity" values="0;.4;.4;0" keyTimes="0;.08;.92;1" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="7;14;14;7" keyTimes="0;.08;.92;1" dur="5s" repeatCount="indefinite"/>
+    <animateMotion dur="5s" repeatCount="indefinite" path="M0 0 V288"/>
+  </circle>
+  <circle cx="832" cy="272" r="6.5" fill="#c5ebff" opacity="0">
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.92;1" dur="5s" repeatCount="indefinite"/>
+    <animateMotion dur="5s" repeatCount="indefinite" path="M0 0 V288"/>
   </circle>
 </g>""",
     ),
     "cinema-flow-mobile-static.svg": (
         "cinema-flow-mobile.svg",
         """<g aria-hidden="true">
-  <circle cx="200" cy="708" r="3.5" fill="#8fd3ff">
-    <animateMotion dur="9s" repeatCount="indefinite" path="M0 0 V268"/>
+  <circle cx="200" cy="708" r="12" fill="#8fd3ff" opacity="0">
+    <animate attributeName="opacity" values="0;.4;.4;0" keyTimes="0;.08;.92;1" dur="5.5s" repeatCount="indefinite"/>
+    <animate attributeName="r" values="6;12;12;6" keyTimes="0;.08;.92;1" dur="5.5s" repeatCount="indefinite"/>
+    <animateMotion dur="5.5s" repeatCount="indefinite" path="M0 0 V268"/>
+  </circle>
+  <circle cx="200" cy="708" r="6" fill="#c5ebff" opacity="0">
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.08;.92;1" dur="5.5s" repeatCount="indefinite"/>
+    <animateMotion dur="5.5s" repeatCount="indefinite" path="M0 0 V268"/>
   </circle>
 </g>""",
     ),
     "lab-static.svg": (
         "lab.svg",
         """<g aria-hidden="true">
-  <circle cx="433" cy="263" r="13" fill="none" stroke="#f0c674" stroke-width="1.5" opacity=".35">
-    <animate attributeName="r" values="11;17;11" dur="6s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values=".28;.58;.28" dur="6s" repeatCount="indefinite"/>
+  <circle cx="433" cy="263" r="12" fill="none" stroke="#ffe09a" stroke-width="2" opacity="0">
+    <animate attributeName="r" values="11;17;11" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;.65;0" dur="5s" repeatCount="indefinite"/>
   </circle>
 </g>""",
     ),
     "lab-mobile-static.svg": (
         "lab-mobile.svg",
         """<g aria-hidden="true">
-  <circle cx="61" cy="622" r="12" fill="none" stroke="#f0c674" stroke-width="1.5" opacity=".35">
-    <animate attributeName="r" values="10;16;10" dur="6s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values=".28;.58;.28" dur="6s" repeatCount="indefinite"/>
+  <circle cx="61" cy="622" r="12" fill="none" stroke="#ffe09a" stroke-width="2" opacity="0">
+    <animate attributeName="r" values="11;17;11" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;.65;0" dur="5s" repeatCount="indefinite"/>
   </circle>
 </g>""",
     ),
@@ -130,10 +154,10 @@ def render_calendar(year: int, levels: dict[date, int], palette: dict[str, objec
     week_count = (last_day - start_day).days // 7 + 1
 
     width = 1020
-    height = 204
-    grid_x = 66
-    grid_y = 73
-    cell = 10
+    height = 240
+    grid_x = 60
+    grid_y = 78
+    cell = 13
     gap = 3
     step = cell + gap
     colors = palette["levels"]
@@ -142,9 +166,9 @@ def render_calendar(year: int, levels: dict[date, int], palette: dict[str, objec
         f"<title id=\"title\">Calendário de contribuições públicas de {year} no GitHub</title>",
         f"<desc id=\"desc\">Calendário anual de contribuições de {USERNAME}. Cada quadrado representa um dia; a intensidade da cor corresponde ao nível público de atividade exibido pelo GitHub. Dados atualizados em {date.today().isoformat()}.</desc>",
         f'<rect width="{width}" height="{height}" rx="18" fill="{palette["background"]}" stroke="{palette["border"]}"/>',
-        f'<text x="28" y="31" fill="{palette["muted"]}" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" font-weight="700" letter-spacing="2">ATIVIDADE PÚBLICA · GITHUB</text>',
-        f'<text x="{width - 28}" y="32" text-anchor="end" fill="{palette["text"]}" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" font-weight="700">{year}</text>',
-        f'<text x="28" y="51" fill="{palette["text"]}" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13">Contribuições por dia · cada coluna corresponde a uma semana</text>',
+        f'<text x="28" y="31" fill="{palette["muted"]}" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700" letter-spacing="2">ATIVIDADE PÚBLICA · GITHUB</text>',
+        f'<text x="{width - 28}" y="34" text-anchor="end" fill="{palette["text"]}" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" font-weight="700">{year}</text>',
+        f'<text x="28" y="54" fill="{palette["text"]}" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="15">Contribuições por dia · cada coluna corresponde a uma semana</text>',
     ]
 
     for month in range(1, 13):
@@ -153,7 +177,7 @@ def render_calendar(year: int, levels: dict[date, int], palette: dict[str, objec
         items.append(
             f'<text x="{grid_x + week * step}" y="67" fill="{palette["muted"]}" '
             'font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" '
-            f'font-size="9">{MONTHS[month - 1]}</text>'
+            f'font-size="11">{MONTHS[month - 1]}</text>'
         )
 
     for row, label in ((1, "seg"), (3, "qua"), (5, "sex")):
@@ -161,7 +185,7 @@ def render_calendar(year: int, levels: dict[date, int], palette: dict[str, objec
         items.append(
             f'<text x="52" y="{y}" text-anchor="end" fill="{palette["muted"]}" '
             'font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" '
-            f'font-size="8">{label}</text>'
+            f'font-size="10">{label}</text>'
         )
 
     for week in range(week_count):
@@ -175,17 +199,18 @@ def render_calendar(year: int, levels: dict[date, int], palette: dict[str, objec
                 f'fill="{colors[level]}" data-date="{day.isoformat()}" data-level="{level}"/>'
             )
 
-    legend_y = 183
+    legend_y = 221
+    legend_x = width - 210
     items.extend(
         (
-            f'<text x="{grid_x}" y="{legend_y}" fill="{palette["muted"]}" '
-            'font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9">menos</text>',
-            f'<text x="{grid_x + 59}" y="{legend_y}" fill="{palette["muted"]}" '
-            'font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="9">mais</text>',
+            f'<text x="{legend_x}" y="{legend_y}" fill="{palette["muted"]}" '
+            'font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">menos</text>',
+            f'<text x="{legend_x + 131}" y="{legend_y}" fill="{palette["muted"]}" '
+            'font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11">mais</text>',
         )
     )
     for index, color in enumerate(colors):
-        x = grid_x + 34 + index * 15
+        x = legend_x + 43 + index * 16
         items.append(f'<rect x="{x}" y="{legend_y - 9}" width="10" height="10" rx="2" fill="{color}"/>')
 
     items.append("</svg>")

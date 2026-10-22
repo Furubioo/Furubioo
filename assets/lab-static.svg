@@ -8,14 +8,14 @@
   </defs>
   <rect width="1120" height="460" rx="24" fill="url(#bg)"/>
   <rect width="1120" height="460" rx="24" fill="url(#grid)"/>
-  <text x="32" y="36" fill="#7ee8c1" font-family="ui-monospace,monospace" font-size="10" font-weight="700" letter-spacing="1.8">ACERVO ACADÊMICO · ESTUDOS EM CÓDIGO</text>
-  <text x="32" y="65" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="22" font-weight="700">Do código ao hardware e à concorrência</text>
+  <text x="32" y="36" fill="#7ee8c1" font-family="ui-monospace,monospace" font-size="13" font-weight="700" letter-spacing="1.8">ACERVO ACADÊMICO · ESTUDOS EM CÓDIGO</text>
+  <text x="32" y="65" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="26" font-weight="700">Do código ao hardware e à concorrência</text>
   <path d="M373 90V416M746 90V416" stroke="#29434d"/>
 
-  <text x="30" y="105" fill="#7d9ba7" font-family="ui-monospace,monospace" font-size="9">construcao-compiladores/</text>
-  <text x="30" y="130" fill="#eef6f9" font-family="Arial,sans-serif" font-size="16" font-weight="700">Lexer → parser → AST</text>
-  <text x="30" y="160" fill="#d7e7ec" font-family="ui-monospace,monospace" font-size="13">total = a + 2;</text>
-  <g font-family="ui-monospace,monospace" font-size="10" font-weight="700">
+  <text x="30" y="105" fill="#7d9ba7" font-family="ui-monospace,monospace" font-size="12">construcao-compiladores/</text>
+  <text x="30" y="130" fill="#eef6f9" font-family="Arial,sans-serif" font-size="18" font-weight="700">Lexer → parser → AST</text>
+  <text x="30" y="160" fill="#d7e7ec" font-family="ui-monospace,monospace" font-size="16">total = a + 2;</text>
+  <g font-family="ui-monospace,monospace" font-size="13" font-weight="700">
     <rect x="30" y="173" width="58" height="24" rx="6" fill="#123241" stroke="#8fd3ff"/><text x="59" y="189" text-anchor="middle" fill="#8fd3ff">IDENT</text>
     <rect x="94" y="173" width="35" height="24" rx="6" fill="#12342f" stroke="#7ee8c1"/><text x="111.5" y="189" text-anchor="middle" fill="#7ee8c1">=</text>
     <rect x="135" y="173" width="45" height="24" rx="6" fill="#123241" stroke="#8fd3ff"/><text x="157.5" y="189" text-anchor="middle" fill="#8fd3ff">IDENT</text>
@@ -23,49 +23,49 @@
     <rect x="227" y="173" width="54" height="24" rx="6" fill="#3a3014" stroke="#f0c674"/><text x="254" y="189" text-anchor="middle" fill="#f0c674">INTEGER</text>
     <rect x="287" y="173" width="35" height="24" rx="6" fill="#16262e" stroke="#7d9ba7"/><text x="304.5" y="189" text-anchor="middle" fill="#a8c1cb">;</text>
   </g>
-  <text x="30" y="220" fill="#7d9ba7" font-family="ui-monospace,monospace" font-size="9" letter-spacing="1">ÁRVORE SINTÁTICA · ESQUEMA</text>
+  <text x="30" y="220" fill="#7d9ba7" font-family="ui-monospace,monospace" font-size="12" letter-spacing="1">ÁRVORE SINTÁTICA · ESQUEMA</text>
   <path d="M184 256L93 300M184 256L274 300M274 321L234 358M274 321L312 358" fill="none" stroke="#45869b" stroke-width="1.6"/>
-  <circle cx="184" cy="256" r="15" fill="#12342f" stroke="#7ee8c1"/><text x="184" y="260" text-anchor="middle" fill="#7ee8c1" font-family="ui-monospace,monospace" font-size="12" font-weight="700">=</text>
-  <rect x="67" y="288" width="52" height="26" rx="7" fill="#123241" stroke="#8fd3ff"/><text x="93" y="305" text-anchor="middle" fill="#8fd3ff" font-family="ui-monospace,monospace" font-size="11">total</text>
-  <circle cx="274" cy="300" r="15" fill="#12342f" stroke="#7ee8c1"/><text x="274" y="304" text-anchor="middle" fill="#7ee8c1" font-family="ui-monospace,monospace" font-size="12" font-weight="700">+</text>
-  <circle cx="234" cy="358" r="14" fill="#123241" stroke="#8fd3ff"/><text x="234" y="362" text-anchor="middle" fill="#8fd3ff" font-family="ui-monospace,monospace" font-size="11">a</text>
-  <circle cx="312" cy="358" r="14" fill="#3a3014" stroke="#f0c674"/><text x="312" y="362" text-anchor="middle" fill="#f0c674" font-family="ui-monospace,monospace" font-size="11">2</text>
-  <text x="30" y="403" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="9">tokens → análise sintática</text>
+  <circle cx="184" cy="256" r="15" fill="#12342f" stroke="#7ee8c1"/><text x="184" y="260" text-anchor="middle" fill="#7ee8c1" font-family="ui-monospace,monospace" font-size="15" font-weight="700">=</text>
+  <rect x="67" y="288" width="52" height="26" rx="7" fill="#123241" stroke="#8fd3ff"/><text x="93" y="305" text-anchor="middle" fill="#8fd3ff" font-family="ui-monospace,monospace" font-size="14">total</text>
+  <circle cx="274" cy="300" r="15" fill="#12342f" stroke="#7ee8c1"/><text x="274" y="304" text-anchor="middle" fill="#7ee8c1" font-family="ui-monospace,monospace" font-size="15" font-weight="700">+</text>
+  <circle cx="234" cy="358" r="14" fill="#123241" stroke="#8fd3ff"/><text x="234" y="362" text-anchor="middle" fill="#8fd3ff" font-family="ui-monospace,monospace" font-size="14">a</text>
+  <circle cx="312" cy="358" r="14" fill="#3a3014" stroke="#f0c674"/><text x="312" y="362" text-anchor="middle" fill="#f0c674" font-family="ui-monospace,monospace" font-size="14">2</text>
+  <text x="30" y="403" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="12">tokens → análise sintática</text>
 
-  <text x="395" y="105" fill="#7d9ba7" font-family="ui-monospace,monospace" font-size="9">fundamentos-hardware/</text>
-  <text x="395" y="130" fill="#eef6f9" font-family="Arial,sans-serif" font-size="16" font-weight="700">Jogo de memória · Raspberry Pi</text>
-  <text x="395" y="156" fill="#8aa8b4" font-family="ui-monospace,monospace" font-size="9">sequência de 3 cores → leitura de 3 botões</text>
+  <text x="395" y="105" fill="#7d9ba7" font-family="ui-monospace,monospace" font-size="12">fundamentos-hardware/</text>
+  <text x="395" y="130" fill="#eef6f9" font-family="Arial,sans-serif" font-size="18" font-weight="700">Jogo de memória · Raspberry Pi</text>
+  <text x="395" y="156" fill="#8aa8b4" font-family="ui-monospace,monospace" font-size="12">sequência de 3 cores → leitura de 3 botões</text>
   <rect x="395" y="171" width="330" height="182" rx="13" fill="#0d241f" stroke="#2f6b5a"/>
-  <text x="411" y="192" fill="#7ee8c1" font-family="ui-monospace,monospace" font-size="9" font-weight="700">SAÍDAS · LED</text>
-  <text x="548" y="192" fill="#8fd3ff" font-family="ui-monospace,monospace" font-size="9" font-weight="700">ENTRADAS · BOTÃO</text>
+  <text x="411" y="192" fill="#7ee8c1" font-family="ui-monospace,monospace" font-size="12" font-weight="700">SAÍDAS · LED</text>
+  <text x="548" y="192" fill="#8fd3ff" font-family="ui-monospace,monospace" font-size="12" font-weight="700">ENTRADAS · BOTÃO</text>
   <path d="M453 228H598M453 263H598M453 298H598" stroke="#3b7568" stroke-width="1.5"/>
-  <circle cx="433" cy="228" r="10" fill="#ff8f8f"/><text x="453" y="232" fill="#eaf4f7" font-family="ui-monospace,monospace" font-size="9">vermelho · GPIO 18</text>
-  <circle cx="433" cy="263" r="10" fill="#f0c674"/><text x="453" y="267" fill="#eaf4f7" font-family="ui-monospace,monospace" font-size="9">amarelo · GPIO 23</text>
-  <circle cx="433" cy="298" r="10" fill="#8fd3ff"/><text x="453" y="302" fill="#eaf4f7" font-family="ui-monospace,monospace" font-size="9">azul · GPIO 24</text>
-  <circle cx="614" cy="228" r="8" fill="#0a1b17" stroke="#ff8f8f" stroke-width="2"/><text x="630" y="232" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="9">27</text>
-  <circle cx="614" cy="263" r="8" fill="#0a1b17" stroke="#f0c674" stroke-width="2"/><text x="630" y="267" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="9">17</text>
-  <circle cx="614" cy="298" r="8" fill="#0a1b17" stroke="#8fd3ff" stroke-width="2"/><text x="630" y="302" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="9">22</text>
-  <text x="411" y="330" fill="#8aa8b4" font-family="ui-monospace,monospace" font-size="8">feedback: certo (GPIO 15) · errado (GPIO 14)</text>
-  <text x="395" y="380" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="9">Mostra cada LED por vez e verifica a resposta.</text>
-  <text x="395" y="398" fill="#7d9ba7" font-family="ui-monospace,monospace" font-size="8">pinos conforme jogo-memoria-rpi.py</text>
+  <circle cx="433" cy="228" r="10" fill="#ff8f8f"/><text x="453" y="232" fill="#eaf4f7" font-family="ui-monospace,monospace" font-size="12">vermelho · GPIO 18</text>
+  <circle cx="433" cy="263" r="10" fill="#f0c674"/><text x="453" y="267" fill="#eaf4f7" font-family="ui-monospace,monospace" font-size="12">amarelo · GPIO 23</text>
+  <circle cx="433" cy="298" r="10" fill="#8fd3ff"/><text x="453" y="302" fill="#eaf4f7" font-family="ui-monospace,monospace" font-size="12">azul · GPIO 24</text>
+  <circle cx="614" cy="228" r="8" fill="#0a1b17" stroke="#ff8f8f" stroke-width="2"/><text x="630" y="232" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="12">27</text>
+  <circle cx="614" cy="263" r="8" fill="#0a1b17" stroke="#f0c674" stroke-width="2"/><text x="630" y="267" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="12">17</text>
+  <circle cx="614" cy="298" r="8" fill="#0a1b17" stroke="#8fd3ff" stroke-width="2"/><text x="630" y="302" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="12">22</text>
+  <text x="411" y="330" fill="#8aa8b4" font-family="ui-monospace,monospace" font-size="11">feedback: certo (GPIO 15) · errado (GPIO 14)</text>
+  <text x="395" y="380" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="12">Mostra cada LED por vez e verifica a resposta.</text>
+  <text x="395" y="398" fill="#7d9ba7" font-family="ui-monospace,monospace" font-size="11">pinos conforme jogo-memoria-rpi.py</text>
 
-  <text x="770" y="105" fill="#7d9ba7" font-family="ui-monospace,monospace" font-size="9">infraestrutura-software/</text>
-  <text x="770" y="130" fill="#eef6f9" font-family="Arial,sans-serif" font-size="16" font-weight="700">Peterson · exclusão mútua</text>
-  <text x="770" y="158" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="10">estado possível · wants[0] = wants[1] = true</text>
+  <text x="770" y="105" fill="#7d9ba7" font-family="ui-monospace,monospace" font-size="12">infraestrutura-software/</text>
+  <text x="770" y="130" fill="#eef6f9" font-family="Arial,sans-serif" font-size="18" font-weight="700">Peterson · exclusão mútua</text>
+  <text x="770" y="158" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="13">wants[0] = wants[1] = true</text>
   <rect x="770" y="181" width="330" height="34" rx="8" fill="#0c1f29" stroke="#335767"/>
-  <text x="786" y="203" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="10">turn = 0</text>
+  <text x="786" y="203" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="13">turn = 0</text>
   <path d="M799 261H1033M799 331H1033" stroke="#29434d" stroke-width="1.5" stroke-dasharray="4 5"/>
   <rect x="1011" y="231" width="82" height="128" rx="12" fill="#0c1f29" stroke="#7ee8c1" stroke-width="1.5"/>
-  <text x="1052" y="286" text-anchor="middle" fill="#7ee8c1" font-family="Arial,sans-serif" font-size="11" font-weight="700">seção</text>
-  <text x="1052" y="302" text-anchor="middle" fill="#7ee8c1" font-family="Arial,sans-serif" font-size="11" font-weight="700">crítica</text>
+  <text x="1052" y="286" text-anchor="middle" fill="#7ee8c1" font-family="Arial,sans-serif" font-size="14" font-weight="700">seção</text>
+  <text x="1052" y="302" text-anchor="middle" fill="#7ee8c1" font-family="Arial,sans-serif" font-size="14" font-weight="700">crítica</text>
   <circle cx="819" cy="261" r="15" fill="#12342f" stroke="#7ee8c1" stroke-width="2"/>
-  <text x="819" y="265" text-anchor="middle" fill="#7ee8c1" font-family="ui-monospace,monospace" font-size="10" font-weight="700">T0</text>
-  <text x="844" y="265" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="9">dentro</text>
+  <text x="819" y="265" text-anchor="middle" fill="#7ee8c1" font-family="ui-monospace,monospace" font-size="13" font-weight="700">T0</text>
+  <text x="844" y="265" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="12">dentro</text>
   <circle cx="819" cy="331" r="15" fill="#123241" stroke="#8fd3ff" stroke-width="2"/>
-  <text x="819" y="335" text-anchor="middle" fill="#8fd3ff" font-family="ui-monospace,monospace" font-size="10" font-weight="700">T1</text>
-  <text x="844" y="327" fill="#f0c674" font-family="ui-monospace,monospace" font-size="9">aguarda</text>
-  <text x="844" y="341" fill="#8aa8b4" font-family="ui-monospace,monospace" font-size="8">sched_yield()</text>
-  <text x="770" y="385" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="9">T1 espera enquanto a vez é de T0.</text>
-  <text x="770" y="403" fill="#7d9ba7" font-family="ui-monospace,monospace" font-size="8">enter() / leave() · atomics sequencialmente consistentes</text>
+  <text x="819" y="335" text-anchor="middle" fill="#8fd3ff" font-family="ui-monospace,monospace" font-size="13" font-weight="700">T1</text>
+  <text x="844" y="327" fill="#f0c674" font-family="ui-monospace,monospace" font-size="12">aguarda</text>
+  <text x="844" y="341" fill="#8aa8b4" font-family="ui-monospace,monospace" font-size="11">sched_yield()</text>
+  <text x="770" y="385" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="12">T1 espera enquanto a vez é de T0.</text>
+  <text x="770" y="403" fill="#7d9ba7" font-family="ui-monospace,monospace" font-size="11">enter() / leave() · atomicidade sequencial</text>
   <rect x="1" y="1" width="1118" height="458" rx="23" fill="none" stroke="url(#line)"/>
 </svg>

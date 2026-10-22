@@ -29,7 +29,7 @@
   <text x="62" y="190" fill="#a8c1cb" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="19">Técnico em Redes de Computadores</text>
   <path d="M62 218H535" stroke="#416a78" stroke-opacity=".65"/>
   <path d="M62 218H340" stroke="#7ee8c1" stroke-width="1.5"/>
-  <text x="62" y="251" fill="#8aa8b4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" font-weight="700" letter-spacing="2.3">ESTUDOS EM FOCO</text>
+  <text x="62" y="251" fill="#8aa8b4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-weight="700" letter-spacing="2.3">ESTUDOS EM FOCO</text>
 
   <rect x="62" y="270" width="208" height="45" rx="12" fill="#12332f" stroke="#4ba891"/>
   <circle cx="82" cy="292" r="5" fill="#7ee8c1"/>
@@ -40,47 +40,47 @@
 
   <path d="M62 343H74" stroke="#7ee8c1" stroke-width="2" stroke-linecap="round"/>
   <text x="84" y="347" fill="#a8c1cb" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="13">Base técnica em redes de computadores</text>
-  <text x="62" y="378" fill="#7896a2" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" letter-spacing=".7">APLICAÇÕES · ESTRUTURAS · EXPLORAÇÃO DE DADOS</text>
+  <text x="62" y="378" fill="#7896a2" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" letter-spacing=".7">APLICAÇÕES · ESTRUTURAS · EXPLORAÇÃO DE DADOS</text>
 
-  <text x="592" y="49" fill="#7896a2" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" font-weight="700" letter-spacing="1.7">IDEIAS EM CÓDIGO <tspan fill="#4c7180">/</tspan> DOIS EIXOS DE ESTUDO</text>
+  <text x="592" y="49" fill="#7896a2" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="700" letter-spacing="1.7">IDEIAS EM CÓDIGO <tspan fill="#4c7180">/</tspan> DOIS EIXOS DE ESTUDO</text>
 
   <rect x="586" y="70" width="282" height="308" rx="17" fill="#091a22" stroke="#31515e"/>
   <path d="M604 71H850" stroke="#8fd3ff" stroke-opacity=".6"/>
-  <text x="606" y="101" fill="#8fd3ff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" font-weight="700" letter-spacing="1.3">01 / DESENVOLVIMENTO</text>
+  <text x="606" y="101" fill="#8fd3ff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="700" letter-spacing="1.3">01 / DESENVOLVIMENTO</text>
   <text x="606" y="129" fill="#eef6f9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="18" font-weight="700">Sistema de Cinema</text>
-  <text x="606" y="150" fill="#8aa8b4" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="11">Implementação Web · projeto acadêmico</text>
+  <text x="606" y="150" fill="#8aa8b4" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="13">Implementação Web · projeto acadêmico</text>
 
   <path d="M650 219H824" fill="none" stroke="#3c7589" stroke-width="1.5"/>
   <path d="M662 215L668 219L662 223M706 215L712 219L706 223M750 215L756 219L750 223M794 215L800 219L794 223" fill="none" stroke="#7ee8c1" stroke-width="1.2"/>
   <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" text-anchor="middle">
     <rect x="611" y="177" width="46" height="39" rx="9" fill="#102a36" stroke="#416a78"/>
-    <text x="634" y="202" fill="#e8f4f8" font-size="11" font-weight="700">UI</text>
-    <text x="634" y="237" fill="#8aa8b4" font-size="9">React</text>
+    <text x="634" y="202" fill="#e8f4f8" font-size="13" font-weight="700">UI</text>
+    <text x="634" y="237" fill="#8aa8b4" font-size="11">React</text>
     <rect x="661" y="177" width="46" height="39" rx="9" fill="#102a36" stroke="#416a78"/>
-    <text x="684" y="202" fill="#e8f4f8" font-size="11" font-weight="700">HTTP</text>
-    <text x="684" y="237" fill="#8aa8b4" font-size="9">Axios</text>
+    <text x="684" y="202" fill="#e8f4f8" font-size="13" font-weight="700">HTTP</text>
+    <text x="684" y="237" fill="#8aa8b4" font-size="11">Axios</text>
     <rect x="711" y="177" width="46" height="39" rx="9" fill="#102a36" stroke="#416a78"/>
-    <text x="734" y="202" fill="#e8f4f8" font-size="11" font-weight="700">API</text>
-    <text x="734" y="237" fill="#8aa8b4" font-size="9">Spring</text>
+    <text x="734" y="202" fill="#e8f4f8" font-size="13" font-weight="700">API</text>
+    <text x="734" y="237" fill="#8aa8b4" font-size="11">Spring</text>
     <rect x="761" y="177" width="46" height="39" rx="9" fill="#102a36" stroke="#416a78"/>
-    <text x="784" y="202" fill="#e8f4f8" font-size="11" font-weight="700">JPA</text>
-    <text x="784" y="237" fill="#8aa8b4" font-size="9">Repo</text>
+    <text x="784" y="202" fill="#e8f4f8" font-size="13" font-weight="700">JPA</text>
+    <text x="784" y="237" fill="#8aa8b4" font-size="11">Repo</text>
     <rect x="811" y="177" width="46" height="39" rx="9" fill="#10302f" stroke="#3b8b76"/>
-    <text x="834" y="202" fill="#d9fff2" font-size="11" font-weight="700">H2</text>
-    <text x="834" y="237" fill="#8dd5c0" font-size="9">dados</text>
+    <text x="834" y="202" fill="#d9fff2" font-size="13" font-weight="700">H2</text>
+    <text x="834" y="237" fill="#8dd5c0" font-size="11">dados</text>
   </g>
   <text x="606" y="284" fill="#a8c1cb" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12">React + Vite · Spring Boot · persistência</text>
   <rect x="606" y="305" width="242" height="43" rx="9" fill="#0d222c" stroke="#254552"/>
   <path d="M622 320H631L636 326L631 332H622M642 320H650" fill="none" stroke="#8fd3ff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="662" y="331" fill="#8aa8b4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">interface → API → banco</text>
+  <text x="662" y="331" fill="#8aa8b4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12">interface → API → banco</text>
 
   <rect x="888" y="70" width="282" height="308" rx="17" fill="#091a22" stroke="#31515e"/>
   <path d="M906 71H1152" stroke="#7ee8c1" stroke-opacity=".65"/>
-  <text x="908" y="101" fill="#7ee8c1" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" font-weight="700" letter-spacing="1.3">02 / DADOS</text>
+  <text x="908" y="101" fill="#7ee8c1" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="700" letter-spacing="1.3">02 / DADOS</text>
   <text x="908" y="129" fill="#eef6f9" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="17" font-weight="700">Score de crédito</text>
-  <text x="908" y="150" fill="#8aa8b4" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="11">Estudo acadêmico · dados categóricos</text>
+  <text x="908" y="150" fill="#8aa8b4" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="13">Estudo acadêmico · dados categóricos</text>
 
-  <text x="914" y="181" fill="#7d9ba7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9" font-weight="700" letter-spacing=".8">ENTRADA</text>
+  <text x="914" y="181" fill="#7d9ba7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11" font-weight="700" letter-spacing=".8">ENTRADA</text>
   <g>
     <rect x="908" y="190" width="83" height="91" rx="9" fill="#0e222b" stroke="#31515e"/>
     <path d="M908 211H991M908 234H991M908 257H991M936 190V281M964 190V281" stroke="#31515e" stroke-width="1"/>
@@ -103,14 +103,14 @@
   <path d="M1032 201V210H1153V201" fill="#142e38"/>
   <circle cx="1045" cy="200" r="2.4" fill="#f0c674"/>
   <circle cx="1054" cy="200" r="2.4" fill="#7ee8c1"/>
-  <text x="1065" y="203" fill="#8aa8b4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="8">notebook</text>
-  <text x="1043" y="229" fill="#8fd3ff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9">01</text>
+  <text x="1065" y="203" fill="#8aa8b4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10">notebook</text>
+  <text x="1043" y="229" fill="#8fd3ff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11">01</text>
   <path d="M1060 226H1138M1043 244H1051M1057 244H1122M1043 260H1081M1087 260H1138" stroke="#47798a" stroke-width="2" stroke-linecap="round"/>
   <path d="M1060 226H1091M1057 244H1094M1087 260H1111" stroke="#7ee8c1" stroke-opacity=".8" stroke-width="2" stroke-linecap="round"/>
-  <text x="949" y="302" text-anchor="middle" fill="#8aa8b4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9">variáveis</text>
-  <text x="949" y="314" text-anchor="middle" fill="#8aa8b4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9">categóricas</text>
-  <text x="1092" y="302" text-anchor="middle" fill="#8aa8b4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="9">pré-processamento</text>
+  <text x="949" y="302" text-anchor="middle" fill="#8aa8b4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11">variáveis</text>
+  <text x="949" y="314" text-anchor="middle" fill="#8aa8b4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11">categóricas</text>
+  <text x="1092" y="302" text-anchor="middle" fill="#8aa8b4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11">pré-processamento</text>
   <rect x="908" y="331" width="245" height="27" rx="8" fill="#102a2b" stroke="#2d6559"/>
   <circle cx="922" cy="344.5" r="3" fill="#7ee8c1"/>
-  <text x="934" y="348" fill="#bbdfd4" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="10">notebook · exploração de dados</text>
+  <text x="934" y="348" fill="#bbdfd4" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="12">notebook · exploração de dados</text>
 </svg>
