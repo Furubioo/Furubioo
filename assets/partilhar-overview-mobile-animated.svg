@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 850" role="img" aria-labelledby="title desc">
+  <title id="title">Partilhar · sequência real das seções do site</title>
+  <desc id="desc">Mapa vertical na ordem do HTML: Início, Sobre, Serviços, Galeria com cinco imagens, Voluntariado com formulário, Depoimentos com três itens no carrossel JavaScript e Doações.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07131a"/><stop offset="1" stop-color="#102f3c"/></linearGradient>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#8fd3ff"/></marker>
+  </defs>
+  <rect width="400" height="850" rx="20" fill="url(#bg)"/>
+  <text x="20" y="42" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="22" font-weight="700">Partilhar · ordem da página</text>
+  <text x="20" y="72" fill="#c2d3da" font-family="Arial,sans-serif" font-size="13">Conteúdo do HTML · galeria com cinco imagens</text>
+  <path d="M200 176V230M200 270V320M200 360V410M200 450V500M200 540V590M200 630V680" fill="none" stroke="#8fd3ff" stroke-width="2" marker-end="url(#arrow)"/>
+  <g class="section-node"><rect id="section-home" x="20" y="112" width="360" height="64" rx="12" fill="#102a36" stroke="#52717d" stroke-width="2"/><text x="200" y="152" text-anchor="middle" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="18" font-weight="700">Início</text></g>
+  <g class="section-node"><rect id="section-about" x="20" y="206" width="360" height="64" rx="12" fill="#102a36" stroke="#52717d" stroke-width="2"/><text x="200" y="246" text-anchor="middle" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="18" font-weight="700">Sobre</text></g>
+  <g class="section-node"><rect id="section-services" x="20" y="300" width="360" height="64" rx="12" fill="#102a36" stroke="#52717d" stroke-width="2"/><text x="200" y="340" text-anchor="middle" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="18" font-weight="700">Serviços</text></g>
+  <g class="section-node"><rect id="section-gallery" x="20" y="394" width="360" height="64" rx="12" fill="#102a36" stroke="#52717d" stroke-width="2"/><text x="200" y="434" text-anchor="middle" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="18" font-weight="700">Galeria · 5 imagens</text></g>
+  <g class="section-node"><rect id="section-volunteer" x="20" y="488" width="360" height="64" rx="12" fill="#102a36" stroke="#52717d" stroke-width="2"/><text x="200" y="528" text-anchor="middle" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="18" font-weight="700">Voluntariado · formulário</text></g>
+  <g class="section-node"><rect id="section-testimonials" x="20" y="582" width="360" height="64" rx="12" fill="#102a36" stroke="#52717d" stroke-width="2"/><text x="200" y="622" text-anchor="middle" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="18" font-weight="700">Depoimentos · 3 itens</text></g>
+  <g fill="#8fd3ff"><circle id="testimonial-dot-1" cx="183" cy="634" r="4.5"/><circle id="testimonial-dot-2" cx="200" cy="634" r="4.5"/><circle id="testimonial-dot-3" cx="217" cy="634" r="4.5"/></g>
+  <g class="section-node"><rect id="section-donations" x="20" y="676" width="360" height="64" rx="12" fill="#102a36" stroke="#52717d" stroke-width="2"/><text x="200" y="716" text-anchor="middle" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="18" font-weight="700">Doações</text></g>
+  <text x="20" y="786" fill="#c2d3da" font-family="Arial,sans-serif" font-size="13">Carrossel implementado em JavaScript.</text>
+<g aria-hidden="true"><circle r="7" fill="#8fd3ff" stroke="#f4f9fb" stroke-width="3" aria-hidden="true">
+  <animateMotion path="M40 144 H36 V238 H40 V332 H36 V426 H40 V520 H36 V614 H40 V708 H36" dur="14s" begin="0s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="1;1;0;0;1" keyTimes="0;0.76;0.84;0.96;1" dur="14s" begin="0s" repeatCount="indefinite"/>
+</circle>
+<animate href="#section-home" attributeName="stroke-width" values="2;2;4;4;2;2" keyTimes="0;0.01;0.02;0.09;0.10;1" dur="14s" begin="0s" repeatCount="indefinite"/>
+<animate href="#section-about" attributeName="stroke-width" values="2;2;4;4;2;2" keyTimes="0;0.12;0.13;0.20;0.21;1" dur="14s" begin="0s" repeatCount="indefinite"/>
+<animate href="#section-services" attributeName="stroke-width" values="2;2;4;4;2;2" keyTimes="0;0.24;0.25;0.32;0.33;1" dur="14s" begin="0s" repeatCount="indefinite"/>
+<animate href="#section-gallery" attributeName="stroke-width" values="2;2;4;4;2;2" keyTimes="0;0.36;0.37;0.44;0.45;1" dur="14s" begin="0s" repeatCount="indefinite"/>
+<animate href="#section-volunteer" attributeName="stroke-width" values="2;2;4;4;2;2" keyTimes="0;0.48;0.49;0.56;0.57;1" dur="14s" begin="0s" repeatCount="indefinite"/>
+<animate href="#section-testimonials" attributeName="stroke-width" values="2;2;4;4;2;2" keyTimes="0;0.60;0.61;0.68;0.69;1" dur="14s" begin="0s" repeatCount="indefinite"/>
+<animate href="#section-donations" attributeName="stroke-width" values="2;2;4;4;2;2" keyTimes="0;0.72;0.73;0.80;0.81;1" dur="14s" begin="0s" repeatCount="indefinite"/>
+<animate href="#testimonial-dot-1" attributeName="opacity" values="1;.35;1" keyTimes="0;.5;1" dur="3s" begin="0s" repeatCount="indefinite"/>
+<animate href="#testimonial-dot-2" attributeName="opacity" values="1;.35;1" keyTimes="0;.5;1" dur="3s" begin="1s" repeatCount="indefinite"/>
+<animate href="#testimonial-dot-3" attributeName="opacity" values="1;.35;1" keyTimes="0;.5;1" dur="3s" begin="2s" repeatCount="indefinite"/></g>
+</svg>

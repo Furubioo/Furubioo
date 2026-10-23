@@ -3,23 +3,28 @@
     <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="assets/hero-mobile-static.svg">
     <source media="(max-width: 600px)" srcset="assets/hero-mobile.svg">
     <source media="(prefers-reduced-motion: reduce)" srcset="assets/hero-static.svg">
-    <img src="assets/hero.svg" alt="Flávio Daniel, estudante de Ciência da Computação na UNICAP e técnico em Redes de Computadores. Em destaque, seus estudos em desenvolvimento de software e dados, com exemplos do Sistema de Cinema e do pré-processamento de dados categóricos em um estudo de score de crédito." width="100%">
+    <img src="assets/hero.svg" alt="Flávio Daniel, estudante de Ciência da Computação na UNICAP e técnico em Redes de Computadores. Desenvolvimento e dados aparecem como focos com projetos; IA aparece separada, apenas como interesse, sem projeto de modelagem ou treinamento." width="100%">
   </picture>
 </p>
 
-> Meu interesse está no desenvolvimento de software e em dados: construir
-> aplicações e explorar como preparar e organizar informações.
+> Meus focos de estudo são desenvolvimento de software e dados. Também tenho
+> interesse em IA, ainda sem projetos de modelagem ou treinamento para apresentar.
 
 Aqui reúno projetos acadêmicos, exercícios e experimentos — cada um no seu
 contexto de aprendizado.
 
 <p align="center">
+  <a href="#sobre">Sobre</a> ·
   <a href="#projetos-em-destaque">Projetos em destaque</a> ·
-  <a href="#estudos-em-código">Estudos em código</a> ·
+  <a href="#acervo-de-estudos">Acervo de estudos</a> ·
   <a href="#tecnologias">Tecnologias</a> ·
   <a href="#atividade-no-github">Atividade no GitHub</a> ·
   <a href="#formação">Formação</a>
 </p>
+
+## Sobre
+
+Flávio Daniel é estudante de Ciência da Computação na UNICAP e técnico em Redes de Computadores. O foco principal de estudo está em desenvolvimento de software, dados e exploração de conceitos de IA como interesse acadêmico e experimental, sem projetos de modelagem ou treinamento para apresentar.
 
 ## Projetos em destaque
 
@@ -27,8 +32,8 @@ contexto de aprendizado.
 
 Projeto acadêmico de POO, desenvolvido em equipe de três pessoas, em duas implementações independentes.
 
-- **Terminal:** Java com `CinemaView`, controllers e modelos; `Usuario` delega o cálculo do ingresso a estratégias de preço e os dados são persistidos em arquivos.
-- **Web:** páginas React + Vite comunicam via Axios com controllers Spring Boot, repositórios JPA e banco H2.
+- **Terminal:** Java com `CinemaView`, `CinemaController` e `Usuario`; `EstrategiaPreco` oferece `PrecoComum` (preço-base), `PrecoCritico` (R$ 0) e `PrecoEstudante` (metade). Os dados são persistidos em `filmes.txt` e `usuarios.txt`.
+- **Web:** páginas React + Vite usam Axios em `localhost:8080`; `POST /sessoes/{id}/comprar` chega a `SessaoController` e `SessaoRepository` (Spring Data JPA), com persistência em H2.
 
 A versão web teve assistência de IA em parte do código.
 
@@ -41,7 +46,7 @@ A versão web teve assistência de IA em parte do código.
     <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="assets/cinema-flow-mobile-static.svg">
     <source media="(max-width: 600px)" srcset="assets/cinema-flow-mobile.svg">
     <source media="(prefers-reduced-motion: reduce)" srcset="assets/cinema-flow-static.svg">
-    <img src="assets/cinema-flow.svg" alt="Diagrama esquemático do Sistema de Cinema, não uma captura de tela. Terminal Java: CinemaView, CinemaController, Usuario com PrecoComum (preço-base), PrecoCritico (gratuito) e PrecoEstudante (metade), Sessao/Sala/Bilhete e PersistenciaArquivo em filmes.txt e usuarios.txt. Web: páginas React, Axios, SessaoController, SessaoRepository e H2." width="100%">
+    <img src="assets/cinema-flow.svg" alt="Diagrama esquemático das duas implementações do Sistema de Cinema. No terminal, a compra percorre CinemaView, CinemaController, Usuario, as estratégias alternativas PrecoComum (preço-base), PrecoCritico (R$ 0) e PrecoEstudante (metade), Sessao, Sala, Bilhete e PersistenciaArquivo. Na Web, uma requisição POST /sessoes/{id}/comprar segue de ProgramacaoPage/CompraPage por Axios em localhost:8080, SessaoController, SessaoRepository e H2; a resposta volta em trilha tracejada." width="100%">
   </picture>
 </p>
 
@@ -54,46 +59,52 @@ Site institucional para uma ONG, com conteúdo sobre acolhimento e bem-estar, qu
 
 <p align="center">
   <picture>
-    <source media="(max-width: 600px)" srcset="assets/partilhar-overview-mobile.svg">
-    <img src="assets/partilhar-overview.svg" alt="Mapa esquemático do conteúdo do Site ONG Partilhar, não uma captura de tela: apresentação da missão, seções Quem somos/O que fazemos/Por que fazemos, quatro categorias de serviços, galeria, depoimentos, cadastro de voluntariado e doações." width="100%">
+    <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="assets/partilhar-overview-mobile.svg">
+    <source media="(max-width: 600px)" srcset="assets/partilhar-overview-mobile-animated.svg">
+    <source media="(prefers-reduced-motion: reduce)" srcset="assets/partilhar-overview.svg">
+    <img src="assets/partilhar-overview-animated.svg" alt="Mapa esquemático, não uma captura de tela, na ordem real do HTML do Site ONG Partilhar: Início, Sobre, Serviços, Galeria com cinco imagens, formulário de voluntariado, três depoimentos em carrossel JavaScript e Doações." width="100%">
   </picture>
 </p>
 
-<p align="center"><sub>O mapa representa as seções encontradas no código; não é uma captura da interface publicada.</sub></p>
+<p align="center"><sub>O mapa segue a ordem do HTML — inclusive o formulário antes do carrossel e as doações depois — e não é uma captura da interface publicada.</sub></p>
 
-## Estudos em código
+## Acervo de estudos
 
-O [repositório acadêmico](https://github.com/Furubioo/registro-academico-ciencia-da-computacao)
-organiza estudos por disciplina e tema: exercícios, revisões, notebooks e
-projetos didáticos — não uma lista de tecnologias que afirmo dominar.
+O [repositório acadêmico](https://github.com/Furubioo/registro-academico-ciencia-da-computacao) reúne exercícios, revisões, notebooks, projetos didáticos e experimentos em múltiplas áreas. A seguir, as 11 áreas estão visíveis diretamente no perfil, sem menus ocultos.
 
 <p align="center">
   <picture>
     <source media="(max-width: 600px) and (prefers-reduced-motion: reduce)" srcset="assets/lab-mobile-static.svg">
     <source media="(max-width: 600px)" srcset="assets/lab-mobile.svg">
     <source media="(prefers-reduced-motion: reduce)" srcset="assets/lab-static.svg">
-    <img src="assets/lab.svg" alt="Diagrama esquemático de três estudos. Compilador C simplificado: código-fonte, tokens e árvore sintática. Raspberry Pi: três LEDs ligados a três botões e dois LEDs de feedback do jogo de memória. Peterson: estado possível com T0 na seção crítica e T1 aguardando via sched_yield." width="100%">
+    <img src="assets/lab.svg" alt="Painel esquemático com cenas de três estudos. Compilador C: expressão e árvore sintática. Raspberry Pi: LEDs GPIO 18, 23 e 24; botões 27, 17 e 22; feedback certo no GPIO 15 ou errado no GPIO 14. Peterson: wants[0] e wants[1], turn, uma thread por vez na seção crítica e a outra aguardando com sched_yield()." width="100%">
   </picture>
 </p>
 
-<details>
-<summary><b>Ver as 11 áreas do acervo</b></summary>
+### Fundamentos e programação
 
-<br>
+- [Python](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/fundamentos-python) — 61 exercícios independentes de fundamentos e lógica.
+- [C estruturado](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/programacao-estruturada-c) — 124 exercícios sobre fundamentos, vetores, matrizes, strings, ponteiros, structs e arquivos.
 
-| Trilha de estudo | Áreas e exemplos |
-| --- | --- |
-| **Lógica e fundamentos** | [Python](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/fundamentos-python): 61 exercícios independentes; [C estruturado](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/programacao-estruturada-c): 124 exercícios independentes de fundamentos, vetores, matrizes, strings, ponteiros, structs e arquivos |
-| **Estruturas de dados e orientação a objetos** | [Estruturas de dados em C](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/estruturas-dados-c): listas, filas, pilhas, deques e tabela hash; [POO em Java](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/poo-java): projetos didáticos independentes |
-| **Compiladores, infraestrutura e hardware** | [Compiladores](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/construcao-compiladores): tokens, lexer, parser e testes; [Concorrência](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/infraestrutura-software): algoritmo de Peterson e threads; [Hardware](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/fundamentos-hardware): jogo de memória com LEDs, botões e GPIO em Raspberry Pi |
-| **Matemática computacional** | [Álgebra linear](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/algebra-linear-computacional): matrizes, sistemas lineares, cifra de Hill e transformações 2D/3D; [Cálculo](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/calculo-computacional): limites, derivadas, integrais, curvas e volumes; [Métodos numéricos](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/metodos-numericos): notebooks de modelagem e aproximação |
-| **Exploração e análise de dados** | [Projetos exploratórios](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/projetos-exploratorios): notebook de pré-processamento de dados categóricos para estudo de score de crédito |
+### Estruturas e arquitetura de software
 
-O acervo também preserva projetos independentes de Java e C. Consulte o
-[README acadêmico](https://github.com/Furubioo/registro-academico-ciencia-da-computacao#readme)
-para navegar por todas as disciplinas e orientações de execução.
+- [Estruturas de dados em C](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/estruturas-dados-c) — listas, filas, pilhas, deques e tabela hash.
+- [POO em Java](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/poo-java) — projetos didáticos independentes de orientação a objetos.
+- [Construção de compiladores](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/construcao-compiladores) — tokens, lexer, parser e testes.
+- [Infraestrutura de software e concorrência](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/infraestrutura-software) — algoritmo de Peterson e estudos de threads.
 
-</details>
+### Hardware e matemática computacional
+
+- [Fundamentos de hardware](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/fundamentos-hardware) — Raspberry Pi, GPIO, LEDs, botões e lógica de controle.
+- [Álgebra linear computacional](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/algebra-linear-computacional) — matrizes, sistemas lineares, cifra de Hill e transformações 2D/3D.
+- [Cálculo computacional](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/calculo-computacional) — limites, derivadas, integrais, curvas e volumes.
+- [Métodos numéricos](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/metodos-numericos) — notebooks de modelagem e aproximação.
+
+### Dados
+
+- [Projetos exploratórios](https://github.com/Furubioo/registro-academico-ciencia-da-computacao/tree/main/projetos-exploratorios) — notebooks e experimentos de análise e pré-processamento de dados.
+
+O acervo também preserva projetos independentes de Java e C. Consulte o [README acadêmico](https://github.com/Furubioo/registro-academico-ciencia-da-computacao#readme) para aprofundamento e execução das disciplinas.
 
 ## Tecnologias
 
@@ -107,12 +118,12 @@ Ferramentas presentes nos projetos e estudos — a lista descreve o contexto do 
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/github-activity-dark.svg">
-    <img src="assets/github-activity.svg" alt="Calendário anual das contribuições públicas de Furubioo no GitHub. Cada célula representa um dia e a intensidade da cor indica o nível de atividade exibido pelo GitHub." width="100%">
+    <source media="(max-width: 600px)" srcset="assets/project-timeline-mobile.svg">
+    <img src="assets/project-timeline.svg" alt="Linha do tempo dos três repositórios em destaque: primeiro e último commit do Site ONG Partilhar, Sistema de Cinema e acervo acadêmico, consultados na API pública do GitHub." width="100%">
   </picture>
 </p>
 
-<p align="center">Calendário original armazenado no repositório e atualizado diariamente por workflow; usa somente a página pública de contribuições, sem token pessoal. Se uma atualização falhar, a última imagem válida permanece versionada. O <a href="https://github.com/Furubioo">perfil no GitHub</a> continua sendo a fonte oficial.</p>
+<p align="center">Datas do primeiro e do último commit (data do committer), consultadas na API REST pública do GitHub e atualizadas diariamente por workflow, sem token pessoal. <a href="https://github.com/Furubioo/Sistema-de-Cinema-JAVA-">Sistema de Cinema</a> · <a href="https://github.com/Furubioo/registro-academico-ciencia-da-computacao">Acervo acadêmico</a> · <a href="https://github.com/Furubioo/SiteOngPartilhar">Site ONG Partilhar</a>. O <a href="https://github.com/Furubioo">perfil no GitHub</a> continua sendo a fonte oficial das contribuições.</p>
 
 ## Formação
 

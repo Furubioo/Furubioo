@@ -1,78 +1,99 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 1190" role="img" aria-labelledby="title desc">
-  <title id="title">Três estudos do acervo acadêmico</title>
-  <desc id="desc">Diagrama vertical esquemático: tokens e árvore de um compilador C simplificado; três LEDs, três botões e dois LEDs de feedback do jogo Raspberry Pi; estado possível do algoritmo de Peterson com T0 na seção crítica e T1 aguardando. Conteúdo completo sem animação.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 1360" role="img" aria-labelledby="title desc">
+  <title id="title">Laboratório · parsing, GPIO e sincronização</title>
+  <desc id="desc">Versão vertical: árvore da expressão total = a + 2; LEDs nos GPIO 18, 23 e 24, botões 27, 17 e 22, feedback certo no GPIO 15 e errado no GPIO 14; Peterson com T0 na seção crítica, T1 em espera, wants[2], turn = 0 e sched_yield().</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07131a"/><stop offset="1" stop-color="#102f3c"/></linearGradient>
-    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#b5e4f3" stroke-opacity=".045"/></pattern>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07131a"/><stop offset="1" stop-color="#102f3c"/></linearGradient>
+    <marker id="arrow" markerWidth="7" markerHeight="7" refX="5" refY="3.5" orient="auto"><path d="M0 0L7 3.5L0 7Z" fill="#8fd3ff"/></marker>
   </defs>
-  <rect width="400" height="1190" rx="20" fill="url(#bg)"/><rect width="400" height="1190" rx="20" fill="url(#grid)"/>
-  <text x="22" y="34" fill="#7ee8c1" font-family="ui-monospace,monospace" font-size="10" font-weight="700" letter-spacing="1.4">ACERVO ACADÊMICO · ESTUDOS EM CÓDIGO</text>
-  <text x="22" y="64" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="23" font-weight="700">Do código ao hardware</text>
-  <text x="22" y="84" fill="#a8c1cb" font-family="Arial,sans-serif" font-size="13">e à concorrência · diagramas esquemáticos</text>
-
-  <rect x="16" y="104" width="368" height="326" rx="15" fill="#081920" stroke="#365867"/>
-  <text x="34" y="132" fill="#7d9ba7" font-family="ui-monospace,monospace" font-size="10">construcao-compiladores/</text>
-  <text x="34" y="157" fill="#eef6f9" font-family="Arial,sans-serif" font-size="18" font-weight="700">Lexer → parser → AST</text>
-  <text x="34" y="185" fill="#d7e7ec" font-family="ui-monospace,monospace" font-size="14">total = a + 2;</text>
-  <g font-family="ui-monospace,monospace" font-size="10" font-weight="700">
-    <rect x="34" y="198" width="58" height="23" rx="6" fill="#123241" stroke="#8fd3ff"/><text x="63" y="213" text-anchor="middle" fill="#8fd3ff">IDENT</text>
-    <rect x="98" y="198" width="32" height="23" rx="6" fill="#12342f" stroke="#7ee8c1"/><text x="114" y="213" text-anchor="middle" fill="#7ee8c1">=</text>
-    <rect x="136" y="198" width="48" height="23" rx="6" fill="#123241" stroke="#8fd3ff"/><text x="160" y="213" text-anchor="middle" fill="#8fd3ff">IDENT</text>
-    <rect x="190" y="198" width="32" height="23" rx="6" fill="#12342f" stroke="#7ee8c1"/><text x="206" y="213" text-anchor="middle" fill="#7ee8c1">+</text>
-    <rect x="228" y="198" width="58" height="23" rx="6" fill="#3a3014" stroke="#f0c674"/><text x="257" y="213" text-anchor="middle" fill="#f0c674">INTEGER</text>
-    <rect x="292" y="198" width="32" height="23" rx="6" fill="#16262e" stroke="#7d9ba7"/><text x="308" y="213" text-anchor="middle" fill="#a8c1cb">;</text>
+  <rect width="400" height="1360" rx="20" fill="url(#bg)"/>
+  <text x="20" y="42" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="22" font-weight="700">Laboratório</text>
+  <g id="panel-parser" data-panel="parser">
+    <rect class="panel-card" x="16" y="68" width="368" height="340" rx="16" fill="#0c1f29" stroke="#52717d" stroke-width="2"/>
+    <text x="32" y="102" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="13" font-weight="700">01 · PARSING</text>
+    <text x="32" y="139" fill="#8fd3ff" font-family="Arial,sans-serif" font-size="13">total = a + 2;</text>
+    <path d="M200 193V222M200 222H100V248M200 222H300V248" fill="none" stroke="#8fd3ff" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect id="parser-root" x="108" y="159" width="184" height="40" rx="9" fill="#102a36" stroke="#8fd3ff" stroke-width="2"/>
+    <text x="200" y="185" text-anchor="middle" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="13" font-weight="700">Atribuição</text>
+    <rect id="parser-left" x="32" y="248" width="136" height="46" rx="9" fill="#102a36" stroke="#52717d" stroke-width="2"/>
+    <text x="100" y="277" text-anchor="middle" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="13">total</text>
+    <rect id="parser-sum" x="232" y="248" width="136" height="46" rx="9" fill="#102a36" stroke="#52717d" stroke-width="2"/>
+    <text x="300" y="277" text-anchor="middle" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="13" font-weight="700">Soma</text>
+    <path d="M300 294V316M300 316H242V342M300 316H358V342" fill="none" stroke="#8fd3ff" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect id="parser-a" x="214" y="316" width="56" height="28" rx="8" fill="#102a36" stroke="#52717d" stroke-width="2"/>
+    <text x="242" y="368" text-anchor="middle" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="13">a</text>
+    <rect id="parser-constant" x="330" y="316" width="56" height="28" rx="8" fill="#102a36" stroke="#52717d" stroke-width="2"/>
+    <text x="358" y="368" text-anchor="middle" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="13">2</text>
+    <text x="32" y="376" fill="#c2d3da" font-family="Arial,sans-serif" font-size="13">Árvore sintática</text>
   </g>
-  <text x="34" y="246" fill="#7d9ba7" font-family="ui-monospace,monospace" font-size="10" letter-spacing="1">ÁRVORE SINTÁTICA · ESQUEMA</text>
-  <path d="M200 270L117 308M200 270L283 308M283 326L241 362M283 326L325 362" fill="none" stroke="#45869b" stroke-width="1.5"/>
-  <circle cx="200" cy="270" r="14" fill="#12342f" stroke="#7ee8c1"/><text x="200" y="274" text-anchor="middle" fill="#7ee8c1" font-family="ui-monospace,monospace" font-size="12" font-weight="700">=</text>
-  <rect x="91" y="296" width="52" height="24" rx="7" fill="#123241" stroke="#8fd3ff"/><text x="117" y="312" text-anchor="middle" fill="#8fd3ff" font-family="ui-monospace,monospace" font-size="11">total</text>
-  <circle cx="283" cy="308" r="14" fill="#12342f" stroke="#7ee8c1"/><text x="283" y="312" text-anchor="middle" fill="#7ee8c1" font-family="ui-monospace,monospace" font-size="12" font-weight="700">+</text>
-  <circle cx="241" cy="362" r="13" fill="#123241" stroke="#8fd3ff"/><text x="241" y="366" text-anchor="middle" fill="#8fd3ff" font-family="ui-monospace,monospace" font-size="11">a</text>
-  <circle cx="325" cy="362" r="13" fill="#3a3014" stroke="#f0c674"/><text x="325" y="366" text-anchor="middle" fill="#f0c674" font-family="ui-monospace,monospace" font-size="11">2</text>
-  <text x="34" y="408" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="10">tokens → análise sintática</text>
-
-  <rect x="16" y="450" width="368" height="320" rx="15" fill="#081920" stroke="#365867"/>
-  <text x="34" y="478" fill="#7d9ba7" font-family="ui-monospace,monospace" font-size="10">fundamentos-hardware/</text>
-  <text x="34" y="503" fill="#eef6f9" font-family="Arial,sans-serif" font-size="18" font-weight="700">Jogo de memória · Raspberry Pi</text>
-  <text x="34" y="524" fill="#8aa8b4" font-family="ui-monospace,monospace" font-size="10">3 cores em sequência → 3 respostas</text>
-  <rect x="34" y="541" width="332" height="150" rx="12" fill="#0d241f" stroke="#2f6b5a"/>
-  <text x="48" y="562" fill="#7ee8c1" font-family="ui-monospace,monospace" font-size="9" font-weight="700">LED · SAÍDA</text>
-  <text x="222" y="562" fill="#8fd3ff" font-family="ui-monospace,monospace" font-size="9" font-weight="700">BOTÃO · ENTRADA</text>
-  <path d="M95 589H245M95 622H245M95 655H245" stroke="#3b7568" stroke-width="1.5"/>
-  <circle cx="61" cy="589" r="9" fill="#ff8f8f"/><text x="78" y="592" fill="#eaf4f7" font-family="ui-monospace,monospace" font-size="9">GPIO 18</text>
-  <circle cx="61" cy="622" r="9" fill="#f0c674"/><text x="78" y="625" fill="#eaf4f7" font-family="ui-monospace,monospace" font-size="9">GPIO 23</text>
-  <circle cx="61" cy="655" r="9" fill="#8fd3ff"/><text x="78" y="658" fill="#eaf4f7" font-family="ui-monospace,monospace" font-size="9">GPIO 24</text>
-  <circle cx="263" cy="589" r="8" fill="#0a1b17" stroke="#ff8f8f" stroke-width="2"/><text x="279" y="592" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="9">GPIO 27</text>
-  <circle cx="263" cy="622" r="8" fill="#0a1b17" stroke="#f0c674" stroke-width="2"/><text x="279" y="625" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="9">GPIO 17</text>
-  <circle cx="263" cy="655" r="8" fill="#0a1b17" stroke="#8fd3ff" stroke-width="2"/><text x="279" y="658" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="9">GPIO 22</text>
-  <text x="48" y="678" fill="#8aa8b4" font-family="ui-monospace,monospace" font-size="9">feedback: certo 15 · errado 14</text>
-  <text x="34" y="718" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="10">Mostra cada LED e confere a resposta.</text>
-  <text x="34" y="738" fill="#7d9ba7" font-family="ui-monospace,monospace" font-size="9">pinos conforme jogo-memoria-rpi.py</text>
-
-  <rect x="16" y="790" width="368" height="368" rx="15" fill="#081920" stroke="#365867"/>
-  <text x="34" y="818" fill="#7d9ba7" font-family="ui-monospace,monospace" font-size="10">infraestrutura-software/</text>
-  <text x="34" y="843" fill="#eef6f9" font-family="Arial,sans-serif" font-size="18" font-weight="700">Peterson · exclusão mútua</text>
-  <text x="34" y="870" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="10">estado possível · wants[0] = wants[1] = true</text>
-  <rect x="34" y="883" width="332" height="32" rx="8" fill="#0c1f29" stroke="#335767"/>
-  <text x="48" y="904" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="11">turn = 0</text>
-  <path d="M66 965H269M66 1031H269" stroke="#29434d" stroke-width="1.5" stroke-dasharray="4 5"/>
-  <rect x="270" y="939" width="82" height="116" rx="11" fill="#0c1f29" stroke="#7ee8c1" stroke-width="1.5"/>
-  <text x="311" y="989" text-anchor="middle" fill="#7ee8c1" font-family="Arial,sans-serif" font-size="12" font-weight="700">seção</text>
-  <text x="311" y="1005" text-anchor="middle" fill="#7ee8c1" font-family="Arial,sans-serif" font-size="12" font-weight="700">crítica</text>
-  <circle cx="83" cy="965" r="15" fill="#12342f" stroke="#7ee8c1" stroke-width="2"/>
-  <text x="83" y="969" text-anchor="middle" fill="#7ee8c1" font-family="ui-monospace,monospace" font-size="11" font-weight="700">T0</text>
-  <text x="109" y="969" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="10">dentro</text>
-  <circle cx="83" cy="1031" r="15" fill="#123241" stroke="#8fd3ff" stroke-width="2"/>
-  <text x="83" y="1035" text-anchor="middle" fill="#8fd3ff" font-family="ui-monospace,monospace" font-size="11" font-weight="700">T1</text>
-  <text x="109" y="1027" fill="#f0c674" font-family="ui-monospace,monospace" font-size="10">aguarda</text>
-  <text x="109" y="1041" fill="#8aa8b4" font-family="ui-monospace,monospace" font-size="9">sched_yield()</text>
-  <text x="34" y="1084" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="10">T1 espera enquanto a vez é de T0.</text>
-  <text x="34" y="1104" fill="#7d9ba7" font-family="ui-monospace,monospace" font-size="9">enter() / leave() · atomicidade sequencial</text>
-  <text x="200" y="1140" text-anchor="middle" fill="#7d9ba7" font-family="ui-monospace,monospace" font-size="9">diagramas esquemáticos · acervo acadêmico</text>
-<g aria-hidden="true">
-  <circle cx="61" cy="622" r="12" fill="none" stroke="#ffe09a" stroke-width="2" opacity="0">
-    <animate attributeName="r" values="11;17;11" dur="5s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;.65;0" dur="5s" repeatCount="indefinite"/>
-  </circle>
-</g>
+  <g id="panel-gpio" data-panel="gpio">
+    <rect class="panel-card" x="16" y="428" width="368" height="414" rx="16" fill="#0c1f29" stroke="#52717d" stroke-width="2"/>
+    <text x="32" y="462" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="13" font-weight="700">02 · JOGO GPIO</text>
+    <text x="32" y="505" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="13">LEDs · GPIO 18 → 23 → 24</text>
+    <path d="M55 538H345" stroke="#8fd3ff" stroke-width="2" marker-end="url(#arrow)"/>
+    <g fill="#102a36" stroke="#52717d" stroke-width="2"><circle id="led-18" cx="66" cy="538" r="11"/><circle id="led-23" cx="200" cy="538" r="11"/><circle id="led-24" cx="334" cy="538" r="11"/></g>
+    <text x="32" y="590" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="13">Botões · GPIO 27 · 17 · 22</text>
+    <rect x="32" y="613" width="336" height="56" rx="10" fill="#102a36" stroke="#52717d" stroke-width="2"/>
+    <text x="50" y="648" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="13">Entrada → resposta</text>
+    <g fill="#102a36" stroke="#52717d" stroke-width="2"><circle id="button-27" cx="298" cy="641" r="8"/><circle id="button-17" cx="322" cy="641" r="8"/><circle id="button-22" cx="346" cy="641" r="8"/></g>
+    <rect id="gpio-correct" x="32" y="690" width="336" height="54" rx="10" fill="#12372c" stroke="#7ee8c1" stroke-width="2"/>
+    <text x="50" y="724" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="13" font-weight="700">Correto · GPIO 15</text>
+    <rect id="gpio-incorrect" x="32" y="759" width="336" height="54" rx="10" fill="#3c2525" stroke="#ffaaa0" stroke-width="2"/>
+    <text x="50" y="793" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="13" font-weight="700">Incorreto · GPIO 14</text>
+  </g>
+  <g id="panel-peterson" data-panel="peterson">
+    <rect class="panel-card" x="16" y="862" width="368" height="438" rx="16" fill="#0c1f29" stroke="#52717d" stroke-width="2"/>
+    <text x="32" y="896" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="13" font-weight="700">03 · PETERSON</text>
+    <text x="32" y="934" fill="#8fd3ff" font-family="Arial,sans-serif" font-size="13">wants[0] = wants[1] = true</text>
+    <text id="peterson-turn-zero" x="32" y="966" fill="#8fd3ff" font-family="Arial,sans-serif" font-size="13">turn = 0</text>
+    <text id="peterson-turn-one" x="32" y="966" fill="#8fd3ff" font-family="Arial,sans-serif" font-size="13" opacity="0">turn = 1</text>
+    <rect id="peterson-t0" x="32" y="990" width="336" height="86" rx="12" fill="#12372c" stroke="#7ee8c1" stroke-width="3"/>
+    <text id="peterson-t0-active" x="50" y="1025" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="13" font-weight="700">T0 · seção crítica</text>
+    <text id="peterson-t0-wait" x="50" y="1025" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="13" font-weight="700" opacity="0">T0 · espera</text>
+    <text id="peterson-t0-critical-note" x="50" y="1053" fill="#c2d3da" font-family="Arial,sans-serif" font-size="13">única thread no recurso</text>
+    <text id="peterson-t0-wait-note" x="50" y="1053" fill="#c2d3da" font-family="Arial,sans-serif" font-size="13" opacity="0">aguarda sua vez</text>
+    <rect id="peterson-t1" x="32" y="1092" width="336" height="86" rx="12" fill="#102a36" stroke="#52717d" stroke-width="2"/>
+    <text id="peterson-t1-wait" x="50" y="1127" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="13" font-weight="700">T1 · espera</text>
+    <text id="peterson-t1-active" x="50" y="1127" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="13" font-weight="700" opacity="0">T1 · seção crítica</text>
+    <text id="peterson-yield" x="50" y="1155" fill="#c2d3da" font-family="Arial,sans-serif" font-size="13">thread em espera · sched_yield()</text>
+    <text id="peterson-t1-active-note" x="50" y="1155" fill="#c2d3da" font-family="Arial,sans-serif" font-size="13" opacity="0">única thread no recurso</text>
+    <text x="32" y="1224" fill="#c2d3da" font-family="Arial,sans-serif" font-size="13">Nunca duas threads na seção crítica.</text>
+  </g>
+<g aria-hidden="true"><animate href="#panel-parser" attributeName="opacity" values="1;1;0;0;1" keyTimes="0;.16;.18;.98;1" calcMode="discrete" dur="24s" repeatCount="indefinite"/>
+<animate href="#panel-gpio" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.16;.18;.48;.50;1" calcMode="discrete" dur="24s" repeatCount="indefinite"/>
+<animate href="#panel-peterson" attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;.48;.50;.96;.98;1" calcMode="discrete" dur="24s" repeatCount="indefinite"/>
+<animate href="#parser-root" attributeName="stroke" values="#52717d;#52717d;#7ee8c1;#7ee8c1;#52717d;#52717d" keyTimes="0;0.02;0.03;0.05;0.06;1" dur="24s" begin="0s" repeatCount="indefinite"/>
+<animate href="#parser-left" attributeName="stroke" values="#52717d;#52717d;#7ee8c1;#7ee8c1;#52717d;#52717d" keyTimes="0;0.05;0.06;0.08;0.09;1" dur="24s" begin="0s" repeatCount="indefinite"/>
+<animate href="#parser-sum" attributeName="stroke" values="#52717d;#52717d;#7ee8c1;#7ee8c1;#52717d;#52717d" keyTimes="0;0.08;0.09;0.11;0.12;1" dur="24s" begin="0s" repeatCount="indefinite"/>
+<animate href="#parser-a" attributeName="stroke" values="#52717d;#52717d;#7ee8c1;#7ee8c1;#52717d;#52717d" keyTimes="0;0.11;0.12;0.14;0.15;1" dur="24s" begin="0s" repeatCount="indefinite"/>
+<animate href="#parser-constant" attributeName="stroke" values="#52717d;#52717d;#7ee8c1;#7ee8c1;#52717d;#52717d" keyTimes="0;0.14;0.15;0.17;0.18;1" dur="24s" begin="0s" repeatCount="indefinite"/>
+<animate href="#led-18" attributeName="fill" values="#102a36;#102a36;#ffe09a;#ffe09a;#102a36;#102a36" keyTimes="0;.20;.21;.23;.24;1" dur="24s" begin="0s" repeatCount="indefinite"/>
+<animate href="#led-23" attributeName="fill" values="#102a36;#102a36;#ffe09a;#ffe09a;#102a36;#102a36" keyTimes="0;.24;.25;.27;.28;1" dur="24s" begin="0s" repeatCount="indefinite"/>
+<animate href="#led-24" attributeName="fill" values="#102a36;#102a36;#ffe09a;#ffe09a;#102a36;#102a36" keyTimes="0;.28;.29;.31;.32;1" dur="24s" begin="0s" repeatCount="indefinite"/>
+<animate href="#button-27" attributeName="fill" values="#102a36;#102a36;#ffe09a;#ffe09a;#102a36;#102a36" keyTimes="0;0.33;0.34;0.37;0.38;1" dur="24s" begin="0s" repeatCount="indefinite"/>
+<animate href="#button-17" attributeName="fill" values="#102a36;#102a36;#ffe09a;#ffe09a;#102a36;#102a36" keyTimes="0;0.37;0.38;0.41;0.42;1" dur="24s" begin="0s" repeatCount="indefinite"/>
+<animate href="#button-22" attributeName="fill" values="#102a36;#102a36;#ffe09a;#ffe09a;#102a36;#102a36" keyTimes="0;0.41;0.42;0.45;0.46;1" dur="24s" begin="0s" repeatCount="indefinite"/>
+<animate href="#gpio-correct" attributeName="stroke-width" values="2;2;4;4;2;2" keyTimes="0;.44;.45;.46;.47;1" dur="24s" begin="0s" repeatCount="indefinite"/>
+<animate href="#gpio-incorrect" attributeName="stroke-width" values="2;2;4;4;2;2" keyTimes="0;.46;.47;.48;.49;1" dur="24s" begin="0s" repeatCount="indefinite"/>
+<animate href="#peterson-t0" attributeName="stroke" values="#52717d;#52717d;#7ee8c1;#7ee8c1;#52717d;#52717d" keyTimes="0;.50;.52;.72;.74;1" dur="24s" begin="0s" repeatCount="indefinite"/>
+<animate href="#peterson-t1" attributeName="stroke" values="#52717d;#52717d;#52717d;#7ee8c1;#7ee8c1;#52717d" keyTimes="0;.72;.74;.96;.98;1" dur="24s" begin="0s" repeatCount="indefinite"/>
+<animate href="#peterson-t0" attributeName="fill" values="#12372c;#12372c;#12372c;#102a36;#102a36" keyTimes="0;.72;.74;.98;1" dur="24s" begin="0s" calcMode="discrete" repeatCount="indefinite"/>
+<animate href="#peterson-t1" attributeName="fill" values="#102a36;#102a36;#12372c;#12372c;#102a36" keyTimes="0;.72;.74;.98;1" dur="24s" begin="0s" calcMode="discrete" repeatCount="indefinite"/>
+<animate href="#peterson-t0-active" attributeName="opacity" values="0;0;1;0;0;0" keyTimes="0;.50;.52;.72;.74;1" dur="24s" begin="0s" calcMode="discrete" repeatCount="indefinite"/>
+<animate href="#peterson-t0-wait" attributeName="opacity" values="1;1;0;1;1;1" keyTimes="0;.50;.52;.72;.74;1" dur="24s" begin="0s" calcMode="discrete" repeatCount="indefinite"/>
+<animate href="#peterson-t1-wait" attributeName="opacity" values="0;0;1;0;0;0" keyTimes="0;.50;.52;.72;.74;1" dur="24s" begin="0s" calcMode="discrete" repeatCount="indefinite"/>
+<animate href="#peterson-t1-active" attributeName="opacity" values="1;1;0;1;1;1" keyTimes="0;.50;.52;.72;.74;1" dur="24s" begin="0s" calcMode="discrete" repeatCount="indefinite"/>
+<animate href="#peterson-t0-critical-note" attributeName="opacity" values="0;0;1;0;0;0" keyTimes="0;.50;.52;.72;.74;1" dur="24s" begin="0s" calcMode="discrete" repeatCount="indefinite"/>
+<animate href="#peterson-t0-wait-note" attributeName="opacity" values="1;1;0;1;1;1" keyTimes="0;.50;.52;.72;.74;1" dur="24s" begin="0s" calcMode="discrete" repeatCount="indefinite"/>
+<animate href="#peterson-yield" attributeName="opacity" values="0;0;1;0;0;0" keyTimes="0;.50;.52;.72;.74;1" dur="24s" begin="0s" calcMode="discrete" repeatCount="indefinite"/>
+<animate href="#peterson-t1-active-note" attributeName="opacity" values="1;1;0;1;1;1" keyTimes="0;.50;.52;.72;.74;1" dur="24s" begin="0s" calcMode="discrete" repeatCount="indefinite"/>
+<animate href="#peterson-t1-active" attributeName="opacity" values="0;0;0;1;1;0" keyTimes="0;.72;.74;.96;.98;1" dur="24s" begin="0s" calcMode="discrete" repeatCount="indefinite"/>
+<animate href="#peterson-t1-wait" attributeName="opacity" values="1;1;1;0;0;1" keyTimes="0;.72;.74;.96;.98;1" dur="24s" begin="0s" calcMode="discrete" repeatCount="indefinite"/>
+<animate href="#peterson-t0-wait" attributeName="opacity" values="0;0;0;1;1;0" keyTimes="0;.72;.74;.96;.98;1" dur="24s" begin="0s" calcMode="discrete" repeatCount="indefinite"/>
+<animate href="#peterson-t0-active" attributeName="opacity" values="1;1;1;0;0;1" keyTimes="0;.72;.74;.96;.98;1" dur="24s" begin="0s" calcMode="discrete" repeatCount="indefinite"/>
+<animate href="#peterson-t0-wait-note" attributeName="opacity" values="0;0;0;1;1;0" keyTimes="0;.72;.74;.96;.98;1" dur="24s" begin="0s" calcMode="discrete" repeatCount="indefinite"/>
+<animate href="#peterson-t0-critical-note" attributeName="opacity" values="1;1;1;0;0;1" keyTimes="0;.72;.74;.96;.98;1" dur="24s" begin="0s" calcMode="discrete" repeatCount="indefinite"/>
+<animate href="#peterson-t1-active-note" attributeName="opacity" values="0;0;0;1;1;0" keyTimes="0;.72;.74;.96;.98;1" dur="24s" begin="0s" calcMode="discrete" repeatCount="indefinite"/>
+<animate href="#peterson-yield" attributeName="opacity" values="1;1;1;0;0;1" keyTimes="0;.72;.74;.96;.98;1" dur="24s" begin="0s" calcMode="discrete" repeatCount="indefinite"/>
+<animate href="#peterson-turn-one" attributeName="opacity" values="0;0;0;1;1;0" keyTimes="0;.72;.74;.96;.98;1" dur="24s" begin="0s" calcMode="discrete" repeatCount="indefinite"/>
+<animate href="#peterson-turn-zero" attributeName="opacity" values="1;1;1;0;0;1" keyTimes="0;.72;.74;.96;.98;1" dur="24s" begin="0s" calcMode="discrete" repeatCount="indefinite"/></g>
 </svg>

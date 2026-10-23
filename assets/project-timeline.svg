@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 450" role="img" aria-labelledby="title desc">
+<title id="title">Linha do tempo dos projetos de Furubioo</title>
+<desc id="desc">Primeiro e último commit por repositório, com datas de committer verificadas na API pública do GitHub. Atualizado em 2026-10-23.</desc>
+<rect width="1200" height="450" rx="20" fill="#07131a"/>
+<text x="36" y="48" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="28" font-weight="700">Histórico dos projetos</text>
+<text x="36" y="78" fill="#c2d3da" font-family="Arial,sans-serif" font-size="22">Primeiro e último commit · atualizado em 2026-10-23</text>
+<text x="36" y="139" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="22" font-weight="700">Site ONG Partilhar</text>
+<path d="M300 132H1120" stroke="#52717d" stroke-width="4"/>
+<path d="M300.0 132H943.9" stroke="#8fd3ff" stroke-width="6" stroke-linecap="round"/>
+<circle cx="300.0" cy="132" r="9" fill="#7ee8c1" stroke="#f4f9fb" stroke-width="2"/>
+<rect x="935.9" y="124" width="16" height="16" rx="2" fill="#ffe09a" stroke="#07131a" stroke-width="2"/>
+<text x="300" y="164" fill="#c2d3da" font-family="Arial,sans-serif" font-size="22">● Primeiro: 13/11/2025</text>
+<text x="590" y="164" fill="#c2d3da" font-family="Arial,sans-serif" font-size="22">■ Último: 07/08/2026</text>
+<text x="36" y="217" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="22" font-weight="700">Sistema de Cinema</text>
+<path d="M300 210H1120" stroke="#52717d" stroke-width="4"/>
+<path d="M572.5 210H772.7" stroke="#8fd3ff" stroke-width="6" stroke-linecap="round"/>
+<circle cx="572.5" cy="210" r="9" fill="#7ee8c1" stroke="#f4f9fb" stroke-width="2"/>
+<rect x="764.7" y="202" width="16" height="16" rx="2" fill="#ffe09a" stroke="#07131a" stroke-width="2"/>
+<text x="300" y="242" fill="#c2d3da" font-family="Arial,sans-serif" font-size="22">● Primeiro: 06/03/2026</text>
+<text x="590" y="242" fill="#c2d3da" font-family="Arial,sans-serif" font-size="22">■ Último: 28/05/2026</text>
+<text x="36" y="295" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="22" font-weight="700">Acervo acadêmico</text>
+<path d="M300 288H1120" stroke="#52717d" stroke-width="4"/>
+<path d="M1113.0 288H1127.0" stroke="#8fd3ff" stroke-width="6" stroke-linecap="round"/>
+<circle cx="1113.0" cy="288" r="9" fill="#7ee8c1" stroke="#f4f9fb" stroke-width="2"/>
+<rect x="1119.0" y="280" width="16" height="16" rx="2" fill="#ffe09a" stroke="#07131a" stroke-width="2"/>
+<text x="300" y="320" fill="#c2d3da" font-family="Arial,sans-serif" font-size="22">● Primeiro: 19/10/2026</text>
+<text x="590" y="320" fill="#c2d3da" font-family="Arial,sans-serif" font-size="22">■ Último: 19/10/2026</text>
+<circle cx="44" cy="422" r="7" fill="#7ee8c1"/>
+<text x="58" y="428" fill="#c2d3da" font-family="Arial,sans-serif" font-size="22">primeiro commit</text>
+<rect x="226" y="415" width="14" height="14" rx="2" fill="#ffe09a"/>
+<text x="248" y="428" fill="#c2d3da" font-family="Arial,sans-serif" font-size="22">último commit</text>
+</svg>

@@ -1,43 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 810" role="img" aria-labelledby="title desc">
-  <title id="title">Mapa de conteúdo do Site ONG Partilhar</title>
-  <desc id="desc">Ilustração vertical esquemática, não uma captura de tela. Resume a apresentação, os conteúdos sobre a ONG, quatro categorias de serviços, galeria, depoimentos e chamadas para voluntariado e doações.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 850" role="img" aria-labelledby="title desc">
+  <title id="title">Partilhar · sequência real das seções do site</title>
+  <desc id="desc">Mapa vertical na ordem do HTML: Início, Sobre, Serviços, Galeria com cinco imagens, Voluntariado com formulário, Depoimentos com três itens no carrossel JavaScript e Doações.</desc>
   <defs>
-    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f5f0e8"/><stop offset="1" stop-color="#edf4ee"/></linearGradient>
-    <pattern id="dots" width="18" height="18" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#2d5049" opacity=".08"/></pattern>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07131a"/><stop offset="1" stop-color="#102f3c"/></linearGradient>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#8fd3ff"/></marker>
   </defs>
-  <rect width="400" height="810" rx="20" fill="url(#paper)"/><rect width="400" height="810" rx="20" fill="url(#dots)"/>
-  <text x="20" y="30" fill="#57736b" font-family="ui-monospace,monospace" font-size="9" font-weight="700" letter-spacing="1">SITE ONG PARTILHAR · MAPA · NÃO É CAPTURA</text>
-  <rect x="16" y="48" width="368" height="50" rx="10" fill="#b5cec0"/>
-  <text x="32" y="79" fill="#2d5049" font-family="Arial,sans-serif" font-size="13" font-weight="700">Partilhar</text>
-  <text x="375" y="79" text-anchor="end" fill="#2d5049" font-family="ui-monospace,monospace" font-size="10">menu de navegação</text>
-
-  <rect x="16" y="114" width="368" height="105" rx="12" fill="#fffdf8" stroke="#d6d7ca"/>
-  <text x="32" y="139" fill="#2d5049" font-family="ui-monospace,monospace" font-size="9" font-weight="700" letter-spacing="1">INÍCIO · MISSÃO</text>
-  <text x="32" y="165" fill="#2d5049" font-family="Arial,sans-serif" font-size="15" font-weight="700">Construindo juntos,</text>
-  <text x="32" y="185" fill="#2d5049" font-family="Arial,sans-serif" font-size="15" font-weight="700">um mundo melhor</text>
-  <text x="32" y="205" fill="#57736b" font-family="Arial,sans-serif" font-size="10">bem-estar mental e emocional</text>
-
-  <rect x="16" y="235" width="368" height="112" rx="12" fill="#fffdf8" stroke="#d6d7ca"/>
-  <text x="32" y="260" fill="#2d5049" font-family="ui-monospace,monospace" font-size="9" font-weight="700" letter-spacing="1">SOBRE A ONG</text>
-  <text x="32" y="287" fill="#2d5049" font-family="Arial,sans-serif" font-size="13" font-weight="700">Quem somos? · O que fazemos?</text>
-  <text x="32" y="310" fill="#2d5049" font-family="Arial,sans-serif" font-size="13" font-weight="700">Por que fazemos?</text>
-  <text x="32" y="332" fill="#57736b" font-family="Arial,sans-serif" font-size="10">acolhimento · escuta · bem-estar</text>
-
-  <rect x="16" y="363" width="368" height="142" rx="12" fill="#fffdf8" stroke="#d6d7ca"/>
-  <text x="32" y="389" fill="#2d5049" font-family="ui-monospace,monospace" font-size="9" font-weight="700" letter-spacing="1">SERVIÇOS · QUATRO CATEGORIAS</text>
-  <text x="32" y="416" fill="#2d5049" font-family="Arial,sans-serif" font-size="12">Saúde mental e bem-estar</text>
-  <text x="32" y="439" fill="#2d5049" font-family="Arial,sans-serif" font-size="12">Cultura e arte</text>
-  <text x="32" y="462" fill="#2d5049" font-family="Arial,sans-serif" font-size="12">Ação social</text>
-  <text x="32" y="485" fill="#2d5049" font-family="Arial,sans-serif" font-size="12">Educação e prevenção</text>
-
-  <rect x="16" y="521" width="368" height="94" rx="12" fill="#dce8df" stroke="#b5cec0"/>
-  <text x="32" y="548" fill="#2d5049" font-family="ui-monospace,monospace" font-size="9" font-weight="700" letter-spacing="1">GALERIA · DEPOIMENTOS</text>
-  <text x="32" y="575" fill="#57736b" font-family="Arial,sans-serif" font-size="12">cinco imagens · três histórias</text>
-  <text x="32" y="597" fill="#57736b" font-family="Arial,sans-serif" font-size="10">carrossel de depoimentos no JavaScript</text>
-
-  <rect x="16" y="631" width="368" height="96" rx="12" fill="#f5c842" stroke="#dfbc45"/>
-  <text x="32" y="660" fill="#2d5049" font-family="ui-monospace,monospace" font-size="9" font-weight="700" letter-spacing="1">PARTICIPAÇÃO</text>
-  <text x="32" y="689" fill="#2d5049" font-family="Arial,sans-serif" font-size="13" font-weight="700">Voluntariado · doações</text>
-  <text x="32" y="709" fill="#2d5049" font-family="Arial,sans-serif" font-size="10">formulário de cadastro no site</text>
-  <text x="200" y="770" text-anchor="middle" fill="#57736b" font-family="ui-monospace,monospace" font-size="9">HTML/CSS/JavaScript · esquema baseado no repositório</text>
+  <rect width="400" height="850" rx="20" fill="url(#bg)"/>
+  <text x="20" y="42" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="22" font-weight="700">Partilhar · ordem da página</text>
+  <text x="20" y="72" fill="#c2d3da" font-family="Arial,sans-serif" font-size="13">Conteúdo do HTML · galeria com cinco imagens</text>
+  <path d="M200 176V230M200 270V320M200 360V410M200 450V500M200 540V590M200 630V680" fill="none" stroke="#8fd3ff" stroke-width="2" marker-end="url(#arrow)"/>
+  <g class="section-node"><rect id="section-home" x="20" y="112" width="360" height="64" rx="12" fill="#102a36" stroke="#52717d" stroke-width="2"/><text x="200" y="152" text-anchor="middle" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="18" font-weight="700">Início</text></g>
+  <g class="section-node"><rect id="section-about" x="20" y="206" width="360" height="64" rx="12" fill="#102a36" stroke="#52717d" stroke-width="2"/><text x="200" y="246" text-anchor="middle" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="18" font-weight="700">Sobre</text></g>
+  <g class="section-node"><rect id="section-services" x="20" y="300" width="360" height="64" rx="12" fill="#102a36" stroke="#52717d" stroke-width="2"/><text x="200" y="340" text-anchor="middle" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="18" font-weight="700">Serviços</text></g>
+  <g class="section-node"><rect id="section-gallery" x="20" y="394" width="360" height="64" rx="12" fill="#102a36" stroke="#52717d" stroke-width="2"/><text x="200" y="434" text-anchor="middle" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="18" font-weight="700">Galeria · 5 imagens</text></g>
+  <g class="section-node"><rect id="section-volunteer" x="20" y="488" width="360" height="64" rx="12" fill="#102a36" stroke="#52717d" stroke-width="2"/><text x="200" y="528" text-anchor="middle" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="18" font-weight="700">Voluntariado · formulário</text></g>
+  <g class="section-node"><rect id="section-testimonials" x="20" y="582" width="360" height="64" rx="12" fill="#102a36" stroke="#52717d" stroke-width="2"/><text x="200" y="622" text-anchor="middle" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="18" font-weight="700">Depoimentos · 3 itens</text></g>
+  <g fill="#8fd3ff"><circle id="testimonial-dot-1" cx="183" cy="634" r="4.5"/><circle id="testimonial-dot-2" cx="200" cy="634" r="4.5"/><circle id="testimonial-dot-3" cx="217" cy="634" r="4.5"/></g>
+  <g class="section-node"><rect id="section-donations" x="20" y="676" width="360" height="64" rx="12" fill="#102a36" stroke="#52717d" stroke-width="2"/><text x="200" y="716" text-anchor="middle" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="18" font-weight="700">Doações</text></g>
+  <text x="20" y="786" fill="#c2d3da" font-family="Arial,sans-serif" font-size="13">Carrossel implementado em JavaScript.</text>
 </svg>

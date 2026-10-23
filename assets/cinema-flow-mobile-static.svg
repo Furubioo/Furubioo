@@ -1,55 +1,65 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 1160" role="img" aria-labelledby="title desc">
-  <title id="title">Cinema: duas implementações acadêmicas</title>
-  <desc id="desc">Diagrama vertical esquemático com a versão Java de terminal e a versão Web. Todas as camadas, estratégias de preço reais e persistências estão visíveis sem animação.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 1520" role="img" aria-labelledby="title desc">
+  <title id="title">Sistema de Cinema · fluxo de compra</title>
+  <desc id="desc">Versão vertical para celular. Mostra as estratégias reais de preço do terminal e, na Web, POST /sessoes/{id}/comprar em localhost:8080, com requisição circular e resposta quadrada em trilha tracejada.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07131a"/><stop offset="1" stop-color="#102f3c"/></linearGradient>
-    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#b5e4f3" stroke-opacity=".045"/></pattern>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07131a"/><stop offset="1" stop-color="#102f3c"/></linearGradient>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#8fd3ff"/></marker>
+    <marker id="arrow-response" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="M0 0L8 4L0 8Z" fill="#ffe09a"/></marker>
   </defs>
-  <rect width="400" height="1160" rx="20" fill="url(#bg)"/>
-  <rect width="400" height="1160" rx="20" fill="url(#grid)"/>
-  <text x="22" y="36" fill="#7ee8c1" font-family="ui-monospace,monospace" font-size="10" font-weight="700" letter-spacing="1.4">PROJETO ACADÊMICO · POO</text>
-  <text x="22" y="69" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="29" font-weight="700">Sistema de Cinema</text>
-  <text x="22" y="91" fill="#a8c1cb" font-family="Arial,sans-serif" font-size="13">Duas implementações independentes · esquema</text>
-
-  <rect x="16" y="112" width="368" height="460" rx="16" fill="#081920" stroke="#365867"/>
-  <text x="34" y="142" fill="#8fd3ff" font-family="ui-monospace,monospace" font-size="10" font-weight="700" letter-spacing="1.2">01 · CINEMA-CONSOLE</text>
-  <text x="34" y="168" fill="#eef6f9" font-family="Arial,sans-serif" font-size="20" font-weight="700">Terminal · Java</text>
-  <path d="M200 224V242M200 288V306M200 408V426M200 472V490" stroke="#3f7f95" stroke-width="2"/>
-  <path d="M196 238l4 5 4-5M196 302l4 5 4-5M196 422l4 5 4-5M196 486l4 5 4-5" fill="#8fd3ff"/>
-  <rect x="34" y="184" width="332" height="40" rx="9" fill="#112733" stroke="#335767"/>
-  <text x="48" y="209" fill="#eef6f9" font-family="Arial,sans-serif" font-size="14" font-weight="700">CinemaView · Terminal</text>
-  <rect x="34" y="245" width="332" height="43" rx="9" fill="#112733" stroke="#335767"/>
-  <text x="48" y="272" fill="#eef6f9" font-family="Arial,sans-serif" font-size="14" font-weight="700">CinemaController</text>
-  <rect x="34" y="309" width="332" height="99" rx="9" fill="#112733" stroke="#335767"/>
-  <text x="48" y="331" fill="#eef6f9" font-family="Arial,sans-serif" font-size="14" font-weight="700">Usuario → EstrategiaPreco</text>
-  <text x="48" y="349" fill="#8aa8b4" font-family="ui-monospace,monospace" font-size="10">calcularPrecoFinal(precoBase)</text>
-  <text x="48" y="372" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="10">Comum · base</text>
-  <text x="160" y="372" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="10">Crítico · R$ 0</text>
-  <text x="48" y="392" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="10">Estudante · metade do preço-base</text>
-  <rect x="34" y="429" width="332" height="43" rx="9" fill="#112733" stroke="#335767"/>
-  <text x="48" y="456" fill="#eef6f9" font-family="Arial,sans-serif" font-size="14" font-weight="700">Sessao · Sala · Bilhete</text>
-  <rect x="34" y="493" width="332" height="55" rx="9" fill="#102a2b" stroke="#3b7568"/>
-  <text x="48" y="518" fill="#7ee8c1" font-family="Arial,sans-serif" font-size="14" font-weight="700">PersistenciaArquivo</text>
-  <text x="48" y="536" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="10">filmes.txt · usuarios.txt</text>
-
-  <rect x="16" y="594" width="368" height="542" rx="16" fill="#081920" stroke="#365867"/>
-  <text x="34" y="624" fill="#7ee8c1" font-family="ui-monospace,monospace" font-size="10" font-weight="700" letter-spacing="1.2">02 · CINEMA-SYSTEM</text>
-  <text x="34" y="650" fill="#eef6f9" font-family="Arial,sans-serif" font-size="20" font-weight="700">Web · React + Vite</text>
-  <path d="M200 708V726M200 772V790M200 836V854M200 900V918" stroke="#3f7f95" stroke-width="2"/>
-  <path d="M196 722l4 5 4-5M196 786l4 5 4-5M196 850l4 5 4-5M196 914l4 5 4-5" fill="#8fd3ff"/>
-  <rect x="34" y="668" width="332" height="40" rx="9" fill="#112733" stroke="#335767"/>
-  <text x="48" y="693" fill="#eef6f9" font-family="Arial,sans-serif" font-size="13" font-weight="700">ProgramacaoPage → CompraPage</text>
-  <rect x="34" y="729" width="332" height="43" rx="9" fill="#112733" stroke="#335767"/>
-  <text x="48" y="756" fill="#eef6f9" font-family="Arial,sans-serif" font-size="13" font-weight="700">Axios · src/api/api.js</text>
-  <rect x="34" y="793" width="332" height="43" rx="9" fill="#112733" stroke="#335767"/>
-  <text x="48" y="811" fill="#eef6f9" font-family="Arial,sans-serif" font-size="13" font-weight="700">SessaoController</text>
-  <text x="48" y="827" fill="#8aa8b4" font-family="ui-monospace,monospace" font-size="10">POST /sessoes/{id}/comprar</text>
-  <rect x="34" y="857" width="332" height="43" rx="9" fill="#112733" stroke="#335767"/>
-  <text x="48" y="884" fill="#eef6f9" font-family="Arial,sans-serif" font-size="13" font-weight="700">SessaoRepository · Spring Data JPA</text>
-  <rect x="34" y="921" width="332" height="55" rx="9" fill="#102a2b" stroke="#3b7568"/>
-  <text x="48" y="946" fill="#7ee8c1" font-family="Arial,sans-serif" font-size="14" font-weight="700">Banco H2</text>
-  <text x="48" y="964" fill="#a8c1cb" font-family="ui-monospace,monospace" font-size="10">persistência local · cinema.backend</text>
-  <text x="200" y="1006" text-anchor="middle" fill="#8aa8b4" font-family="ui-monospace,monospace" font-size="10">o controlador valida a cadeira, salva a sessão</text>
-  <text x="200" y="1021" text-anchor="middle" fill="#8aa8b4" font-family="ui-monospace,monospace" font-size="10">e monta o bilhete</text>
-  <text x="200" y="1107" text-anchor="middle" fill="#7d9ba7" font-family="ui-monospace,monospace" font-size="10">terminal acima · web abaixo</text>
+  <rect width="400" height="1520" rx="20" fill="url(#bg)"/>
+  <text x="20" y="42" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="22" font-weight="700">Sistema de Cinema</text>
+  <g data-panel="terminal">
+    <rect class="panel-card" x="16" y="68" width="368" height="660" rx="16" fill="#0c1f29" stroke="#7ee8c1" stroke-width="3"/>
+    <text x="34" y="105" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="17" font-weight="700">Terminal · Java</text>
+    <path d="M200 185V226M200 286V306M200 536V568M200 628V657" fill="none" stroke="#8fd3ff" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect class="node" x="34" y="132" width="332" height="53" rx="10" fill="#102a36" stroke="#52717d" stroke-width="2"/>
+    <text x="52" y="165" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="13" font-weight="700">CinemaView</text>
+    <rect class="node" x="34" y="226" width="332" height="60" rx="10" fill="#102a36" stroke="#52717d" stroke-width="2"/>
+    <text x="52" y="263" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="13" font-weight="700">CinemaController</text>
+    <rect class="node" x="34" y="306" width="332" height="230" rx="10" fill="#102a36" stroke="#52717d" stroke-width="2"/>
+    <text x="52" y="337" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="13" font-weight="700">Usuario → EstrategiaPreco</text>
+    <g class="strategy-option">
+      <rect id="strategy-common" x="52" y="356" width="296" height="48" rx="8" fill="#0c1f29" stroke="#52717d" stroke-width="2"/>
+      <text x="68" y="386" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="13">PrecoComum · preço-base</text>
+    </g>
+    <g class="strategy-option">
+      <rect id="strategy-critical" x="52" y="416" width="296" height="48" rx="8" fill="#0c1f29" stroke="#52717d" stroke-width="2"/>
+      <text x="68" y="446" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="13">PrecoCritico · R$ 0</text>
+    </g>
+    <g class="strategy-option">
+      <rect id="strategy-student" x="52" y="476" width="296" height="48" rx="8" fill="#0c1f29" stroke="#52717d" stroke-width="2"/>
+      <text x="68" y="506" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="13">PrecoEstudante · metade</text>
+    </g>
+    <rect class="node" x="34" y="568" width="332" height="60" rx="10" fill="#102a36" stroke="#52717d" stroke-width="2"/>
+    <text x="52" y="605" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="13" font-weight="700">Sessao · Sala · Bilhete</text>
+    <rect class="node" x="34" y="657" width="332" height="52" rx="10" fill="#102a2b" stroke="#52717d" stroke-width="2"/>
+    <text x="52" y="690" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="13" font-weight="700">PersistenciaArquivo · .txt</text>
+    <path id="console-route" d="M200 158V256V337H110V440H200H290H200V598V683" fill="none"/>
+    <circle class="console-token" cx="200" cy="158" r="9" fill="#7ee8c1" stroke="#f4f9fb" stroke-width="2" opacity="0"/>
+  </g>
+  <g data-panel="web">
+    <rect class="panel-card" x="16" y="748" width="368" height="742" rx="16" fill="#0c1f29" stroke="#52717d" stroke-width="2"/>
+    <text x="34" y="785" fill="#f4f9fb" font-family="Arial,sans-serif" font-size="17" font-weight="700">Web · React + Vite + Spring Boot</text>
+    <text x="34" y="815" fill="#c2d3da" font-family="Arial,sans-serif" font-size="13">● requisição   ■ resposta tracejada</text>
+    <path d="M334 857V1350" fill="none" stroke="#8fd3ff" stroke-width="2" marker-end="url(#arrow)"/>
+    <path d="M359 1350V857" fill="none" stroke="#ffe09a" stroke-width="2" stroke-dasharray="7 6" marker-end="url(#arrow-response)"/>
+    <g fill="#102a36" stroke="#52717d" stroke-width="2">
+      <rect class="node" x="34" y="839" width="332" height="54" rx="10"/>
+      <rect class="node" x="34" y="929" width="332" height="54" rx="10"/>
+      <rect class="node" x="34" y="1019" width="332" height="54" rx="10"/>
+      <rect class="node" x="34" y="1109" width="332" height="54" rx="10"/>
+      <rect class="node" x="34" y="1199" width="332" height="54" rx="10"/>
+    </g>
+    <rect class="node" x="34" y="1289" width="332" height="54" rx="10" fill="#102a2b" stroke="#52717d" stroke-width="2"/>
+    <g fill="#f4f9fb" font-family="Arial,sans-serif" font-size="13" font-weight="700">
+      <text x="52" y="873">ProgramacaoPage → CompraPage</text>
+      <text x="52" y="963">Axios · localhost:8080</text>
+      <text x="52" y="1053">POST /sessoes/{id}/comprar</text>
+      <text x="52" y="1143">SessaoController</text>
+      <text x="52" y="1233">SessaoRepository · Spring Data JPA</text>
+      <text x="52" y="1323">Banco H2</text>
+    </g>
+    <circle class="request-token" cx="334" cy="866" r="9" fill="#8fd3ff" stroke="#f4f9fb" stroke-width="2" opacity="0"/>
+    <rect class="response-token" x="352" y="1343" width="14" height="14" rx="2" fill="#ffe09a" stroke="#07131a" stroke-width="1.5" opacity="0"/>
+  </g>
 </svg>
