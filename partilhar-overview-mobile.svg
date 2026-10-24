@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-labelledby="t d"><title id="t">Flávio Daniel — Ciência da Computação na UNICAP e técnico em Redes de Computadores</title><desc id="d">Banner com o nome, a formação e três eixos de estudo: Desenvolvimento, Dados e IA. O painel mostra o caminho da compra de ingresso do Sistema de Cinema: CompraPage, Axios, SessaoController, SessaoRepository e H2. Uma faixa inferior indica a base técnica: redes, sistemas e hardware.</desc><defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07131a"/><stop offset="1" stop-color="#102f3c"/></linearGradient>
+<radialGradient id="auA" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#2fb6c9" stop-opacity="0.30"/><stop offset="0.55" stop-color="#2fb6c9" stop-opacity="0.08"/><stop offset="1" stop-color="#2fb6c9" stop-opacity="0"/></radialGradient>
+<radialGradient id="auB" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#7ee8c1" stop-opacity="0.16"/><stop offset="0.6" stop-color="#7ee8c1" stop-opacity="0.04"/><stop offset="1" stop-color="#7ee8c1" stop-opacity="0"/></radialGradient>
+<pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" fill="none" stroke="#b5e4f3" stroke-opacity="0.055"/></pattern>
+<clipPath id="card"><rect width="1200" height="500" rx="26"/></clipPath>
+<linearGradient id="rim" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#ffffff" stop-opacity="0"/><stop offset="0.5" stop-color="#ffffff" stop-opacity="0.28"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/></linearGradient>
+<radialGradient id="halo" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#8fd3ff" stop-opacity="0.55"/><stop offset="1" stop-color="#8fd3ff" stop-opacity="0"/></radialGradient>
+<radialGradient id="haloG" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#7ee8c1" stop-opacity="0.55"/><stop offset="1" stop-color="#7ee8c1" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="1200" height="500" rx="26" fill="url(#bg)"/>
+<g clip-path="url(#card)">
+<g><ellipse cx="864" cy="150" rx="660" ry="462" fill="url(#auA)"/></g>
+<g><ellipse cx="180" cy="475" rx="504" ry="352.8" fill="url(#auB)"/></g>
+<g><rect x="-26" y="0" width="1252" height="500" fill="url(#grid)"/></g>
+</g>
+<rect x="1" y="1" width="1198" height="498" rx="25" fill="none" stroke="url(#rim)" stroke-opacity="0.6"/>
+<text x="64" y="76" text-anchor="start" fill="#7ee8c1" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="3">CIÊNCIA DA COMPUTAÇÃO · UNICAP</text>
+<text x="62" y="150" text-anchor="start" fill="#f4f9fb" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="64" font-weight="700" letter-spacing="-1">Flávio Daniel</text>
+<text x="64" y="190" text-anchor="start" fill="#a8c1cb" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="21" font-weight="400">Técnico em Redes de Computadores</text>
+<text x="64" y="236" text-anchor="start" fill="#7d9ba7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400" letter-spacing="2.4">ESTUDOS EM FOCO</text>
+<rect x="64" y="252" width="372" height="50" rx="13" fill="#0f2530" stroke="#335767"/><text x="82" y="273" text-anchor="start" fill="#a8c1cb" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="16" font-weight="700">Desenvolvimento</text><text x="82" y="291" text-anchor="start" fill="#7d9ba7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" font-weight="400">Sistema de Cinema · Java, React, Spring</text>
+<rect x="64" y="252" width="372" height="50" rx="13" fill="#7ee8c1" fill-opacity="0.13" stroke="#7ee8c1" stroke-width="1.7"/><circle cx="416" cy="277.0" r="4" fill="#7ee8c1"/>
+<rect x="64" y="312" width="372" height="50" rx="13" fill="#0f2530" stroke="#335767"/><text x="82" y="333" text-anchor="start" fill="#a8c1cb" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="16" font-weight="700">Dados</text><text x="82" y="351" text-anchor="start" fill="#7d9ba7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" font-weight="400">pandas · scikit-learn · notebooks</text>
+<rect x="64" y="372" width="372" height="50" rx="13" fill="#0f2530" stroke="#335767"/><text x="82" y="393" text-anchor="start" fill="#a8c1cb" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="16" font-weight="700">IA</text><text x="82" y="411" text-anchor="start" fill="#7d9ba7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="10.5" font-weight="400">interesse · primeiros estudos de classificação</text>
+<rect x="485" y="48" width="670" height="410" rx="18" fill="#04090d" opacity="0.55"/>
+<rect x="480" y="40" width="670" height="410" rx="18" fill="#0a151b" fill-opacity="0.94" stroke="#365867" stroke-width="1.3"/>
+<path d="M504 40.8H1126" stroke="url(#rim)" stroke-width="1.2"/>
+<text x="502" y="70" text-anchor="start" fill="#7d9ba7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400" letter-spacing="2">IDEIAS EM CÓDIGO · 3 EIXOS</text>
+<circle cx="1090" cy="66" r="4" fill="#2f5060"/>
+<circle cx="1090" cy="66" r="4" fill="#7ee8c1"/>
+<circle cx="1108" cy="66" r="4" fill="#2f5060"/>
+<circle cx="1126" cy="66" r="4" fill="#2f5060"/>
+<g><text x="506" y="96" text-anchor="start" fill="#7d9ba7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400" letter-spacing="1.4">SISTEMA DE CINEMA · COMPRA DE INGRESSO (WEB)</text>
+<path d="M588 179L792 179" stroke="#3f7f95" stroke-width="2"/>
+<path d="M792 179L996 179" stroke="#3f7f95" stroke-width="2"/>
+<path d="M996 179L996 323" stroke="#3f7f95" stroke-width="2"/>
+<path d="M996 323L792 323" stroke="#3f7f95" stroke-width="2"/>
+
+
+<rect x="506" y="148" width="164" height="70" rx="11" fill="#050d12" opacity="0.6"/><rect x="506" y="144" width="164" height="70" rx="11" fill="#112733" stroke="#335767"/><path d="M518 144.8H658" stroke="url(#rim)"/><text x="588" y="177" text-anchor="middle" fill="#eaf4f7" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="700">CompraPage</text><text x="588" y="194" text-anchor="middle" fill="#8aa8b4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" font-weight="400">React + Vite</text>
+
+
+<rect x="710" y="148" width="164" height="70" rx="11" fill="#050d12" opacity="0.6"/><rect x="710" y="144" width="164" height="70" rx="11" fill="#112733" stroke="#335767"/><path d="M722 144.8H862" stroke="url(#rim)"/><text x="792" y="177" text-anchor="middle" fill="#eaf4f7" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="700">Axios</text><text x="792" y="194" text-anchor="middle" fill="#8aa8b4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" font-weight="400">src/api/api.js</text>
+
+
+<rect x="914" y="148" width="164" height="70" rx="11" fill="#050d12" opacity="0.6"/><rect x="914" y="144" width="164" height="70" rx="11" fill="#112733" stroke="#335767"/><path d="M926 144.8H1066" stroke="url(#rim)"/><text x="996" y="177" text-anchor="middle" fill="#eaf4f7" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="700">SessaoController</text><text x="996" y="194" text-anchor="middle" fill="#8aa8b4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" font-weight="400">Spring Boot</text>
+
+
+<rect x="914" y="292" width="164" height="70" rx="11" fill="#050d12" opacity="0.6"/><rect x="914" y="288" width="164" height="70" rx="11" fill="#112733" stroke="#335767"/><path d="M926 288.8H1066" stroke="url(#rim)"/><text x="996" y="321" text-anchor="middle" fill="#eaf4f7" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="700">SessaoRepository</text><text x="996" y="338" text-anchor="middle" fill="#8aa8b4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" font-weight="400">Spring Data JPA</text>
+
+
+<rect x="710" y="292" width="164" height="70" rx="11" fill="#050d12" opacity="0.6"/><rect x="710" y="288" width="164" height="70" rx="11" fill="#112733" stroke="#335767"/><path d="M722 288.8H862" stroke="url(#rim)"/><text x="792" y="321" text-anchor="middle" fill="#eaf4f7" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-size="15" font-weight="700">H2</text><text x="792" y="338" text-anchor="middle" fill="#8aa8b4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" font-weight="400">cinemadb</text>
+
+
+<text x="814" y="132" text-anchor="middle" fill="#8fd3ff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11.5" font-weight="400">POST /sessoes/{id}/comprar</text>
+<rect x="506" y="234" width="164" height="26" rx="13.0" fill="#8fd3ff" fill-opacity="0.14" stroke="#8fd3ff" stroke-width="1.4"/><text x="588" y="251" text-anchor="middle" fill="#8fd3ff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="700">linha · coluna · cupom</text>
+
+<text x="506" y="388" text-anchor="start" fill="#a8c1cb" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">validarCompra → ocuparCadeira → save: a resposta só volta depois que a cadeira é gravada</text>
+<text x="506" y="408" text-anchor="start" fill="#7d9ba7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">React + Vite · Axios · Spring Boot · Spring Data JPA · H2</text>
+<g transform="translate(892 179)"><circle r="14" fill="url(#halo)"/><path d="M-6.5 -5.5H6.5L0 6Z" fill="#8fd3ff"/></g>
+<g transform="translate(896 323)"><circle r="14" fill="url(#haloG)"/><circle r="5.5" fill="none" stroke="#7ee8c1" stroke-width="2.4"/></g>
+<rect x="506" y="234" width="164" height="26" rx="13.0" fill="#8fd3ff" fill-opacity="0.14" stroke="#8fd3ff" stroke-width="1.4"/><text x="588" y="251" text-anchor="middle" fill="#8fd3ff" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="700">linha · coluna · cupom</text></g>
+
+
+<text x="64" y="462" text-anchor="start" fill="#7d9ba7" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400" letter-spacing="2.2">BASE TÉCNICA</text>
+<path d="M64 474H1136" stroke="#3f7f95" stroke-width="1.5" stroke-dasharray="2 6" stroke-opacity="0.7"/>
+<circle cx="256.96" cy="474" r="4.5" fill="#0f2530" stroke="#8fd3ff" stroke-width="1.5"/><text x="266.96" y="478" text-anchor="start" fill="#a8c1cb" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">redes</text>
+<circle cx="600" cy="474" r="4.5" fill="#0f2530" stroke="#8fd3ff" stroke-width="1.5"/><text x="610" y="478" text-anchor="start" fill="#a8c1cb" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">sistemas</text>
+<circle cx="943.04" cy="474" r="4.5" fill="#0f2530" stroke="#8fd3ff" stroke-width="1.5"/><text x="953.04" y="478" text-anchor="start" fill="#a8c1cb" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace" font-size="11" font-weight="400">hardware</text>
+</svg>
