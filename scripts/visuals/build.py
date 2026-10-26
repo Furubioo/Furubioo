@@ -1,16 +1,14 @@
 #!/usr/bin/env python3
 """Gera os SVGs do perfil em ../../assets.
 
-  python3 scripts/visuals/build.py              # tudo (a atividade usa a página pública do GitHub)
-  python3 scripts/visuals/build.py --only activity   # só o calendário (usado pelo workflow diário)
+  python3 scripts/visuals/build.py
 
 Cada composição sai em 4 variantes: desktop/celular x animada/estática.
 """
 import sys
-from datetime import date
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-import hero, cinema, ong, lab, activity
+import hero, cinema, ong, lab, tech
 
 ASSETS = Path(__file__).resolve().parents[2] / 'assets'
 
@@ -22,14 +20,10 @@ def write(base, build, *extra):
         (ASSETS / name).write_text(build(anim, mob, *extra) + '\n', encoding='utf-8')
 
 def main():
-    only = sys.argv[2] if len(sys.argv) > 2 and sys.argv[1] == '--only' else None
+    only = None
     ASSETS.mkdir(exist_ok=True)
-    if only in (None, 'activity'):
-        today = date.today()
-        data = activity.fetch_calendar(today)
-        write('github-activity', activity.build, data, today)
     if only is None:
-        write('hero', hero.build); write('cinema-flow', cinema.build)
+        write('hero', hero.build); write('tech-stack', tech.build); write('cinema-flow', cinema.build)
         write('partilhar-overview', ong.build); write('lab', lab.build)
     print('ok:', sorted(p.name for p in ASSETS.glob('*.svg')))
 
