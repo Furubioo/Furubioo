@@ -1,5 +1,6 @@
 from common import *
 from widgets import glow
+import content
 
 T = 21.0
 SC = [(0.0, 6.9), (7.0, 13.9), (14.0, 20.9)]
@@ -178,30 +179,41 @@ def scene_ia(ctx, s, x, y, w, vert, static=False):
     out.append(mono(x, py_ + (62 if not vert else 84), 'execução original do notebook (base de 100 mil linhas)' if not vert else 'execução original: base de 100 mil linhas', 10.5, C['t3']))
     return '\n'.join(out)
 
+def status_pill(ctx, x, y, size):
+    txt = content.IDENTIDADE.get('status')
+    if not txt: return ''
+    w = len(txt) * (size * 0.6) + 34
+    out = (f'<rect x="{x}" y="{y}" width="{f(w)}" height="24" rx="12" fill="{C["mint"]}" fill-opacity="0.10" stroke="{C["mint"]}" stroke-opacity="0.55"/>'
+           f'<circle cx="{x+14}" cy="{y+12}" r="3.5" fill="{C["mint"]}">' + anim(ctx, 'opacity', [1, 0.35, 1], [0, 0.5, 1], 2.6) + '</circle>'
+           + mono(x + 26, y + 16, txt, size, C['t1']))
+    return out
+
 def build(animated=True, mob=False):
     ctx = Ctx(animated)
     if not mob:
-        W, H = 1200, 500
+        W, H = 1200, 520
         defs = base_defs(W, H)
         body = [backdrop(ctx, W, H), f'<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="25" fill="none" stroke="url(#rim)" stroke-opacity="0.6"/>']
-        body.append(sans(64, 76, 'CIÊNCIA DA COMPUTAÇÃO · UNICAP', 13, C['mint'], weight='700', spacing=3))
-        body.append(sans(62, 150, 'Flávio Daniel', 64, C['t0'], weight='700', spacing=-1))
-        body.append(sans(64, 190, 'Técnico em Redes de Computadores', 21, C['t1']))
-        body.append(mono(64, 236, 'ESTUDOS EM FOCO', 11, C['t3'], spacing=2.4))
+        body.append(sans(64, 76, content.IDENTIDADE['rotulo'], 13, C['mint'], weight='700', spacing=3))
+        body.append(sans(62, 150, content.IDENTIDADE['nome'], 64, C['t0'], weight='700', spacing=-1))
+        body.append(sans(64, 190, content.IDENTIDADE['subtitulo'], 21, C['t1']))
+        body.append(status_pill(ctx, 64, 206, 11.5))
+        body.append(mono(64, 266, 'ESTUDOS EM FOCO', 11, C['t3'], spacing=2.4))
         tx, tw, th = 64, 372, 50
-        tys = [252, 312, 372]
-        px, py, pw, ph = 480, 40, 670, 410
+        tys = [280, 338, 396]
+        px, py, pw, ph = 480, 40, 670, 432
     else:
-        W, H = 400, 890
+        W, H = 400, 920
         defs = base_defs(W, H, rx=20, grid=22)
         body = [backdrop(ctx, W, H, rx=20, grid=22), f'<rect x="1" y="1" width="{W-2}" height="{H-2}" rx="19" fill="none" stroke="url(#rim)" stroke-opacity="0.6"/>']
-        body.append(sans(24, 44, 'CIÊNCIA DA COMPUTAÇÃO · UNICAP', 11, C['mint'], weight='700', spacing=2))
-        body.append(sans(23, 98, 'Flávio Daniel', 46, C['t0'], weight='700', spacing=-0.8))
-        body.append(sans(24, 128, 'Técnico em Redes de Computadores', 16, C['t1']))
-        body.append(mono(24, 168, 'ESTUDOS EM FOCO', 11, C['t3'], spacing=2.2))
+        body.append(sans(24, 44, content.IDENTIDADE['rotulo'], 11, C['mint'], weight='700', spacing=2))
+        body.append(sans(23, 98, content.IDENTIDADE['nome'], 46, C['t0'], weight='700', spacing=-0.8))
+        body.append(sans(24, 128, content.IDENTIDADE['subtitulo'], 16, C['t1']))
+        body.append(status_pill(ctx, 24, 140, 11))
+        body.append(mono(24, 198, 'ESTUDOS EM FOCO', 11, C['t3'], spacing=2.2))
         tx, tw, th = 24, 352, 46
-        tys = [182, 236, 290]
-        px, py, pw, ph = 8, 354, 384, 450
+        tys = [212, 266, 320]
+        px, py, pw, ph = 8, 384, 384, 450
     # tabs
     for i, (t, sub) in enumerate(TABS):
         ty = tys[i]; a, b = SC[i]
